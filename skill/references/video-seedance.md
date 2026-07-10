@@ -121,6 +121,21 @@ Seedance 2.0 **categorically rejects** reference images/videos containing unveri
 
 Trust is **nullified** by altering file metadata, third-party compression, or cross-account asset transfer → task fails. Alternatives provided: preset digital characters (`asset://<ASSET_ID>`) and authorized real-person assets via enterprise contract. Restriction applies to **real human faces only** — stylized 3D/cartoon characters are unaffected.
 
+### Working with real human faces — the verified-person route (self-service)
+
+The legitimate path to use a real human face is a **one-time identity/liveness verification** that mints a trusted asset. In ComfyUI this is the **`ByteDance Create Image/Video Asset`** partner node (it handles verification + asset creation):
+
+1. Upload the portrait in the node and run the workflow.
+2. A **ByteDance verification link** appears in the ComfyUI output.
+3. Complete a **liveness check** on phone or browser (< 1 min).
+4. Return to ComfyUI to access the verified outputs.
+
+**Persist two IDs from the output:** `Group ID` = the verified person (reuse it to skip re-verification; new photos of the same person with the `Group ID` prefilled are auto-matched by facial features and skip the check), and `Asset ID` = the specific image, which is what you feed into the Seedance 2.0 video node as the reference. Prereqs: logged in, permitted network environment, updated ComfyUI (Nightly for portable). Two templates ship: **Reference-to-Video** (verified portrait + optional images/videos/audio) and **First-Last-Frame-to-Video**.
+
+**Why this fixes `InputVideoSensitiveContentDetected.PrivacyInformation`:** you pass the verified `Asset ID` (a trusted asset), not a raw/re-encoded real-face file. **Disabling the Custom Endpoint "Content pre-filter" does NOT lift this check** — the pre-filter only moderates prompt *text*; the biometric face check on *media* is a separate, mandatory layer. Because ComfyUI re-encodes raw media on load/save, feeding a raw real face nullifies trust (third-party compression) → the same input can fail via the API yet pass on a platform that uses the verified-asset path.
+
+**Consent & rights** to a real person's likeness are the customer's responsibility (BytePlus *Specific Terms for the Video Generation Model Services*); real named talent at scale uses the complementary **enterprise authorized-real-person** contract. Sources: `docs.comfy.org/tutorials/partner-nodes/bytedance/seedance-2-0-real-human`, `docs.byteplus.com/en/docs/ModelArk/Specific_Terms_for_the_BytePlus_Video_Generation_Model_Services`.
+
 ## 8. Video prompt engineering — the Advanced Formula
 
 The engine decouples a **spatial layer** (what's in frame) from a **temporal layer** (how it changes). Address both.
