@@ -1,5 +1,438 @@
 {
-  "generated_at": null,
-  "note": "Regenerated on every sync run by updater/update_skill.py. Maps BytePlus doc pages to canonical URLs for live-fetch fallback.",
-  "entries": []
+  "generated_at": "2026-07-10T08:14:27.590310+00:00",
+  "note": "Canonical BytePlus doc URLs. If a detail is missing from the reference files, fetch the matching url live before answering.",
+  "entries": [
+    {
+      "product": "ModelArk",
+      "id": "1099455",
+      "title": "Overview--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1099455"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1099522",
+      "title": "Create standard inference endpoint--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1099522"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1221660",
+      "title": "Prompt engineering--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1221660"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1261883",
+      "title": "Core process of knowledge Q&A--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1261883"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1261885",
+      "title": "Create a knowledge base--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1261885"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1261886",
+      "title": "Edit knowledge base--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1261886"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1261887",
+      "title": "View knowledge base details--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1261887"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1261888",
+      "title": "View knowledge base list--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1261888"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1261889",
+      "title": "Delete knowledge base--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1261889"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1261890",
+      "title": "Import documents--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1261890"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1261891",
+      "title": "Tag editing--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1261891"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1261892",
+      "title": "Delete documents--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1261892"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1262002",
+      "title": "AI App Lab--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1262002"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1262342",
+      "title": "Function call--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1262342"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1330310",
+      "title": "Model list--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1330310"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1333715",
+      "title": "App creation and deployment guide--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1333715"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1343907",
+      "title": "Knowledge base quota description--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1343907"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1353778",
+      "title": "Knowledge retrieval--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1353778"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1354007",
+      "title": "Unsubscribe--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1354007"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1359497",
+      "title": "Prefill-based response--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1359497"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1362931",
+      "title": "Image understanding--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1362931"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1389894",
+      "title": "Add slice--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1389894"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1389896",
+      "title": "Delete slice--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1389896"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1389897",
+      "title": "Edit slice--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1389897"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1389898",
+      "title": "View slice--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1389898"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1396491",
+      "title": "Context caching (Context API)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1396491"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1398933",
+      "title": "Context caching overview--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1398933"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1399008",
+      "title": "Quick start--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1399008"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1399009",
+      "title": "Text generation--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1399009"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1399495",
+      "title": "Prompt Foundry--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1399495"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1399496",
+      "title": "Prompt Generation--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1399496"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1399497",
+      "title": "Prompt tuning--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1399497"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1399498",
+      "title": "Prompt Management--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1399498"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1399499",
+      "title": "Scoring DSL--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1399499"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1399517",
+      "title": "Batch inference--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1399517"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1409291",
+      "title": "Multimodal embedding--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1409291"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1415553",
+      "title": "Knowledge Q&A--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1415553"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1449737",
+      "title": "Deep reasoning--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1449737"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1465834",
+      "title": "Signature authentication and examples--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1465834"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1511946",
+      "title": "APIs--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1511946"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1544106",
+      "title": "Pricing--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1544106"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1544856",
+      "title": "About inference endpoint--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1544856"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1554502",
+      "title": "Create a knowledge service--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1554502"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1554504",
+      "title": "Knowledge service management--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1554504"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1568221",
+      "title": "Structured output (beta)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1568221"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1568332",
+      "title": "Model Unit--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1568332"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1585128",
+      "title": "Migrate to Responses API--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1585128"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1587837",
+      "title": "AgentPilot SDK reference--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1587837"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1602228",
+      "title": "Context caching (Responses API)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1602228"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1616136",
+      "title": "Visual grounding--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1616136"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1824121",
+      "title": "Seedream 4.0-5.0 tutorial--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1824121"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1827534",
+      "title": "Cloud-deployed MCP / remote MCP--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1827534"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1883982",
+      "title": "VideoPilot feature overview--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1883982"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1885708",
+      "title": "Files API tutorial--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1885708"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1895586",
+      "title": "Video understanding--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1895586"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1902647",
+      "title": "Document understanding--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1902647"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1904608",
+      "title": "Configure experimental versions--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1904608"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1956279",
+      "title": "Deep reasoning (Responses API)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1956279"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1958520",
+      "title": "Text generation (Responses API)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1958520"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1958521",
+      "title": "Multimodal understanding (Responses API)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1958521"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1958523",
+      "title": "Structured output (Responses API)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1958523"
+    },
+    {
+      "product": "ModelArk",
+      "id": "1958524",
+      "title": "Tool use (Responses API)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1958524"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2085689",
+      "title": "VideoPilot API--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2085689"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2123215",
+      "title": "Context editing (Responses API)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2123215"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2123275",
+      "title": "Streaming output--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2123275"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2123288",
+      "title": "Context management--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2123288"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2160841",
+      "title": "Integrate with third-party tools--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2160841"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2191806",
+      "title": "Region availability--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2191806"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2222480",
+      "title": "Dreamina Seedance 2.0 series prompt guide--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2222480"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2291680",
+      "title": "Dreamina Seedance 2.0 series tutorial--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2291680"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2298881",
+      "title": "Video generation tutorial--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2298881"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2377589",
+      "title": "Audio understanding--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2377589"
+    }
+  ]
 }
