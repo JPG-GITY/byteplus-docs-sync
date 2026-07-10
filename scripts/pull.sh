@@ -1,9 +1,8 @@
 #!/bin/bash
-# Keeps the local clone (and thus the ~/.claude/skills symlink) in sync with the
-# weekly GitHub Action commits. Fast-forward only; never diverges since this clone
-# is read-only for skill consumption.
+# Fast-forward the clone this script lives in, so the ~/.claude/skills symlink
+# reflects the weekly GitHub Action commits. Location-independent.
 export PATH="/opt/homebrew/bin:/usr/bin:/bin"
-REPO="/Users/bytedance/Documents/byteplus-docs-sync"
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
 LOG="$HOME/Library/Logs/byteplus-docs-sync-pull.log"
-echo "== $(date -u +%FT%TZ) pull ==" >> "$LOG"
+echo "== $(date -u +%FT%TZ) pull ($REPO) ==" >> "$LOG"
 git -C "$REPO" pull --ff-only >> "$LOG" 2>&1
