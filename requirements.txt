@@ -1,0 +1,6 @@
+anthropic>=0.40
+httpx>=0.27
+beautifulsoup4>=4.12
+html2text>=2024.2.26
+playwright>=1.44
+pyyaml>=6.0

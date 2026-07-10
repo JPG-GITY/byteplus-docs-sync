@@ -1,0 +1,75 @@
+name: byteplus-docs-sync
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"        # Mondays 06:00 UTC
+  workflow_dispatch:            # manual run (use this for the first/bootstrap run)
+    inputs:
+      bootstrap:
+        description: "Baseline only (skip Claude rewrites)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write               # needed to push the auto-commit
+
+concurrency:
+  group: docs-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # full history so git diff can see the last snapshot
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Chromium (playwright renderer)
+        run: python -m playwright install --with-deps chromium
+
+      - name: Crawl BytePlus docs
+        run: python crawler/crawl.py --config config.yaml
+
+      - name: Update skill from changes
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ inputs.bootstrap }}" = "true" ]; then
+            python updater/update_skill.py --config config.yaml --bootstrap
+          else
+            python updater/update_skill.py --config config.yaml
+          fi
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name  "byteplus-docs-sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs_cache skill
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to commit."
+          else
+            git commit -m "docs-sync: update skill from BytePlus docs ($(date -u +%F))"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Slack aviso
+        if: steps.commit.outputs.changed == 'true' && env.SLACK_WEBHOOK_URL != ''
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          SUMMARY=$(head -c 3500 changelog.md)
+          jq -n --arg text ":robot_face: *BytePlus docs sync committed*\n\n$SUMMARY" \
+            '{text: $text}' | \
+            curl -sS -X POST -H 'Content-type: application/json' \
+              --data @- "$SLACK_WEBHOOK_URL"

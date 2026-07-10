@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# byteplus-docs-sync configuration
+# ---------------------------------------------------------------------------
+
+# BytePlus doc "products" to track. The slug is the path segment that comes
+# right after /en/docs/  ->  https://docs.byteplus.com/en/docs/ModelArk
+# Add more slugs as your skill grows (e.g. VikingDB, etc.).
+products:
+  - ModelArk
+
+base_url: https://docs.byteplus.com/en/docs
+
+# How to render the (JS-rendered) doc pages into markdown:
+#   playwright -> self-contained headless Chromium. Robust, no 3rd party. (recommended)
+#   jina       -> uses the r.jina.ai reader proxy. Zero browser deps, fastest to try,
+#                 but routes public URLs through a 3rd-party service + rate limits.
+renderer: playwright
+
+# On a landing/product page, we only care about the main navigation content.
+# If snapshots come out noisy (nav/footer leaking in), tune these CSS selectors.
+# First selector that matches wins; falls back to <body>.
+content_selectors:
+  - main
+  - article
+  - "[class*='doc-content']"
+  - "[class*='markdown']"
+  - "[class*='content']"
+
+# Politeness / robustness
+request_delay_seconds: 0.6
+timeout_seconds: 45
+max_retries: 3
+
+# Git-tracked markdown snapshots. Git itself is the diff engine.
+cache_dir: docs_cache
+manifest_path: docs_cache/manifest.json
+
+# The skill being maintained.
+skill_dir: skill
+sources_index: skill/sources.json
+
+# Anthropic model used to rewrite reference files from changed sources.
+model: claude-sonnet-5
+max_tokens: 8000
+
+# Routing: which changed pages feed which reference file.
+# Each rule's `match` is tested (case-insensitive) against the page URL + title.
+# Wrap in /slashes/ for regex; otherwise it's a plain substring match.
+# First matching rule wins. Unmatched pages are still snapshotted + indexed in
+# sources.json, they just won't auto-rewrite a reference file.
+routing:
+  - match: seedance
+    reference: references/video-seedance.md
+  - match: seedream
+    reference: references/image-seedream.md
+  - match: /voice|text[-_ ]?to[-_ ]?speech|\btts\b|seed[-_ ]?audio/
+    reference: references/audio-generation.md
+  - match: /3d|rodin|hitem|hyper3d|mesh|glb\b|\bpbr\b/
+    reference: references/3d-generation.md
+  - match: /embedding|skylark|vectoriz|\brag\b/
+    reference: references/multimodal-embedding.md
+  - match: /billing|rate[-_ ]?limit|quota|enterprise|complian|biometric|price|pricing|savings|region/
+    reference: references/enterprise-ops.md
+  - match: /seed[-_ ]?2\.0|seed2|doubao|\bllm\b|agentic|responses[-_ ]?api|glm|deepseek|gpt[-_ ]?oss|reasoning|context[-_ ]?cach|\bmcp\b|structured[-_ ]?output/
+    reference: references/llm-and-responses-api.md
+  - match: /model[-_ ]?list|catalog|overview|what[-_ ]?models/
+    reference: references/model-catalog.md
