@@ -1,4 +1,4 @@
-You are maintaining a reference file inside the `byteplus-models-genius` Claude skill.
+You are maintaining a reference file inside the `byteplus-genius` Claude skill.
 This file gives grounded, technical answers about the BytePlus ModelArk platform.
 
 Your job: produce an updated version of the reference file **`{{REFERENCE_FILENAME}}`**

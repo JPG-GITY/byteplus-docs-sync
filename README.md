@@ -1,7 +1,7 @@
 # byteplus-docs-sync
 
-Keeps the `byteplus-models-genius` Claude skill in sync with the BytePlus
-documentation, automatically and on a schedule.
+Keeps the `byteplus-genius` Claude skill (formerly `byteplus-models-genius`) in
+sync with the BytePlus documentation, automatically and on a schedule.
 
 ## How it works
 

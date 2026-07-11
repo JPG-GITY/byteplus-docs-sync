@@ -1,4 +1,4 @@
-<!-- Paste this block into byteplus-models-genius/SKILL.md, e.g. under a
+<!-- Paste this block into byteplus-genius/SKILL.md, e.g. under a
      "## Staying current / missing details" section. -->
 
 ## Resolving missing details (do this before asking the user)

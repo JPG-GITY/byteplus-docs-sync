@@ -87,15 +87,15 @@ jobs:
         run: |
           # Package the deployable skill (SKILL.md + references/ + sources.json),
           # top-folder layout, ready to drag into claude.ai Settings > Features.
-          rm -rf _pkg && mkdir -p _pkg/byteplus-models-genius
-          cp skill/SKILL.md skill/sources.json _pkg/byteplus-models-genius/
-          cp -R skill/references _pkg/byteplus-models-genius/references
-          (cd _pkg && zip -qr ../byteplus-models-genius.zip byteplus-models-genius)
+          rm -rf _pkg && mkdir -p _pkg/byteplus-genius
+          cp skill/SKILL.md skill/sources.json _pkg/byteplus-genius/
+          cp -R skill/references _pkg/byteplus-genius/references
+          (cd _pkg && zip -qr ../byteplus-genius.zip byteplus-genius)
           gh release create skill-latest \
             --title "Latest skill build" \
             --notes "Auto-built uploadable skill zip. Download and upload to claude.ai Settings > Features. Updated $(date -u +%F)." \
             2>/dev/null || true
-          gh release upload skill-latest byteplus-models-genius.zip --clobber
+          gh release upload skill-latest byteplus-genius.zip --clobber
 
       - name: Slack aviso
         if: steps.commit.outputs.changed == 'true' && env.SLACK_WEBHOOK_URL != ''
