@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import sys
 import time
@@ -164,6 +165,33 @@ def extract_doc_links(result: RenderResult, product: str, base_url: str) -> set[
     return found
 
 
+# matches the product slug in /en/docs/{Product}[/...]
+_PRODUCT_RE = re.compile(r"/en/docs/([A-Za-z0-9_-]+)")
+
+
+def extract_product_slugs(result: RenderResult) -> set[str]:
+    """Pull every distinct /en/docs/{Product} slug from a rendered index page."""
+    slugs: set[str] = set()
+
+    def _consume(href: str) -> None:
+        m = _PRODUCT_RE.search(href)
+        if m:
+            slugs.add(m.group(1))
+
+    if result.html:
+        from bs4 import BeautifulSoup
+
+        soup = BeautifulSoup(result.html, "html.parser")
+        for a in soup.find_all("a", href=True):
+            _consume(a["href"])
+    else:
+        for href in re.findall(r"\]\(([^)]+)\)", result.markdown):
+            _consume(href)
+        for href in re.findall(r"https?://[^\s)]+", result.markdown):
+            _consume(href)
+    return slugs
+
+
 def normalize_markdown(md: str) -> str:
     md = md.replace("\r\n", "\n").replace("\r", "\n")
     md = "\n".join(line.rstrip() for line in md.split("\n"))
@@ -205,13 +233,75 @@ def with_retries(fn, url: str, retries: int, delay: float):
     raise last  # type: ignore[misc]
 
 
+def discover(cfg: dict) -> int:
+    """Render the docs index, list every product slug and its page count.
+
+    Scope report only — no snapshots written. Output also goes to
+    $GITHUB_STEP_SUMMARY so it shows up in the Actions run.
+    """
+    base_url = cfg["base_url"].rstrip("/")
+    delay = float(cfg.get("request_delay_seconds", 0.6))
+    retries = int(cfg.get("max_retries", 3))
+    ignore = {s.lower() for s in cfg.get("discover_ignore_slugs", [])}
+
+    renderer = build_renderer(cfg)
+    lines: list[str] = ["## BytePlus docs — discovery (scope report)", ""]
+    try:
+        print(f"== discovering products from {base_url}")
+        home = with_retries(renderer.render, base_url, retries, delay)
+        slugs = sorted(s for s in extract_product_slugs(home) if s.lower() not in ignore)
+        print(f"   found {len(slugs)} product slug(s): {', '.join(slugs)}")
+        lines.append(f"Found **{len(slugs)}** product slug(s).\n")
+        lines.append("| Product | Pages |")
+        lines.append("|---|---|")
+
+        total = 0
+        counts: list[tuple[str, int]] = []
+        for slug in slugs:
+            landing = f"{base_url}/{slug}"
+            try:
+                res = with_retries(renderer.render, landing, retries, delay)
+                n = len(extract_doc_links(res, slug, base_url))
+            except Exception as exc:  # noqa: BLE001
+                print(f"   ! {slug}: landing failed: {exc}", file=sys.stderr)
+                n = -1
+            counts.append((slug, n))
+            total += max(n, 0)
+            print(f"   {slug}: {n} page(s)")
+            time.sleep(delay)
+
+        for slug, n in sorted(counts, key=lambda x: -x[1]):
+            lines.append(f"| {slug} | {n if n >= 0 else 'landing failed'} |")
+        lines.append(f"| **TOTAL** | **{total}** |")
+        lines.append("")
+        lines.append(
+            "To crawl these, set `products:` in config.yaml to the slugs above "
+            "(minus any you don't want) and run the normal sync with **bootstrap**."
+        )
+    finally:
+        renderer.close()
+
+    body = "\n".join(lines)
+    print("\n" + body)
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write(body + "\n")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default="config.yaml")
     ap.add_argument("--product", help="crawl only this product slug")
+    ap.add_argument("--discover", action="store_true",
+                    help="list all product slugs + page counts; write no snapshots")
     args = ap.parse_args()
 
     cfg = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
+    if args.discover:
+        return discover(cfg)
+
     base_url = cfg["base_url"].rstrip("/")
     cache_dir = Path(cfg["cache_dir"])
     delay = float(cfg.get("request_delay_seconds", 0.6))

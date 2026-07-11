@@ -9,6 +9,10 @@ on:
         description: "Baseline only (skip Claude rewrites)"
         type: boolean
         default: false
+      discover:
+        description: "Scope report only: list all product slugs + page counts, write nothing"
+        type: boolean
+        default: false
 
 permissions:
   contents: write               # needed to push the auto-commit
@@ -35,10 +39,16 @@ jobs:
       - name: Install Chromium (playwright renderer)
         run: python -m playwright install --with-deps chromium
 
+      - name: Discover product scope (report only)
+        if: inputs.discover == true
+        run: python crawler/crawl.py --config config.yaml --discover
+
       - name: Crawl BytePlus docs
+        if: inputs.discover != true
         run: python crawler/crawl.py --config config.yaml
 
       - name: Update skill from changes
+        if: inputs.discover != true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
