@@ -4,9 +4,21 @@
 
 # BytePlus doc "products" to track. The slug is the path segment that comes
 # right after /en/docs/  ->  https://docs.byteplus.com/en/docs/ModelArk
-# Add more slugs as your skill grows (e.g. VikingDB, etc.).
+# Discover the full list with:  python crawler/crawl.py --discover
+# NOTE: only products whose landing page exposes their /en/docs/{slug}/{id} nav
+# tree enumerate correctly today. ~92 other slugs return 0 pages (their SPA nav
+# loads differently) — pending a crawler enumeration upgrade before adding them.
 products:
-  - ModelArk
+  - ModelArk            # 72 — generative AI models (LLM/image/video/audio/3D/embed)
+  - tos                 # 40 — Torch Object Storage
+  - byteplus-rtc        # 18 — Real-Time Communication
+  - byteplus-dns-suite  # 8  — DNS suite
+  - video-editor-sdk    # 6  — Video Editor SDK
+  - dms                 # 5  — Data Management Service
+  - DataWind            # 5
+  - byteplus-cdn        # 4  — CDN
+  - sealsuite           # 2
+  - mlp                 # 2  — Machine Learning Platform
 
 base_url: https://docs.byteplus.com/en/docs
 
