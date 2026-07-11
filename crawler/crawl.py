@@ -133,8 +133,10 @@ def build_renderer(cfg: dict) -> Renderer:
 # Enumeration + snapshotting                                                   #
 # --------------------------------------------------------------------------- #
 
-# matches /en/docs/{Product}/{numeric-id}  (with optional trailing slash / anchor)
-_DOC_PATH_RE = re.compile(r"/en/docs/([A-Za-z0-9_-]+)/(\d+)")
+# matches /en/docs/{Product}/{pageKey}. The pageKey is EITHER a numeric id
+# (ModelArk-style, e.g. /ModelArk/1330310) OR a textual slug (most other
+# products, e.g. /recommend/docs-product_overview, /bytehouse/Release-Notes).
+_DOC_PATH_RE = re.compile(r"/en/docs/([A-Za-z0-9_-]+)/([A-Za-z0-9_.-]+)")
 
 
 def extract_doc_links(result: RenderResult, product: str, base_url: str) -> set[str]:
