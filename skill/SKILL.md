@@ -53,16 +53,22 @@ Use this structure (adapt section presence to the question — skip sections tha
 
 ## Resolving missing details (do this before asking the user)
 
-The bundled reference files are refreshed automatically from BytePlus docs, but they
-may lag the newest page or omit a niche parameter. When a needed detail (a parameter,
-limit, endpoint, price, model name, error code) is NOT present in the references:
+The curated reference files cover **ModelArk** in depth. `sources.json` additionally
+indexes the **entire BytePlus documentation** (~18,000 pages across ~90 products —
+ModelArk plus CDN, TOS, RTC, VOD, VikingDB, ByteHouse, RDS, ECS, and more) as
+`{product, id, title, url}` entries, for live-fetch. When a needed detail (a parameter,
+limit, endpoint, price, model name, error code) — for ModelArk **or any other BytePlus
+product** — is NOT in the references:
 
-1. Open `sources.json` (bundled with this skill). It maps every tracked BytePlus doc
-   page to its canonical URL. Find the entry whose `product`/`title` best matches the
-   topic in question.
-2. Fetch that URL live and read the current content before answering.
+1. **Search `sources.json` — do NOT read it whole** (it has ~18k entries). Grep it for
+   the product slug and/or a keyword from the question, e.g.
+   `grep -i "vikingdb" sources.json` or `grep -iE "cdn.*cache|purge" sources.json`,
+   to find the entry whose `product`/`title` best matches.
+2. Fetch that `url` live and read the current content before answering.
 3. Only if the live fetch fails or no relevant entry exists, tell the user what you
    could not confirm and ask them to paste the specific page.
 
 Never fabricate a parameter or limit to fill a gap. Prefer "let me check the live doc"
-over guessing, and prefer checking `sources.json` over asking the user to copy-paste.
+over guessing, and prefer searching `sources.json` over asking the user to copy-paste.
+This skill therefore answers about **all of BytePlus**, with ModelArk grounded in
+bundled references and everything else grounded via the indexed live docs.

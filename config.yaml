@@ -13,6 +13,13 @@
 # as documentation/fallback but is ignored while crawl_all_products is true.
 crawl_all_products: true
 
+# Deep vs index-only. Products here get full page-content snapshots (git-diff
+# tracked, feed reference rewrites). ALL other discovered products are INDEX-ONLY:
+# their page URLs+titles go into sources.json for live-fetch, no bodies downloaded.
+# (BytePlus docs = ~18,800 pages total — snapshotting all bodies is impractical.)
+full_snapshot_products:
+  - ModelArk
+
 # Slugs to skip in full-catalog mode: internal test pages + non-product utility
 # areas (account/billing/legal/support consoles), not real product docs.
 discover_ignore_slugs:

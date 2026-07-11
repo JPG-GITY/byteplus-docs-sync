@@ -167,6 +167,36 @@ def extract_doc_links(result: RenderResult, product: str, base_url: str) -> set[
     return found
 
 
+def extract_doc_links_with_titles(result: RenderResult, product: str, base_url: str) -> dict[str, str]:
+    """Like extract_doc_links but returns {url: title} using the anchor text.
+
+    Used for index-only products: one landing render yields every page URL plus
+    its sidebar label (a good-enough title) without visiting each page.
+    """
+    origin = f"{urlparse(base_url).scheme}://{urlparse(base_url).netloc}"
+    found: dict[str, str] = {}
+
+    def _consume(href: str, text: str) -> None:
+        m = _DOC_PATH_RE.search(href)
+        if not m or m.group(1).lower() != product.lower():
+            return
+        url = urljoin(origin, m.group(0))
+        text = (text or "").strip()
+        if url not in found or (text and not found[url]):
+            found[url] = text
+
+    if result.html:
+        from bs4 import BeautifulSoup
+
+        soup = BeautifulSoup(result.html, "html.parser")
+        for a in soup.find_all("a", href=True):
+            _consume(a["href"], a.get_text(strip=True))
+    else:
+        for href in re.findall(r"\]\(([^)]+)\)", result.markdown):
+            _consume(href, "")
+    return found
+
+
 # matches the product slug in /en/docs/{Product}[/...]
 _PRODUCT_RE = re.compile(r"/en/docs/([A-Za-z0-9_-]+)")
 
@@ -329,27 +359,45 @@ def main() -> int:
         "pages": {},
     }
 
+    # Products whose page CONTENT we snapshot (deep, git-diff-tracked, feeds the
+    # reference rewrites). Everything else is INDEX-ONLY: we enumerate its page
+    # URLs+titles into sources.json for live-fetch, without downloading bodies.
+    full_set = {p.lower() for p in cfg.get("full_snapshot_products", [])}
+
     try:
         for product in products:
             landing = f"{base_url}/{product}"
-            print(f"== {product}: enumerating from {landing}")
+            deep = product.lower() in full_set
+            mode = "deep" if deep else "index-only"
+            print(f"== {product}: enumerating from {landing} ({mode})")
             landing_res = with_retries(renderer.render, landing, retries, delay)
-            urls = sorted(extract_doc_links(landing_res, product, base_url))
-            print(f"   found {len(urls)} page(s)")
 
-            for i, url in enumerate(urls, 1):
-                time.sleep(delay)
-                res = with_retries(renderer.render, url, retries, delay)
-                md = normalize_markdown(res.markdown)
-                key = page_key(url)
-                write_snapshot(cache_dir, key, url, res.title, md)
-                manifest["pages"][key] = {
-                    "url": url,
-                    "title": res.title,
-                    "sha256": sha256(md),
-                    "fetched_at": datetime.now(timezone.utc).isoformat(),
-                }
-                print(f"   [{i}/{len(urls)}] {key}  ({res.title[:60]})")
+            if deep:
+                urls = sorted(extract_doc_links(landing_res, product, base_url))
+                print(f"   found {len(urls)} page(s) — snapshotting content")
+                for i, url in enumerate(urls, 1):
+                    time.sleep(delay)
+                    res = with_retries(renderer.render, url, retries, delay)
+                    md = normalize_markdown(res.markdown)
+                    key = page_key(url)
+                    write_snapshot(cache_dir, key, url, res.title, md)
+                    manifest["pages"][key] = {
+                        "url": url,
+                        "title": res.title,
+                        "sha256": sha256(md),
+                        "fetched_at": datetime.now(timezone.utc).isoformat(),
+                    }
+                    print(f"   [{i}/{len(urls)}] {key}  ({res.title[:60]})")
+            else:
+                link_map = extract_doc_links_with_titles(landing_res, product, base_url)
+                print(f"   found {len(link_map)} page(s) — indexing only")
+                for url, title in link_map.items():
+                    key = page_key(url)
+                    manifest["pages"][key] = {
+                        "url": url,
+                        "title": title,
+                        "index_only": True,
+                    }
     finally:
         renderer.close()
 
