@@ -311,6 +311,18 @@ def main() -> int:
     products = [args.product] if args.product else cfg["products"]
 
     renderer = build_renderer(cfg)
+
+    # Auto-discover every product from the docs index when requested
+    # (config `crawl_all_products: true`, or products list is exactly ["*"]).
+    if not args.product and (cfg.get("crawl_all_products") or products == ["*"]):
+        ignore = {s.lower() for s in cfg.get("discover_ignore_slugs", [])}
+        print(f"== auto-discovering all products from {base_url}")
+        home = with_retries(renderer.render, base_url, retries, delay)
+        products = sorted(
+            s for s in extract_product_slugs(home) if s.lower() not in ignore
+        )
+        print(f"   crawling {len(products)} product(s): {', '.join(products)}")
+
     manifest: dict = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "base_url": base_url,

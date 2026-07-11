@@ -8,6 +8,27 @@
 # NOTE: only products whose landing page exposes their /en/docs/{slug}/{id} nav
 # tree enumerate correctly today. ~92 other slugs return 0 pages (their SPA nav
 # loads differently) — pending a crawler enumeration upgrade before adding them.
+# Full-catalog mode: auto-discover every product from the docs index each run
+# (also picks up products BytePlus adds later). The explicit list below is kept
+# as documentation/fallback but is ignored while crawl_all_products is true.
+crawl_all_products: true
+
+# Slugs to skip in full-catalog mode: internal test pages + non-product utility
+# areas (account/billing/legal/support consoles), not real product docs.
+discover_ignore_slugs:
+  - gavi-sept-test1
+  - kickart
+  - legal
+  - support
+  - message_center
+  - Account
+  - Billing-and-Cost
+  - IAM
+  - CloudIdentity
+  - identity
+  - organization
+  - resourcemanagement
+
 products:
   - ModelArk            # 72 — generative AI models (LLM/image/video/audio/3D/embed)
   - tos                 # 40 — Torch Object Storage
