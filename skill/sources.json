@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T13:04:23.424984+00:00",
+  "generated_at": "2026-07-13T07:25:41.039728+00:00",
   "note": "Canonical BytePlus doc URLs. If a detail is missing from the reference files, fetch the matching url live before answering.",
   "entries": [
     {
@@ -27925,6 +27925,12 @@
       "id": "Will_calling_the_relevant_API_interfaces_result_in_an_error_after_the_APMPlus_service_is_due",
       "title": "Will calling the relevant API interfaces result in an error after the APMPlus service is due?",
       "url": "https://docs.byteplus.com/en/docs/apmplus/Will_calling_the_relevant_API_interfaces_result_in_an_error_after_the_APMPlus_service_is_due"
+    },
+    {
+      "product": "apmplus",
+      "id": "Workspace-level_IAM_permission_control",
+      "title": "Workspace-level IAM permission control",
+      "url": "https://docs.byteplus.com/en/docs/apmplus/Workspace-level_IAM_permission_control"
     },
     {
       "product": "apmplus",
