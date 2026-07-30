@@ -13,6 +13,16 @@
 # as documentation/fallback but is ignored while crawl_all_products is true.
 crawl_all_products: true
 
+# Fallback guard: if the docs index yields fewer than this many products, the
+# crawler falls back to the pinned `products:` list instead of crawling nothing.
+# (In July 2026 the docs index moved its links from /en/docs/ to /docs/ and
+# discovery silently returned zero, which wiped the index.)
+min_expected_products: 10
+
+# Refuse to overwrite sources.json if it would drop below this fraction of the
+# committed index (override with ALLOW_SOURCES_SHRINK=1 for intentional cuts).
+sources_shrink_floor_ratio: 0.5
+
 # Deep vs index-only. Products here get full page-content snapshots (git-diff
 # tracked, feed reference rewrites). ALL other discovered products are INDEX-ONLY:
 # their page URLs+titles go into sources.json for live-fetch, no bodies downloaded.
@@ -37,16 +47,99 @@ discover_ignore_slugs:
   - resourcemanagement
 
 products:
-  - ModelArk            # 72 — generative AI models (LLM/image/video/audio/3D/embed)
-  - tos                 # 40 — Torch Object Storage
-  - byteplus-rtc        # 18 — Real-Time Communication
-  - byteplus-dns-suite  # 8  — DNS suite
-  - video-editor-sdk    # 6  — Video Editor SDK
-  - dms                 # 5  — Data Management Service
-  - DataWind            # 5
-  - byteplus-cdn        # 4  — CDN
-  - sealsuite           # 2
-  - mlp                 # 2  — Machine Learning Platform
+  - tos                                      # ~1716 pages
+  - byteplus-cdn                             # ~1461 pages
+  - vke                                      # ~753 pages
+  - ecs                                      # ~746 pages
+  - video-editor-sdk                         # ~515 pages
+  - tls                                      # ~514 pages
+  - apmplus                                  # ~500 pages
+  - bytehouse                                # ~500 pages
+  - RDS_for_MySQL                            # ~444 pages
+  - DTS                                      # ~429 pages
+  - clb                                      # ~425 pages
+  - byteplus-media-live                      # ~381 pages
+  - byteplus-vod                             # ~370 pages
+  - dataagent                                # ~362 pages
+  - byteplus-rtc                             # ~345 pages
+  - VikingDB                                 # ~330 pages
+  - DataWind                                 # ~317 pages
+  - redis                                    # ~317 pages
+  - DBW                                      # ~311 pages
+  - RDS_for_PG                               # ~282 pages
+  - cloudsearch                              # ~270 pages
+  - ArkClaw                                  # ~268 pages
+  - byteplus-livesaas                        # ~263 pages
+  - agentkit                                 # ~259 pages
+  - vmp                                      # ~250 pages
+  - vpc                                      # ~246 pages
+  - cp                                       # ~240 pages
+  - sealsuite                                # ~234 pages
+  - NDB_for_MySQL                            # ~228 pages
+  - transitrouter                            # ~214 pages
+  - aidap                                    # ~212 pages
+  - byteplus-dns-suite                       # ~212 pages
+  - kafka                                    # ~209 pages
+  - mongodb                                  # ~207 pages
+  - RDS-for-SQL-Server                       # ~193 pages
+  - cloudmonitor                             # ~188 pages
+  - faas                                     # ~181 pages
+  - DataFinder                               # ~175 pages
+  - directconnect                            # ~168 pages
+  - byteplus-platform                        # ~156 pages
+  - cr                                       # ~154 pages
+  - vpn                                      # ~140 pages
+  - as                                       # ~136 pages
+  - flink                                    # ~135 pages
+  - dataleap                                 # ~129 pages
+  - nas                                      # ~126 pages
+  - Milvus_for_VectorDB                      # ~120 pages
+  - HBase                                    # ~113 pages
+  - cen                                      # ~110 pages
+  - natgateway                               # ~106 pages
+  - mlp                                      # ~103 pages
+  - privatelink                              # ~100 pages
+  - waf                                      # ~100 pages
+  - rabbitmq                                 # ~99 pages
+  - viking-aisearch                          # ~97 pages
+  - recommend                                # ~96 pages
+  - apig                                     # ~93 pages
+  - Observability_Platform                   # ~86 pages
+  - effects                                  # ~82 pages
+  - pfs                                      # ~80 pages
+  - kms                                      # ~77 pages
+  - ModelArk                                 # ~72 pages
+  - smc                                      # ~69 pages
+  - eip                                      # ~68 pages
+  - LLM-Application-Firewall                 # ~66 pages
+  - gpu                                      # ~64 pages
+  - dms                                      # ~59 pages
+  - RAG_Cloud                                # ~58 pages
+  - byteplus-sms                             # ~55 pages
+  - IPv6                                     # ~52 pages
+  - cdp                                      # ~52 pages
+  - byteplus-certificate-center              # ~50 pages
+  - bandwidthpackage                         # ~49 pages
+  - byteplus-vos                             # ~46 pages
+  - E-MapReduce                              # ~44 pages
+  - cloud_firewall                           # ~42 pages
+  - contextsearch                            # ~42 pages
+  - byteplus-ddos-protection                 # ~41 pages
+  - byteplus-security-bulletins              # ~39 pages
+  - byteplusvoice                            # ~27 pages
+  - NetworkAdvisor                           # ~26 pages
+  - byteplus-vision                          # ~26 pages
+  - trae                                     # ~24 pages
+  - tf                                       # ~22 pages
+  - datagmp                                  # ~20 pages
+  - nta                                      # ~19 pages
+  - Trafficpackage                           # ~14 pages
+  - domain-names                             # ~14 pages
+  - seedream                                 # ~8 pages
+  - Byteplus_LAS                             # ~6 pages
+  - multicloud-security-management-platform  # ~6 pages
+  - askecho                                  # ~5 pages
+  - searchinfinity                           # ~5 pages
 
 base_url: https://docs.byteplus.com/en/docs
 

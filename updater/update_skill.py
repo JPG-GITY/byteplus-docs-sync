@@ -141,6 +141,18 @@ def update_reference(ref_path: Path, sources: list[tuple[str, str]], cfg: dict) 
 # sources.json (live-fetch index used by the skill)                           #
 # --------------------------------------------------------------------------- #
 
+def _committed_sources_count(path: str) -> int | None:
+    """How many entries the last COMMITTED sources.json had (None if unknown)."""
+    try:
+        blob = _git("show", f"HEAD:{path}")
+    except Exception:  # noqa: BLE001 - not committed yet / no HEAD
+        return None
+    try:
+        return len(json.loads(blob).get("entries", []))
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def rebuild_sources_index(cfg: dict) -> int:
     manifest = json.loads(Path(cfg["manifest_path"]).read_text(encoding="utf-8"))
     entries = []
@@ -158,6 +170,24 @@ def rebuild_sources_index(cfg: dict) -> int:
                 "reference files, fetch the matching url live before answering.",
         "entries": entries,
     }
+    # Regression guard. sources.json is the skill's entire live-fetch index, so a
+    # bad crawl that yields far fewer pages must NOT be written and auto-committed
+    # over a good index (this is exactly how the July 2026 index loss happened).
+    # Override with ALLOW_SOURCES_SHRINK=1 for an intentional scope reduction.
+    previous = _committed_sources_count(cfg["sources_index"])
+    floor_ratio = float(cfg.get("sources_shrink_floor_ratio", 0.5))
+    if (
+        previous
+        and len(entries) < previous * floor_ratio
+        and os.environ.get("ALLOW_SOURCES_SHRINK") != "1"
+    ):
+        raise RuntimeError(
+            f"sources.json would shrink from {previous} to {len(entries)} entries "
+            f"(below {floor_ratio:.0%} of the committed index). Refusing to overwrite "
+            "it. Investigate the crawl (python crawler/crawl.py --discover); set "
+            "ALLOW_SOURCES_SHRINK=1 if the reduction is intentional."
+        )
+
     Path(cfg["sources_index"]).write_text(
         json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8"
     )

@@ -133,10 +133,22 @@ def build_renderer(cfg: dict) -> Renderer:
 # Enumeration + snapshotting                                                   #
 # --------------------------------------------------------------------------- #
 
-# matches /en/docs/{Product}/{pageKey}. The pageKey is EITHER a numeric id
-# (ModelArk-style, e.g. /ModelArk/1330310) OR a textual slug (most other
-# products, e.g. /recommend/docs-product_overview, /bytehouse/Release-Notes).
-_DOC_PATH_RE = re.compile(r"/en/docs/([A-Za-z0-9_-]+)/([A-Za-z0-9_.-]+)")
+# matches {locale?}/docs/{Product}/{pageKey}. Two independent variations:
+#   pageKey — EITHER a numeric id (ModelArk-style, /ModelArk/1330310) OR a
+#     textual slug (/recommend/docs-product_overview, /bytehouse/Release-Notes).
+#   locale — OPTIONAL. In July 2026 the docs site switched its internal links
+#     from /en/docs/... to locale-less /docs/..., so both must be accepted or
+#     enumeration silently collapses. Everything is normalized back to the
+#     canonical /en/docs/... form (see canonical_doc_url) so snapshot keys and
+#     the sources.json URLs stay stable across the change.
+_DOC_PATH_RE = re.compile(
+    r"/(?:[a-z]{2}(?:-[a-z]{2})?/)?docs/([A-Za-z0-9_-]+)/([A-Za-z0-9_.-]+)"
+)
+
+
+def canonical_doc_url(origin: str, product: str, page_key_part: str) -> str:
+    """Canonical absolute URL for a doc page, always in the /en/docs/ form."""
+    return f"{origin}/en/docs/{product}/{page_key_part}"
 
 
 def extract_doc_links(result: RenderResult, product: str, base_url: str) -> set[str]:
@@ -150,7 +162,7 @@ def extract_doc_links(result: RenderResult, product: str, base_url: str) -> set[
             return
         if m.group(1).lower() != product.lower():
             return
-        found.add(urljoin(origin, m.group(0)))
+        found.add(canonical_doc_url(origin, m.group(1), m.group(2)))
 
     if result.html:
         from bs4 import BeautifulSoup
@@ -180,7 +192,7 @@ def extract_doc_links_with_titles(result: RenderResult, product: str, base_url: 
         m = _DOC_PATH_RE.search(href)
         if not m or m.group(1).lower() != product.lower():
             return
-        url = urljoin(origin, m.group(0))
+        url = canonical_doc_url(origin, m.group(1), m.group(2))
         text = (text or "").strip()
         if url not in found or (text and not found[url]):
             found[url] = text
@@ -197,8 +209,10 @@ def extract_doc_links_with_titles(result: RenderResult, product: str, base_url: 
     return found
 
 
-# matches the product slug in /en/docs/{Product}[/...]
-_PRODUCT_RE = re.compile(r"/en/docs/([A-Za-z0-9_-]+)")
+# matches the product slug in {locale?}/docs/{Product}[/...] — the docs index
+# links products as /docs/{Product} (locale-less) since July 2026, and older
+# pages still use /en/docs/{Product}, so both forms must match.
+_PRODUCT_RE = re.compile(r"/(?:[a-z]{2}(?:-[a-z]{2})?/)?docs/([A-Za-z0-9_-]+)")
 
 
 def extract_product_slugs(result: RenderResult) -> set[str]:
@@ -346,11 +360,35 @@ def main() -> int:
     # (config `crawl_all_products: true`, or products list is exactly ["*"]).
     if not args.product and (cfg.get("crawl_all_products") or products == ["*"]):
         ignore = {s.lower() for s in cfg.get("discover_ignore_slugs", [])}
+        configured = [p for p in cfg.get("products", []) if p != "*"]
         print(f"== auto-discovering all products from {base_url}")
         home = with_retries(renderer.render, base_url, retries, delay)
-        products = sorted(
+        discovered = sorted(
             s for s in extract_product_slugs(home) if s.lower() not in ignore
         )
+        # The docs index is a third-party page: a redesign (as happened in July
+        # 2026, when links moved from /en/docs/ to /docs/) can silently reduce it
+        # to zero. Never let that translate into an empty crawl — fall back to
+        # the products pinned in config.yaml and make the failure loud.
+        min_expected = int(cfg.get("min_expected_products", 10))
+        if len(discovered) < min_expected and configured:
+            print(
+                f"   ! discovery returned only {len(discovered)} product(s) "
+                f"(expected >= {min_expected}) — the docs index may have changed. "
+                f"Falling back to the {len(configured)} product(s) pinned in config.yaml.",
+                file=sys.stderr,
+            )
+            products = sorted(set(configured) | set(discovered))
+        else:
+            products = sorted(set(discovered) | set(configured))
+        if not products:
+            print(
+                "FATAL: no products to crawl (discovery empty and config.products empty). "
+                "Refusing to run, so an empty manifest cannot overwrite a good index.",
+                file=sys.stderr,
+            )
+            renderer.close()
+            return 2
         print(f"   crawling {len(products)} product(s): {', '.join(products)}")
 
     manifest: dict = {
@@ -400,6 +438,17 @@ def main() -> int:
                     }
     finally:
         renderer.close()
+
+    # Final guard: a crawl that enumerated nothing must not overwrite a manifest
+    # that currently holds a good index — abort and leave the previous one in place.
+    if not manifest["pages"]:
+        print(
+            "FATAL: crawl enumerated 0 pages. Leaving the existing manifest untouched "
+            "so the committed index is not destroyed. Investigate the docs site "
+            "structure (run: python crawler/crawl.py --discover).",
+            file=sys.stderr,
+        )
+        return 3
 
     Path(cfg["manifest_path"]).write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
