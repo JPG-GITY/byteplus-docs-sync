@@ -174,3 +174,5 @@ Unit price (USD per 1M tokens) — input without video / with video:
 Per-video estimate, 5 s, 16:9, no video input: 480p $0.35 · 720p $0.76 · 1080p $1.87 · **4k $3.89**. With video input, 4k runs **$4.20–9.33** depending on input length (2–4 s → low, 15 s → high). Fast/Mini do not support 1080p or 4k.
 
 Token estimate = `(input_video_dur + output_video_dur) × W × H × fps / 1024`. When input includes video, 2.0/Fast enforce a resolution-/ratio-/duration-dependent **minimum token consumption**. Resource packs (prepaid, 90-day) deduct online-inference tokens; base 2.0 requires a minimum of 7× 1M-token packs. Actual cost = the `completion_tokens` returned after the call.
+
+<!-- TODO: verify — linked source pages (docs.byteplus.com/en/docs/ModelArk/2607688 and /2608626) returned no retrievable content at time of this update; no changes applied pending confirmation of their contents. -->

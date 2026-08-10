@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:31:49.239624+00:00",
+  "generated_at": "2026-08-10T06:50:46.842197+00:00",
   "note": "Canonical BytePlus doc URLs. If a detail is missing from the reference files, fetch the matching url live before answering.",
   "entries": [
     {
@@ -196,6 +196,12 @@
     },
     {
       "product": "ArkClaw",
+      "id": "Authorizing_IAM_users_to_use_ArkClaw_user_information_masking",
+      "title": "Authorizing IAM users to use ArkClaw user information masking",
+      "url": "https://docs.byteplus.com/en/docs/ArkClaw/Authorizing_IAM_users_to_use_ArkClaw_user_information_masking"
+    },
+    {
+      "product": "ArkClaw",
       "id": "Authorizing_an_IAM_user_to_use_ArkClaw_Enterprise",
       "title": "Authorizing IAM users to use ArkClaw",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Authorizing_an_IAM_user_to_use_ArkClaw_Enterprise"
@@ -365,19 +371,19 @@
     {
       "product": "ArkClaw",
       "id": "Configuring-a-custom-domain-prefix",
-      "title": "Configuring a custom domain prefix",
+      "title": "Configuring a custom domain",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Configuring-a-custom-domain-prefix"
     },
     {
       "product": "ArkClaw",
       "id": "Configuring-a-private-egress-access-log",
-      "title": "Configuring a private egress access log",
+      "title": "Configuring access log for private network egress",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Configuring-a-private-egress-access-log"
     },
     {
       "product": "ArkClaw",
       "id": "Configuring-a-private-egress-network-access-policy",
-      "title": "Configuring a private egress network access policy",
+      "title": "Configuring network access policy for private network egress",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Configuring-a-private-egress-network-access-policy"
     },
     {
@@ -407,13 +413,13 @@
     {
       "product": "ArkClaw",
       "id": "Configuring-the-private-egress-domain-resolution-New-version",
-      "title": "Configuring the private egress domain resolution (New version)",
+      "title": "Configuring DNS custom resolution for private network egress (new version)",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Configuring-the-private-egress-domain-resolution-New-version"
     },
     {
       "product": "ArkClaw",
       "id": "Configuring-the-private-egress-domain-resolution-Old-version",
-      "title": "Configuring the private egress domain resolution (Old version)",
+      "title": "Configuring DNS custom resolution for private network egress (old version)",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Configuring-the-private-egress-domain-resolution-Old-version"
     },
     {
@@ -593,7 +599,7 @@
     {
       "product": "ArkClaw",
       "id": "Custom-service-deployment-Overview",
-      "title": "Overview",
+      "title": "Custom Service Publishing overview",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Custom-service-deployment-Overview"
     },
     {
@@ -689,7 +695,7 @@
     {
       "product": "ArkClaw",
       "id": "Enabling-or-disabling-the-private-egress-New-version",
-      "title": "Enabling or disabling the private egress (New version)",
+      "title": "Enabling or disabling private network egress (new version)",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Enabling-or-disabling-the-private-egress-New-version"
     },
     {
@@ -1114,6 +1120,12 @@
     },
     {
       "product": "ArkClaw",
+      "id": "Managing_user_information_masking",
+      "title": "Managing user information masking",
+      "url": "https://docs.byteplus.com/en/docs/ArkClaw/Managing_user_information_masking"
+    },
+    {
+      "product": "ArkClaw",
       "id": "Managing_users",
       "title": "Configuring an authentication method",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Managing_users"
@@ -1147,6 +1159,12 @@
       "id": "Modify_seat",
       "title": "Seat change specifications",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Modify_seat"
+    },
+    {
+      "product": "ArkClaw",
+      "id": "My_cloud_disk",
+      "title": "My cloud disk",
+      "url": "https://docs.byteplus.com/en/docs/ArkClaw/My_cloud_disk"
     },
     {
       "product": "ArkClaw",
@@ -1253,7 +1271,7 @@
     {
       "product": "ArkClaw",
       "id": "Private-egress-security-overview",
-      "title": "Private egress security overview",
+      "title": "Security Control overview",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Private-egress-security-overview"
     },
     {
@@ -1525,12 +1543,6 @@
       "id": "Uploading_and_processing_files_",
       "title": "Uploading and processing files",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Uploading_and_processing_files_"
-    },
-    {
-      "product": "ArkClaw",
-      "id": "Uploading_or_downloading_files_using_cloud_disks_",
-      "title": "Uploading or downloading files using cloud disks",
-      "url": "https://docs.byteplus.com/en/docs/ArkClaw/Uploading_or_downloading_files_using_cloud_disks_"
     },
     {
       "product": "ArkClaw",
@@ -1840,6 +1852,12 @@
     },
     {
       "product": "Byteplus_LAS",
+      "id": "Fine-grained_video_understanding",
+      "title": "Fine-grained video understanding",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Fine-grained_video_understanding"
+    },
+    {
+      "product": "Byteplus_LAS",
       "id": "Intelligent_video_editing",
       "title": "Intelligent video editing",
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Intelligent_video_editing"
@@ -1870,6 +1888,30 @@
     },
     {
       "product": "Byteplus_LAS",
+      "id": "Obtain_the_Base_URL",
+      "title": "Obtain the Base URL",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Obtain_the_Base_URL"
+    },
+    {
+      "product": "Byteplus_LAS",
+      "id": "Preparation_tasks",
+      "title": "Preparation tasks",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Preparation_tasks"
+    },
+    {
+      "product": "Byteplus_LAS",
+      "id": "Short_drama_script_fission",
+      "title": "Short drama script fission",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Short_drama_script_fission"
+    },
+    {
+      "product": "Byteplus_LAS",
+      "id": "Short_drama_script_generation",
+      "title": "Short drama script generation",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Short_drama_script_generation"
+    },
+    {
+      "product": "Byteplus_LAS",
       "id": "Task_manage",
       "title": "Task management",
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Task_manage"
@@ -1879,6 +1921,18 @@
       "id": "Terms_BytePlus_LAS_Service_Level_Agreement",
       "title": "BytePlus LAS_Service Level Agreement",
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Terms_BytePlus_LAS_Service_Level_Agreement"
+    },
+    {
+      "product": "Byteplus_LAS",
+      "id": "Video_scene_segmentation",
+      "title": "Video scene segmentation",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Video_scene_segmentation"
+    },
+    {
+      "product": "Byteplus_LAS",
+      "id": "Viral_content_editing",
+      "title": "Viral clip generation",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Viral_content_editing"
     },
     {
       "product": "Byteplus_LAS",
@@ -1895,7 +1949,7 @@
     {
       "product": "Byteplus_LAS",
       "id": "las_release_notes",
-      "title": "Feature release record",
+      "title": "Feature release record for BytePlus",
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/las_release_notes"
     },
     {
@@ -2113,6 +2167,24 @@
       "id": "Database_inspection_management",
       "title": "Database inspection management",
       "url": "https://docs.byteplus.com/en/docs/DBW/Database_inspection_management"
+    },
+    {
+      "product": "DBW",
+      "id": "DescribeDialogDetailSnapshot",
+      "title": "DescribeDialogDetailSnapshot",
+      "url": "https://docs.byteplus.com/en/docs/DBW/DescribeDialogDetailSnapshot"
+    },
+    {
+      "product": "DBW",
+      "id": "DescribeDialogSnapshots",
+      "title": "DescribeDialogSnapshots",
+      "url": "https://docs.byteplus.com/en/docs/DBW/DescribeDialogSnapshots"
+    },
+    {
+      "product": "DBW",
+      "id": "DescribeEngineStatusSnapShot",
+      "title": "DescribeEngineStatusSnapShot",
+      "url": "https://docs.byteplus.com/en/docs/DBW/DescribeEngineStatusSnapShot"
     },
     {
       "product": "DBW",
@@ -2428,6 +2500,12 @@
     },
     {
       "product": "DBW",
+      "id": "SQL_assistant",
+      "title": "SQL assistant",
+      "url": "https://docs.byteplus.com/en/docs/DBW/SQL_assistant"
+    },
+    {
+      "product": "DBW",
       "id": "SQL_execution_log_management",
       "title": "SQL execution log management",
       "url": "https://docs.byteplus.com/en/docs/DBW/SQL_execution_log_management"
@@ -2501,7 +2579,7 @@
     {
       "product": "DBW",
       "id": "Space_analysis_management",
-      "title": "Space analysis management",
+      "title": "Spatial analysis management",
       "url": "https://docs.byteplus.com/en/docs/DBW/Space_analysis_management"
     },
     {
@@ -2513,7 +2591,7 @@
     {
       "product": "DBW",
       "id": "Specification_scaling_management",
-      "title": "Specification scaling management",
+      "title": "Specification scaling management (General Type)",
       "url": "https://docs.byteplus.com/en/docs/DBW/Specification_scaling_management"
     },
     {
@@ -2596,6 +2674,12 @@
     },
     {
       "product": "DBW",
+      "id": "Volcano_Engine_DBW_NL2SQL_service",
+      "title": "BytePlus DBW NL2SQL service",
+      "url": "https://docs.byteplus.com/en/docs/DBW/Volcano_Engine_DBW_NL2SQL_service"
+    },
+    {
+      "product": "DBW",
       "id": "WorkflowAction",
       "title": "WorkflowAction",
       "url": "https://docs.byteplus.com/en/docs/DBW/WorkflowAction"
@@ -2614,9 +2698,21 @@
     },
     {
       "product": "DBW",
+      "id": "applicable-scenarios",
+      "title": "Applicable scenarios",
+      "url": "https://docs.byteplus.com/en/docs/DBW/applicable-scenarios"
+    },
+    {
+      "product": "DBW",
       "id": "arrears",
       "title": "Arrears",
       "url": "https://docs.byteplus.com/en/docs/DBW/arrears"
+    },
+    {
+      "product": "DBW",
+      "id": "auto-scaling-management-cloud-disk-instances",
+      "title": "Auto scaling management (Cloud disk instances)",
+      "url": "https://docs.byteplus.com/en/docs/DBW/auto-scaling-management-cloud-disk-instances"
     },
     {
       "product": "DBW",
@@ -3412,6 +3508,12 @@
     },
     {
       "product": "DBW",
+      "id": "product-advantages",
+      "title": "Product advantages",
+      "url": "https://docs.byteplus.com/en/docs/DBW/product-advantages"
+    },
+    {
+      "product": "DBW",
       "id": "querying-slow-logs-through-operational-observation",
       "title": "Querying a slow log through operation observability",
       "url": "https://docs.byteplus.com/en/docs/DBW/querying-slow-logs-through-operational-observation"
@@ -3443,7 +3545,7 @@
     {
       "product": "DBW",
       "id": "role-permission-request",
-      "title": "Role permission application",
+      "title": "DBW role application",
       "url": "https://docs.byteplus.com/en/docs/DBW/role-permission-request"
     },
     {
@@ -3451,6 +3553,12 @@
       "id": "scheduled-scaling-management",
       "title": "Scheduled scaling management",
       "url": "https://docs.byteplus.com/en/docs/DBW/scheduled-scaling-management"
+    },
+    {
+      "product": "DBW",
+      "id": "scheduled-scaling-management-cloud-disk-instances",
+      "title": "Scheduled scaling management (Cloud disk instances)",
+      "url": "https://docs.byteplus.com/en/docs/DBW/scheduled-scaling-management-cloud-disk-instances"
     },
     {
       "product": "DBW",
@@ -4277,7 +4385,7 @@
     {
       "product": "DTS",
       "id": "Overview",
-      "title": "Overview",
+      "title": "FAQs overview",
       "url": "https://docs.byteplus.com/en/docs/DTS/Overview"
     },
     {
@@ -9298,6 +9406,12 @@
     },
     {
       "product": "Dramagic",
+      "id": "Asset",
+      "title": "Assets",
+      "url": "https://docs.byteplus.com/en/docs/Dramagic/Asset"
+    },
+    {
+      "product": "Dramagic",
       "id": "BillingMethods",
       "title": "Billing Methods",
       "url": "https://docs.byteplus.com/en/docs/Dramagic/BillingMethods"
@@ -9328,9 +9442,21 @@
     },
     {
       "product": "Dramagic",
+      "id": "Project",
+      "title": "Project",
+      "url": "https://docs.byteplus.com/en/docs/Dramagic/Project"
+    },
+    {
+      "product": "Dramagic",
       "id": "ReleaseNotes",
       "title": "Release Notes",
       "url": "https://docs.byteplus.com/en/docs/Dramagic/ReleaseNotes"
+    },
+    {
+      "product": "Dramagic",
+      "id": "Remakestudio",
+      "title": "Remake studio",
+      "url": "https://docs.byteplus.com/en/docs/Dramagic/Remakestudio"
     },
     {
       "product": "Dramagic",
@@ -9346,9 +9472,27 @@
     },
     {
       "product": "Dramagic",
+      "id": "Statistics",
+      "title": "Statistics",
+      "url": "https://docs.byteplus.com/en/docs/Dramagic/Statistics"
+    },
+    {
+      "product": "Dramagic",
       "id": "Sub-Account",
       "title": "Sub Account",
       "url": "https://docs.byteplus.com/en/docs/Dramagic/Sub-Account"
+    },
+    {
+      "product": "Dramagic",
+      "id": "Team",
+      "title": "Team",
+      "url": "https://docs.byteplus.com/en/docs/Dramagic/Team"
+    },
+    {
+      "product": "Dramagic",
+      "id": "Watermark",
+      "title": "Watermark",
+      "url": "https://docs.byteplus.com/en/docs/Dramagic/Watermark"
     },
     {
       "product": "E-MapReduce",
@@ -9382,9 +9526,9 @@
     },
     {
       "product": "E-MapReduce",
-      "id": "Create_resource_queues",
-      "title": "Create resource queues",
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Create_resource_queues"
+      "id": "EMR_Serverless_Quick_Start",
+      "title": "EMR Serverless Quick Start",
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/EMR_Serverless_Quick_Start"
     },
     {
       "product": "E-MapReduce",
@@ -9449,7 +9593,7 @@
     {
       "product": "E-MapReduce",
       "id": "Open_source_components_limits",
-      "title": "Open source components limits",
+      "title": "Limits for open source components",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Open_source_components_limits"
     },
     {
@@ -9457,6 +9601,12 @@
       "id": "Overdue_payments",
       "title": "Overdue payments",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Overdue_payments"
+    },
+    {
+      "product": "E-MapReduce",
+      "id": "Preparation_sq",
+      "title": "Preparation",
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Preparation_sq"
     },
     {
       "product": "E-MapReduce",
@@ -9550,39 +9700,9 @@
     },
     {
       "product": "E-MapReduce",
-      "id": "ecs_preparation",
-      "title": "Preparation",
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/ecs_preparation"
-    },
-    {
-      "product": "E-MapReduce",
-      "id": "ecs_qs_create_a_cluster",
-      "title": "Create a cluster",
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/ecs_qs_create_a_cluster"
-    },
-    {
-      "product": "E-MapReduce",
-      "id": "ecs_qs_submit_Job",
-      "title": "Submit Job",
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/ecs_qs_submit_Job"
-    },
-    {
-      "product": "E-MapReduce",
       "id": "serverless_billing_overview",
       "title": "Overview",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/serverless_billing_overview"
-    },
-    {
-      "product": "E-MapReduce",
-      "id": "serverless_qs_preparation",
-      "title": "Preparation",
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/serverless_qs_preparation"
-    },
-    {
-      "product": "E-MapReduce",
-      "id": "serverless_qs_submit_Job",
-      "title": "Submit Job",
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/serverless_qs_submit_Job"
     },
     {
       "product": "E-MapReduce",
@@ -12285,6 +12405,18 @@
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2582775"
     },
     {
+      "product": "ModelArk",
+      "id": "2607688",
+      "title": "Dreamina Seedance 2.5 tutorial--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2607688"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2608626",
+      "title": "Create portrait videos with Dreamina Seedance models--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2608626"
+    },
+    {
       "product": "NDB_for_MySQL",
       "id": "API_changelog",
       "title": "API changelog",
@@ -12931,6 +13063,12 @@
       "id": "Disassociating_or_deleting_tag",
       "title": "Disassociating or deleting tag",
       "url": "https://docs.byteplus.com/en/docs/NDB_for_MySQL/Disassociating_or_deleting_tag"
+    },
+    {
+      "product": "NDB_for_MySQL",
+      "id": "Discontinuation_of_creating_new_MySQL_version_5_7_instances",
+      "title": "Discontinuation of creating new MySQL version 5.7 instances",
+      "url": "https://docs.byteplus.com/en/docs/NDB_for_MySQL/Discontinuation_of_creating_new_MySQL_version_5_7_instances"
     },
     {
       "product": "NDB_for_MySQL",
@@ -13678,6 +13816,18 @@
     },
     {
       "product": "NetworkAdvisor",
+      "id": "API-Introduction",
+      "title": "Introduction​",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/API-Introduction"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "API-release-notes",
+      "title": "API release notes",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/API-release-notes"
+    },
+    {
+      "product": "NetworkAdvisor",
       "id": "Analysis-result-and-node",
       "title": "Analysis results and nodes",
       "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Analysis-result-and-node"
@@ -13696,9 +13846,63 @@
     },
     {
       "product": "NetworkAdvisor",
+      "id": "Common-error-codes",
+      "title": "Common error codes",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Common-error-codes"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "Common-parameters",
+      "title": "Common parameters",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Common-parameters"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "CreateDiagnosisInstance",
+      "title": "CreateDiagnosisInstance - Creating an instance diagnosis",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/CreateDiagnosisInstance"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "CreatePathAnalysis",
+      "title": "CreatePathAnalysis - Initiating a path analysis",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/CreatePathAnalysis"
+    },
+    {
+      "product": "NetworkAdvisor",
       "id": "Cross-Region-Traffic-Analysis",
       "title": "Cross Region Traffic Analysis",
       "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Cross-Region-Traffic-Analysis"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "DeleteAnalysisPath",
+      "title": "DeleteAnalysisPath - Deleting a path analysis",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/DeleteAnalysisPath"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "DeleteAnalysisPathReport",
+      "title": "DeleteAnalysisPathReport - Deleting a path analysis report",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/DeleteAnalysisPathReport"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "DescribeDiagnosisInstanceDetail",
+      "title": "DescribeDiagnosisInstanceDetail - Getting the details of diagnosis instance",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/DescribeDiagnosisInstanceDetail"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "DescribeDiagnosisInstances",
+      "title": "DescribeDiagnosisInstances - Getting a diagnosis instance list",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/DescribeDiagnosisInstances"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "DescribeHistoryDiagnosis",
+      "title": "DescribeHistoryDiagnosis - Viewing the instance history diagnosis",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/DescribeHistoryDiagnosis"
     },
     {
       "product": "NetworkAdvisor",
@@ -13723,6 +13927,24 @@
       "id": "FAQs-FAQs",
       "title": "FAQs",
       "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/FAQs-FAQs"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "GetAnalysisPathReport",
+      "title": "GetAnalysisPathReport - Getting a path analysis report",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/GetAnalysisPathReport"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "GetNetworkTrafficMetrics",
+      "title": "GetNetworkTrafficMetrics - Getting the network traffic metric trend",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/GetNetworkTrafficMetrics"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "GetNetworkTrafficTopN",
+      "title": "GetNetworkTrafficTopN - Retrieving a network traffic metric ranking",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/GetNetworkTrafficTopN"
     },
     {
       "product": "NetworkAdvisor",
@@ -13774,6 +13996,12 @@
     },
     {
       "product": "NetworkAdvisor",
+      "id": "Network-Advisor-API-overview",
+      "title": "Network Advisor API overview",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Network-Advisor-API-overview"
+    },
+    {
+      "product": "NetworkAdvisor",
       "id": "Network-Advisor-IAM-policy-type",
       "title": "Network Advisor IAM policy type",
       "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Network-Advisor-IAM-policy-type"
@@ -13798,9 +14026,33 @@
     },
     {
       "product": "NetworkAdvisor",
+      "id": "ReanalysisPath",
+      "title": "ReanalysisPath - Restarting a path analysis",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/ReanalysisPath"
+    },
+    {
+      "product": "NetworkAdvisor",
       "id": "Region-overview",
       "title": "Region overview",
       "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Region-overview"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "Request-structure",
+      "title": "Request structure",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Request-structure"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "Response-examples",
+      "title": "Response examples",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Response-examples"
+    },
+    {
+      "product": "NetworkAdvisor",
+      "id": "Signature-method",
+      "title": "Signature method",
+      "url": "https://docs.byteplus.com/en/docs/NetworkAdvisor/Signature-method"
     },
     {
       "product": "NetworkAdvisor",
@@ -16354,6 +16606,12 @@
     },
     {
       "product": "RDS_for_MySQL",
+      "id": "Modify_cross-region_backup_configuration",
+      "title": "Modify cross-region backup configuration",
+      "url": "https://docs.byteplus.com/en/docs/RDS_for_MySQL/Modify_cross-region_backup_configuration"
+    },
+    {
+      "product": "RDS_for_MySQL",
       "id": "Modifying_instance_kernel_minor_version_upgrade_policy",
       "title": "Modifying instance kernel minor version upgrade policy",
       "url": "https://docs.byteplus.com/en/docs/RDS_for_MySQL/Modifying_instance_kernel_minor_version_upgrade_policy"
@@ -16375,6 +16633,12 @@
       "id": "Online_extension_of_varchar_field_length",
       "title": "Online extension of varchar field length",
       "url": "https://docs.byteplus.com/en/docs/RDS_for_MySQL/Online_extension_of_varchar_field_length"
+    },
+    {
+      "product": "RDS_for_MySQL",
+      "id": "Optimization_of_Master-Slave_Replication_Latency_for_High-Concurrency_Small_Transactions",
+      "title": "Optimization of Master-Slave Replication Latency for High-Concurrency Small Transactions",
+      "url": "https://docs.byteplus.com/en/docs/RDS_for_MySQL/Optimization_of_Master-Slave_Replication_Latency_for_High-Concurrency_Small_Transactions"
     },
     {
       "product": "RDS_for_MySQL",
@@ -16597,6 +16861,12 @@
       "id": "Viewing_the_allowlists_of_an_instance",
       "title": "Viewing the allowlists of an instance",
       "url": "https://docs.byteplus.com/en/docs/RDS_for_MySQL/Viewing_the_allowlists_of_an_instance"
+    },
+    {
+      "product": "RDS_for_MySQL",
+      "id": "Viewing_the_cross-regional_backup_instance_list",
+      "title": "Viewing the cross-regional backup instance list",
+      "url": "https://docs.byteplus.com/en/docs/RDS_for_MySQL/Viewing_the_cross-regional_backup_instance_list"
     },
     {
       "product": "RDS_for_MySQL",
@@ -18131,7 +18401,7 @@
     {
       "product": "RDS_for_MySQL",
       "id": "recovering_to_the_new_instance_from_a_backup_set",
-      "title": "Recovering to a new instance from a backup set",
+      "title": "Recover to a new instance from a backup set",
       "url": "https://docs.byteplus.com/en/docs/RDS_for_MySQL/recovering_to_the_new_instance_from_a_backup_set"
     },
     {
@@ -18299,7 +18569,7 @@
     {
       "product": "RDS_for_MySQL",
       "id": "standard_instance_specification_modification",
-      "title": "Modifying specifications",
+      "title": "Change specification",
       "url": "https://docs.byteplus.com/en/docs/RDS_for_MySQL/standard_instance_specification_modification"
     },
     {
@@ -18485,7 +18755,7 @@
     {
       "product": "RDS_for_MySQL",
       "id": "upgrading_instances_database_major_version",
-      "title": "Upgrading instance database major version",
+      "title": "Upgrade instance database major version",
       "url": "https://docs.byteplus.com/en/docs/RDS_for_MySQL/upgrading_instances_database_major_version"
     },
     {
@@ -22649,7 +22919,7 @@
     {
       "product": "agentkit",
       "id": "Creating_runtime_via_CLI_tool",
-      "title": "Creating runtimes (CLI tool)",
+      "title": "Developing and deploying agents with the AgentKit CLI",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Creating_runtime_via_CLI_tool"
     },
     {
@@ -23447,7 +23717,7 @@
     {
       "product": "agentkit",
       "id": "Quick_start_with_AgentKit",
-      "title": "Getting started: 1-minute agent rapid deployment",
+      "title": "Getting started: Deploy an agent in 1 minute",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Quick_start_with_AgentKit"
     },
     {
@@ -23497,6 +23767,12 @@
       "id": "Runtime_SDK",
       "title": "Runtime",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Runtime_SDK"
+    },
+    {
+      "product": "agentkit",
+      "id": "Runtime_security_best_practices",
+      "title": "Runtime security best practices",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/Runtime_security_best_practices"
     },
     {
       "product": "agentkit",
@@ -23957,7 +24233,7 @@
     {
       "product": "agentkit",
       "id": "Viewing_runtime_instances_via_WebShell",
-      "title": "Viewing runtime instances via WebShell",
+      "title": "Running Shell commands in runtime instances",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_runtime_instances_via_WebShell"
     },
     {
@@ -23986,8 +24262,14 @@
     },
     {
       "product": "agentkit",
+      "id": "advanced_quick_start_overview",
+      "title": "Overview",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/advanced_quick_start_overview"
+    },
+    {
+      "product": "agentkit",
       "id": "agent_development_and_deployment_tutorial",
-      "title": "Advanced quick start​: agent development and deployment tutorial",
+      "title": "Advanced quick start​: Developing and deploying agents with VeADK",
       "url": "https://docs.byteplus.com/en/docs/agentkit/agent_development_and_deployment_tutorial"
     },
     {
@@ -24118,6 +24400,12 @@
     },
     {
       "product": "aidap",
+      "id": "Billing_for_vector_bucket",
+      "title": "Billing for vector bucket starts on August 20, 2026",
+      "url": "https://docs.byteplus.com/en/docs/aidap/Billing_for_vector_bucket"
+    },
+    {
+      "product": "aidap",
       "id": "Billing_items_and_prices",
       "title": "Billing items and prices",
       "url": "https://docs.byteplus.com/en/docs/aidap/Billing_items_and_prices"
@@ -24151,6 +24439,12 @@
       "id": "Common_parameters",
       "title": "Common parameters",
       "url": "https://docs.byteplus.com/en/docs/aidap/Common_parameters"
+    },
+    {
+      "product": "aidap",
+      "id": "Configuring_DingTalk_authorized_login",
+      "title": "Configuring DingTalk authorized login",
+      "url": "https://docs.byteplus.com/en/docs/aidap/Configuring_DingTalk_authorized_login"
     },
     {
       "product": "aidap",
@@ -26053,6 +26347,12 @@
       "id": "API_release_records_client",
       "title": "API release records",
       "url": "https://docs.byteplus.com/en/docs/apmplus/API_release_records_client"
+    },
+    {
+      "product": "apmplus",
+      "id": "API_release_records_server",
+      "title": "API release notes",
+      "url": "https://docs.byteplus.com/en/docs/apmplus/API_release_records_server"
     },
     {
       "product": "apmplus",
@@ -36347,7 +36647,7 @@
     {
       "product": "byteplus-cdn",
       "id": "conditional_origins_en",
-      "title": "Conditional origins",
+      "title": "Conditional Origins",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/conditional_origins_en"
     },
     {
@@ -36421,6 +36721,18 @@
       "id": "create_function_project_with_opa_zh-tw",
       "title": "建立OPA函數專案",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/create_function_project_with_opa_zh-tw"
+    },
+    {
+      "product": "byteplus-cdn",
+      "id": "cross-mlc-border-acceleration_en-us",
+      "title": "Manage Chinese Mainland Optimization Accelerators",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/cross-mlc-border-acceleration_en-us"
+    },
+    {
+      "product": "byteplus-cdn",
+      "id": "cross-mlc-border-acceleration_zh-cn",
+      "title": "中国内地网络优化",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/cross-mlc-border-acceleration_zh-cn"
     },
     {
       "product": "byteplus-cdn",
@@ -36887,7 +37199,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-allowed-tls-versions",
-      "title": "TLS versions",
+      "title": "TLS Versions",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-allowed-tls-versions"
     },
     {
@@ -36929,19 +37241,19 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-browser-caching",
-      "title": "Browser caching",
+      "title": "Browser Caching",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-browser-caching"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-cache-keys",
-      "title": "Cache key",
+      "title": "Cache Key",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-cache-keys"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-caching-rules",
-      "title": "Caching rules",
+      "title": "Caching Rules",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-caching-rules"
     },
     {
@@ -36959,7 +37271,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-cdn-response-headers",
-      "title": "CDN response headers",
+      "title": "Client Response Headers",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-cdn-response-headers"
     },
     {
@@ -36995,13 +37307,13 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-custom-error-pages_1",
-      "title": "Custom error pages",
+      "title": "Custom Error Pages",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-custom-error-pages_1"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-data-rate-throttling",
-      "title": "Data rate throttling",
+      "title": "Data Rate Throttling",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-data-rate-throttling"
     },
     {
@@ -37037,7 +37349,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-disallowed-http-method",
-      "title": "Disabled HTTP Method",
+      "title": "Disabled HTTP Methods",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-disallowed-http-method"
     },
     {
@@ -37091,13 +37403,13 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-file-compression",
-      "title": "File compression",
+      "title": "File Compression",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-file-compression"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-geographical-restrictions",
-      "title": "Geographic restrictions",
+      "title": "Geographic Restrictions",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-geographical-restrictions"
     },
     {
@@ -37127,7 +37439,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-ip-restrictions",
-      "title": "IP restrictions",
+      "title": "IP Restrictions",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-ip-restrictions"
     },
     {
@@ -37163,37 +37475,37 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-negative-caching",
-      "title": "Negative caching",
+      "title": "Negative Caching",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-negative-caching"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-ocsp-stapling-1",
-      "title": "OCSP stapling",
+      "title": "OCSP Stapling",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-ocsp-stapling-1"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-origin-configurations",
-      "title": "Origins",
+      "title": "Standard Origins",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-origin-configurations"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-origin-path-rewrite_1",
-      "title": "Origin URL rewrite",
+      "title": "Origin URL Rewrite",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-origin-path-rewrite_1"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-origin-request-headers",
-      "title": "Origin request headers",
+      "title": "Origin Request Headers",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-origin-request-headers"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-origin-restrictions",
-      "title": "Origin restrictions",
+      "title": "Origin Restrictions",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-origin-restrictions"
     },
     {
@@ -37265,7 +37577,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-protocol-redirect_1",
-      "title": "Protocol redirect",
+      "title": "Protocol Redirect",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-protocol-redirect_1"
     },
     {
@@ -37277,7 +37589,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-query-parameters_1",
-      "title": "Origin request parameters",
+      "title": "Origin Request Parameters",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-query-parameters_1"
     },
     {
@@ -37289,19 +37601,19 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-range-get",
-      "title": "Origin Range GET",
+      "title": "Range Origin Fetch",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-range-get"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-redirect-follow",
-      "title": "Redirect follow",
+      "title": "Redirect Follow",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-redirect-follow"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-referer-restrictions",
-      "title": "Referer restrictions",
+      "title": "Referer Restrictions",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-referer-restrictions"
     },
     {
@@ -37319,13 +37631,13 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-remote-authentication_1",
-      "title": "Remote authentication",
+      "title": "Remote Authentication",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-remote-authentication_1"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-request-time-out",
-      "title": "Request time-out",
+      "title": "Origin Fetch Timeouts",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-request-time-out"
     },
     {
@@ -37409,7 +37721,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-ua-restrictions",
-      "title": "UA restrictions",
+      "title": "UA Restrictions",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-ua-restrictions"
     },
     {
@@ -37433,13 +37745,13 @@
     {
       "product": "byteplus-cdn",
       "id": "docs-url-redirect",
-      "title": "URL redirect",
+      "title": "URL Redirect",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-url-redirect"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs-video-seeking",
-      "title": "Video seeking",
+      "title": "Video Seeking",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-video-seeking"
     },
     {
@@ -37805,7 +38117,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs_cn-allowed-tls-versions-cn",
-      "title": "TLS 版本",
+      "title": "TLS 版本设置",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs_cn-allowed-tls-versions-cn"
     },
     {
@@ -37853,7 +38165,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs_cn-caching-rules-cn",
-      "title": "节点缓存规则",
+      "title": "缓存规则",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs_cn-caching-rules-cn"
     },
     {
@@ -38039,7 +38351,7 @@
     {
       "product": "byteplus-cdn",
       "id": "docs_cn-http-2-cn",
-      "title": "HTTP/2",
+      "title": "HTTP/2 设置",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs_cn-http-2-cn"
     },
     {
@@ -38105,13 +38417,13 @@
     {
       "product": "byteplus-cdn",
       "id": "docs_cn-origin-configurations-cn",
-      "title": "源站配置",
+      "title": "源站清单",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs_cn-origin-configurations-cn"
     },
     {
       "product": "byteplus-cdn",
       "id": "docs_cn-origin-path-rewrite_1-cn",
-      "title": "回源路径改写",
+      "title": "回源 URL 改写",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs_cn-origin-path-rewrite_1-cn"
     },
     {
@@ -40229,7 +40541,7 @@
     {
       "product": "byteplus-cdn",
       "id": "origin-cert-verification_en-us",
-      "title": "Origin Certificate Verification",
+      "title": "Origin Certificate Validation",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/origin-cert-verification_en-us"
     },
     {
@@ -40325,7 +40637,7 @@
     {
       "product": "byteplus-cdn",
       "id": "origin_ip_preference_en",
-      "title": "Origin IP prioritization",
+      "title": "IPv6 Origin Fetch",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/origin_ip_preference_en"
     },
     {
@@ -40343,7 +40655,7 @@
     {
       "product": "byteplus-cdn",
       "id": "origin_retry-en",
-      "title": "Origin retry",
+      "title": "Origin Retry",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/origin_retry-en"
     },
     {
@@ -40529,7 +40841,7 @@
     {
       "product": "byteplus-cdn",
       "id": "qJ-Dp4",
-      "title": "File minification",
+      "title": "File Minification",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/qJ-Dp4"
     },
     {
@@ -41603,13 +41915,13 @@
     {
       "product": "byteplus-cdn",
       "id": "sse-zh-cn",
-      "title": "Server-sent Events (SSE)",
+      "title": "Server-Sent Events (SSE)",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/sse-zh-cn"
     },
     {
       "product": "byteplus-cdn",
       "id": "sse_en-us",
-      "title": "Server-sent Events (SSE)",
+      "title": "Server-Sent Events (SSE)",
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/sse_en-us"
     },
     {
@@ -42317,7 +42629,7 @@
     {
       "product": "byteplus-certificate-center",
       "id": "reference-uploadcertificate",
-      "title": "UploadCertificate - Upload a certificate",
+      "title": "ImportCertificate - Uploading a certificate",
       "url": "https://docs.byteplus.com/en/docs/byteplus-certificate-center/reference-uploadcertificate"
     },
     {
@@ -45526,9 +45838,21 @@
     },
     {
       "product": "byteplus-media-live",
+      "id": "CreateSpeechTask",
+      "title": "CreateSpeechTask",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/CreateSpeechTask"
+    },
+    {
+      "product": "byteplus-media-live",
       "id": "CreateTranscodePresetBatch-2023",
       "title": "CreateTranscodePresetBatch",
       "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/CreateTranscodePresetBatch-2023"
+    },
+    {
+      "product": "byteplus-media-live",
+      "id": "DeleteSpeechTask",
+      "title": "DeleteSpeechTask",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/DeleteSpeechTask"
     },
     {
       "product": "byteplus-media-live",
@@ -45544,6 +45868,18 @@
     },
     {
       "product": "byteplus-media-live",
+      "id": "GetSpeechConfig",
+      "title": "GetSpeechConfig",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/GetSpeechConfig"
+    },
+    {
+      "product": "byteplus-media-live",
+      "id": "GetSpeechTask",
+      "title": "GetSpeechTask",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/GetSpeechTask"
+    },
+    {
+      "product": "byteplus-media-live",
       "id": "PushWithSRT",
       "title": "Push streaming with SRT protocol",
       "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/PushWithSRT"
@@ -45553,6 +45889,24 @@
       "id": "RTM-Streaming-Integration",
       "title": "Pulling RTM streams",
       "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/RTM-Streaming-Integration"
+    },
+    {
+      "product": "byteplus-media-live",
+      "id": "RestartSpeechTask",
+      "title": "RestartSpeechTask",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/RestartSpeechTask"
+    },
+    {
+      "product": "byteplus-media-live",
+      "id": "SearchSpeechTask",
+      "title": "SearchSpeechTask",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/SearchSpeechTask"
+    },
+    {
+      "product": "byteplus-media-live",
+      "id": "UpdateSpeechTask",
+      "title": "UpdateSpeechTask",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-media-live/UpdateSpeechTask"
     },
     {
       "product": "byteplus-media-live",
@@ -47869,6 +48223,12 @@
       "id": "Viewing_deduction_details",
       "title": "Viewing deduction details",
       "url": "https://docs.byteplus.com/en/docs/byteplus-platform/Viewing_deduction_details"
+    },
+    {
+      "product": "byteplus-platform",
+      "id": "account-linking",
+      "title": "Account linking",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-platform/account-linking"
     },
     {
       "product": "byteplus-platform",
@@ -53614,6 +53974,12 @@
     },
     {
       "product": "byteplus-vod",
+      "id": "reference-deleteframeextractions",
+      "title": "DeleteFrameExtractions",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-vod/reference-deleteframeextractions"
+    },
+    {
+      "product": "byteplus-vod",
       "id": "reference-deletemedia",
       "title": "DeleteMedia",
       "url": "https://docs.byteplus.com/en/docs/byteplus-vod/reference-deletemedia"
@@ -55871,7 +56237,7 @@
     {
       "product": "clb",
       "id": "Access-control-list-faq",
-      "title": "ACL",
+      "title": "ACL FAQs",
       "url": "https://docs.byteplus.com/en/docs/clb/Access-control-list-faq"
     },
     {
@@ -56081,7 +56447,7 @@
     {
       "product": "clb",
       "id": "CLB-Monitoring-Metrics-Upgrade-Notice",
-      "title": "Classic Load Balancer  Monitoring Metrics Upgrade Notice",
+      "title": "Classic Load Balancer (CLB) Monitoring Metrics Upgrade Notice",
       "url": "https://docs.byteplus.com/en/docs/clb/CLB-Monitoring-Metrics-Upgrade-Notice"
     },
     {
@@ -56243,19 +56609,19 @@
     {
       "product": "clb",
       "id": "Configuring-a-Layer-4-listener-to-obtain-the-client-source-IP-address",
-      "title": "Obtaining the client source IP address for a Layer-4 listener",
+      "title": "Layer 4 listener obtains client source IP",
       "url": "https://docs.byteplus.com/en/docs/clb/Configuring-a-Layer-4-listener-to-obtain-the-client-source-IP-address"
     },
     {
       "product": "clb",
       "id": "Configuring-a-Layer-7-listener-to-obtain-the-client-source-IP-address",
-      "title": "Obtaining the client source IP address for a Layer-7 listener",
+      "title": "Getting the client source IP for layer-7 listener",
       "url": "https://docs.byteplus.com/en/docs/clb/Configuring-a-Layer-7-listener-to-obtain-the-client-source-IP-address"
     },
     {
       "product": "clb",
       "id": "Configuring-a-forwarding-rule-01",
-      "title": "Forwarding rules",
+      "title": "Forwarding rule description",
       "url": "https://docs.byteplus.com/en/docs/clb/Configuring-a-forwarding-rule-01"
     },
     {
@@ -56951,7 +57317,7 @@
     {
       "product": "clb",
       "id": "Forwarding-rule-Overview",
-      "title": "Overview of forwarding rules",
+      "title": "Forwarding rule overview",
       "url": "https://docs.byteplus.com/en/docs/clb/Forwarding-rule-Overview"
     },
     {
@@ -57119,7 +57485,7 @@
     {
       "product": "clb",
       "id": "Listener-faq",
-      "title": "Listeners",
+      "title": "Listener FAQs",
       "url": "https://docs.byteplus.com/en/docs/clb/Listener-faq"
     },
     {
@@ -57413,7 +57779,7 @@
     {
       "product": "clb",
       "id": "NLB-Adding-removing-backend-server",
-      "title": "Adding/removing backend server",
+      "title": "Adding or removing a backend server",
       "url": "https://docs.byteplus.com/en/docs/clb/NLB-Adding-removing-backend-server"
     },
     {
@@ -57467,7 +57833,7 @@
     {
       "product": "clb",
       "id": "NLB-Constraints",
-      "title": "Limit",
+      "title": "Limitations",
       "url": "https://docs.byteplus.com/en/docs/clb/NLB-Constraints"
     },
     {
@@ -57497,7 +57863,7 @@
     {
       "product": "clb",
       "id": "NLB-Cross-VPC-ECS-instances-as-backend-servers-TR",
-      "title": "Cross-VPC ECS instances as backend servers (TR)",
+      "title": "ECS instances across VPCs serve as backend servers (Transit Router)",
       "url": "https://docs.byteplus.com/en/docs/clb/NLB-Cross-VPC-ECS-instances-as-backend-servers-TR"
     },
     {
@@ -57515,7 +57881,7 @@
     {
       "product": "clb",
       "id": "NLB-IAM-Policy-Type",
-      "title": "NLB IAM Policy Type",
+      "title": "NLB IAM policy types",
       "url": "https://docs.byteplus.com/en/docs/clb/NLB-IAM-Policy-Type"
     },
     {
@@ -59962,6 +60328,18 @@
     },
     {
       "product": "cloudsearch",
+      "id": "Kibana_common_operations_guide",
+      "title": "Kibana common operations guide",
+      "url": "https://docs.byteplus.com/en/docs/cloudsearch/Kibana_common_operations_guide"
+    },
+    {
+      "product": "cloudsearch",
+      "id": "Kibana_common_operations_guide_2",
+      "title": "Kibana common operations guide",
+      "url": "https://docs.byteplus.com/en/docs/cloudsearch/Kibana_common_operations_guide_2"
+    },
+    {
+      "product": "cloudsearch",
       "id": "LC_Scenario_development",
       "title": "Scenario development",
       "url": "https://docs.byteplus.com/en/docs/cloudsearch/LC_Scenario_development"
@@ -61151,7 +61529,7 @@
     {
       "product": "contextsearch",
       "id": "Basic_configuration",
-      "title": "Basic configuration",
+      "title": "Initialize a personalized search scenario",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Basic_configuration"
     },
     {
@@ -61159,6 +61537,12 @@
       "id": "Call_inference_service",
       "title": "Call inference service",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Call_inference_service"
+    },
+    {
+      "product": "contextsearch",
+      "id": "Configure_an_Agentic_Search_scenario",
+      "title": "Configure an Agentic Search scenario",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/Configure_an_Agentic_Search_scenario"
     },
     {
       "product": "contextsearch",
@@ -61265,7 +61649,7 @@
     {
       "product": "contextsearch",
       "id": "Initialize_an_Agentic_Search_scenario",
-      "title": "Agentic Search",
+      "title": "Initialize an Agentic Search scenario",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Initialize_an_Agentic_Search_scenario"
     },
     {
@@ -61288,9 +61672,21 @@
     },
     {
       "product": "contextsearch",
+      "id": "Personalization_Search",
+      "title": "Personalization search",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/Personalization_Search"
+    },
+    {
+      "product": "contextsearch",
       "id": "Productbilling",
       "title": "Product billing",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Productbilling"
+    },
+    {
+      "product": "contextsearch",
+      "id": "Query_logs",
+      "title": "Query logs",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/Query_logs"
     },
     {
       "product": "contextsearch",
@@ -61363,6 +61759,30 @@
       "id": "View_an_inference_service",
       "title": "View an inference service",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/View_an_inference_service"
+    },
+    {
+      "product": "contextsearch",
+      "id": "View_configuration_information",
+      "title": "View configuration information",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/View_configuration_information"
+    },
+    {
+      "product": "contextsearch",
+      "id": "View_configuration_information_personlized_search",
+      "title": "View configuration information",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/View_configuration_information_personlized_search"
+    },
+    {
+      "product": "contextsearch",
+      "id": "View_monitoring",
+      "title": "View monitoring",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/View_monitoring"
+    },
+    {
+      "product": "contextsearch",
+      "id": "View_monitoring_personalized_search",
+      "title": "View monitoring",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/View_monitoring_personalized_search"
     },
     {
       "product": "contextsearch",
@@ -78261,6 +78681,84 @@
       "url": "https://docs.byteplus.com/en/docs/kms/What_is_Key_Management_Service"
     },
     {
+      "product": "mkinsights",
+      "id": "AboutMarket",
+      "title": "About Market Insights Agent",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/AboutMarket"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Create",
+      "title": "Create monitoring task",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Create"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Custom",
+      "title": "Custom report",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Custom"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Manage",
+      "title": "Manage monitoring tasks",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Manage"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Market",
+      "title": "Market communication analysis report",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Market"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Optimize",
+      "title": "Optimize monitoring tasks",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Optimize"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Order",
+      "title": "Order full version",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Order"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Pricingguide",
+      "title": "Pricing guide",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Pricingguide"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Reputation",
+      "title": "Reputation analysis report",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Reputation"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Servicelevel",
+      "title": "Service level agreement",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Servicelevel"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Serviceterms",
+      "title": "Service terms",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Serviceterms"
+    },
+    {
+      "product": "mkinsights",
+      "id": "Start",
+      "title": "Start trial",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/Start"
+    },
+    {
+      "product": "mkinsights",
+      "id": "insightAPI",
+      "title": "AI insight data subscription API",
+      "url": "https://docs.byteplus.com/en/docs/mkinsights/insightAPI"
+    },
+    {
       "product": "mlp",
       "id": "72394",
       "title": "User Documentation",
@@ -83950,6 +84448,12 @@
     },
     {
       "product": "redis",
+      "id": "ApplyParameterGroup",
+      "title": "ApplyParameterGroup",
+      "url": "https://docs.byteplus.com/en/docs/redis/ApplyParameterGroup"
+    },
+    {
+      "product": "redis",
       "id": "Bitmap",
       "title": "Bitmap",
       "url": "https://docs.byteplus.com/en/docs/redis/Bitmap"
@@ -83974,6 +84478,12 @@
     },
     {
       "product": "redis",
+      "id": "DescribeClientSessionSnapshot",
+      "title": "DescribeClientSessionSnapshot",
+      "url": "https://docs.byteplus.com/en/docs/redis/DescribeClientSessionSnapshot"
+    },
+    {
+      "product": "redis",
       "id": "DescribeDBInstanceSlots",
       "title": "DescribeDBInstanceSlots",
       "url": "https://docs.byteplus.com/en/docs/redis/DescribeDBInstanceSlots"
@@ -83983,6 +84493,12 @@
       "id": "DescribeFatLogs",
       "title": "DescribeFatLogs",
       "url": "https://docs.byteplus.com/en/docs/redis/DescribeFatLogs"
+    },
+    {
+      "product": "redis",
+      "id": "DescribeTasks",
+      "title": "DescribeTasks",
+      "url": "https://docs.byteplus.com/en/docs/redis/DescribeTasks"
     },
     {
       "product": "redis",
@@ -84079,6 +84595,12 @@
       "id": "Switching_Memcached_to_the_Cache_for_Redis",
       "title": "Switching Memcached to Cache for Redis",
       "url": "https://docs.byteplus.com/en/docs/redis/Switching_Memcached_to_the_Cache_for_Redis"
+    },
+    {
+      "product": "redis",
+      "id": "SyncAllowList",
+      "title": "SyncAllowList",
+      "url": "https://docs.byteplus.com/en/docs/redis/SyncAllowList"
     },
     {
       "product": "redis",
@@ -87100,8 +87622,14 @@
     },
     {
       "product": "sealsuite",
+      "id": "download-install-and-activate-the-client",
+      "title": "Download, Install, and Activate the Client",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/download-install-and-activate-the-client"
+    },
+    {
+      "product": "sealsuite",
       "id": "downloding-the-sealsuite-client",
-      "title": "Downloding the SealSuite client",
+      "title": "Downloading the SealSuite client",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/downloding-the-sealsuite-client"
     },
     {
@@ -87109,6 +87637,12 @@
       "id": "edr-log-investigation-and-analysis",
       "title": "EDR Log Investigation and Analysis",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/edr-log-investigation-and-analysis"
+    },
+    {
+      "product": "sealsuite",
+      "id": "endpoint-security-and-ai-protection",
+      "title": "Endpoint Security and AI Protection",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/endpoint-security-and-ai-protection"
     },
     {
       "product": "sealsuite",
@@ -87127,6 +87661,12 @@
       "id": "internal-address-configuration",
       "title": "Internal address configuration",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/internal-address-configuration"
+    },
+    {
+      "product": "sealsuite",
+      "id": "log-in-to-the-client",
+      "title": "Log in to the Client",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/log-in-to-the-client"
     },
     {
       "product": "sealsuite",
@@ -87286,9 +87826,21 @@
     },
     {
       "product": "sealsuite",
+      "id": "network-connection-and-management",
+      "title": "Network Connection and Management",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/network-connection-and-management"
+    },
+    {
+      "product": "sealsuite",
       "id": "network-zone-management",
       "title": "Network zone management",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/network-zone-management"
+    },
+    {
+      "product": "sealsuite",
+      "id": "operation-guide",
+      "title": "Operation Guide",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/operation-guide"
     },
     {
       "product": "sealsuite",
@@ -95464,6 +96016,12 @@
     },
     {
       "product": "tos",
+      "id": "Configuring_burst_bandwidth",
+      "title": "Configuring burst bandwidth",
+      "url": "https://docs.byteplus.com/en/docs/tos/Configuring_burst_bandwidth"
+    },
+    {
+      "product": "tos",
       "id": "Console-function-list-hierarchical-buckets",
       "title": "Supported console features (HNS buckets)",
       "url": "https://docs.byteplus.com/en/docs/tos/Console-function-list-hierarchical-buckets"
@@ -97811,7 +98369,7 @@
     {
       "product": "tos",
       "id": "Manage-bucket-renaming-objects-go-sdk",
-      "title": "Managing Renamed Objects in a Bucket (Go SDK)",
+      "title": "Managing Object Renaming (Go SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Manage-bucket-renaming-objects-go-sdk"
     },
     {
@@ -97829,7 +98387,7 @@
     {
       "product": "tos",
       "id": "Manage-bucket-storage-types-java-sdk",
-      "title": "Managing Bucket Storage Classes (Java SDK)",
+      "title": "Managing Bucket Storage Types (Java SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Manage-bucket-storage-types-java-sdk"
     },
     {
@@ -97979,19 +98537,19 @@
     {
       "product": "tos",
       "id": "Manage-image-return-to-source-c-sdk",
-      "title": "Managing Mirror Origin Retrieval (C++ SDK)",
+      "title": "Managing Mirroring Rules (C++ SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Manage-image-return-to-source-c-sdk"
     },
     {
       "product": "tos",
       "id": "Manage-image-return-to-source-go-sdk",
-      "title": "Managing Mirror Origin Retrieval (Go SDK)",
+      "title": "Managing Mirroring Rules (Go SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Manage-image-return-to-source-go-sdk"
     },
     {
       "product": "tos",
       "id": "Manage-image-return-to-source-java-sdk",
-      "title": "Managing Mirror Origin Fetch (Java SDK)",
+      "title": "Managing Mirroring Rules (Java SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Manage-image-return-to-source-java-sdk"
     },
     {
@@ -98003,7 +98561,7 @@
     {
       "product": "tos",
       "id": "Manage-image-return-to-source-python-sdk",
-      "title": "Manage mirroring back to the source (Python SDK)",
+      "title": "Manage mirroring rules (Python SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Manage-image-return-to-source-python-sdk"
     },
     {
@@ -98033,7 +98591,7 @@
     {
       "product": "tos",
       "id": "Manage-object-labels-net-sdk",
-      "title": "Managed Object Tags (.NET SDK)",
+      "title": "Manage Object Tags (.NET SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Manage-object-labels-net-sdk"
     },
     {
@@ -98483,7 +99041,7 @@
     {
       "product": "tos",
       "id": "Normal-download-python-sdk",
-      "title": "Ordinary download (Python SDK)",
+      "title": "Standard Download (Python SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Normal-download-python-sdk"
     },
     {
@@ -98579,7 +99137,7 @@
     {
       "product": "tos",
       "id": "Normal-upload-python-sdk",
-      "title": "Ordinary upload (Python SDK)",
+      "title": "Standard upload (Python SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Normal-upload-python-sdk"
     },
     {
@@ -98675,7 +99233,7 @@
     {
       "product": "tos",
       "id": "Overview-of-copy-objects-go-sdk",
-      "title": "Overview of Object Copying (Go SDK)",
+      "title": "Overview of Copying Objects (Go SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Overview-of-copy-objects-go-sdk"
     },
     {
@@ -98687,13 +99245,13 @@
     {
       "product": "tos",
       "id": "Overview-of-copy-objects-node-js-sdk",
-      "title": "Overview of Object Copying (Node.js SDK)",
+      "title": "Overview of Copying Objects (Node.js SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Overview-of-copy-objects-node-js-sdk"
     },
     {
       "product": "tos",
       "id": "Overview-of-copy-objects-python-sdk",
-      "title": "Object copy overview (Python SDK)",
+      "title": "Overview of copying objects (Python SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Overview-of-copy-objects-python-sdk"
     },
     {
@@ -98933,13 +99491,13 @@
     {
       "product": "tos",
       "id": "Presignature-overview-java-sdk",
-      "title": "Presigned URL Overview (Java SDK)",
+      "title": "Pre-signing Overview (Java SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Presignature-overview-java-sdk"
     },
     {
       "product": "tos",
       "id": "Presignature-overview-node-js-sdk",
-      "title": "Presigned URL Overview (Node.js SDK)",
+      "title": "Pre-signing Overview (Node.js SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Presignature-overview-node-js-sdk"
     },
     {
@@ -98969,7 +99527,7 @@
     {
       "product": "tos",
       "id": "Profile-description",
-      "title": "Profile Description",
+      "title": "Configuration file",
       "url": "https://docs.byteplus.com/en/docs/tos/Profile-description"
     },
     {
@@ -99497,7 +100055,7 @@
     {
       "product": "tos",
       "id": "Same-region-replication-overview",
-      "title": "Same Region Replication  Overview",
+      "title": "Overview",
       "url": "https://docs.byteplus.com/en/docs/tos/Same-region-replication-overview"
     },
     {
@@ -100079,13 +100637,13 @@
     {
       "product": "tos",
       "id": "Upload-object-overview-browser-js-sdk",
-      "title": "Overview of Object Upload (Browser.js SDK)",
+      "title": "Overview of Uploading Objects (Browser.js SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Upload-object-overview-browser-js-sdk"
     },
     {
       "product": "tos",
       "id": "Upload-object-overview-c-sdk",
-      "title": "Overview of Object Upload (C++ SDK)",
+      "title": "Overview of Uploading Objects (C++ SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/Upload-object-overview-c-sdk"
     },
     {
@@ -100697,7 +101255,7 @@
     {
       "product": "tos",
       "id": "docs-managing-file-labels",
-      "title": "Managing File Tags",
+      "title": "Managing file tags",
       "url": "https://docs.byteplus.com/en/docs/tos/docs-managing-file-labels"
     },
     {
@@ -101237,7 +101795,7 @@
     {
       "product": "tos",
       "id": "reference-presigned-url-with-the-x-tos-policy-query-parameter",
-      "title": "Presigned URL with the X-Tos-Policy Query Parameter",
+      "title": "Pre-signed URL with the X-Tos-Policy Query Parameter",
       "url": "https://docs.byteplus.com/en/docs/tos/reference-presigned-url-with-the-x-tos-policy-query-parameter"
     },
     {
@@ -102287,7 +102845,7 @@
     {
       "product": "transitrouter",
       "id": "Forwarding-Policy",
-      "title": "Forwarding Policy",
+      "title": "Forwarding policy",
       "url": "https://docs.byteplus.com/en/docs/transitrouter/Forwarding-Policy"
     },
     {
@@ -102719,7 +103277,7 @@
     {
       "product": "transitrouter",
       "id": "Routing-Policy",
-      "title": "Routing Policy",
+      "title": "Route policy",
       "url": "https://docs.byteplus.com/en/docs/transitrouter/Routing-Policy"
     },
     {
@@ -105958,6 +106516,12 @@
     },
     {
       "product": "viking-aisearch",
+      "id": "Add_new_field_to_existing_dataset",
+      "title": "Add new field to existing dataset",
+      "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Add_new_field_to_existing_dataset"
+    },
+    {
+      "product": "viking-aisearch",
       "id": "BatchImport_-_Batch_data_import",
       "title": "BatchImport - Batch data import",
       "url": "https://docs.byteplus.com/en/docs/viking-aisearch/BatchImport_-_Batch_data_import"
@@ -106087,6 +106651,12 @@
       "id": "Create_Application",
       "title": "Create Application",
       "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Create_Application"
+    },
+    {
+      "product": "viking-aisearch",
+      "id": "Create_Item_Dataset_-_Multimodal_Dataset",
+      "title": "Create Item Dataset - Multimodal Dataset",
+      "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Create_Item_Dataset_-_Multimodal_Dataset"
     },
     {
       "product": "viking-aisearch",
@@ -106318,6 +106888,12 @@
     },
     {
       "product": "viking-aisearch",
+      "id": "Multimodal_Dataset",
+      "title": "Multimodal Dataset",
+      "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Multimodal_Dataset"
+    },
+    {
+      "product": "viking-aisearch",
       "id": "Multimodal_search_scenarios",
       "title": "Common Search Issues",
       "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Multimodal_search_scenarios"
@@ -106379,7 +106955,7 @@
     {
       "product": "viking-aisearch",
       "id": "Recommended_Fallback_Strategy",
-      "title": "Configure Fallback Strategy",
+      "title": "Popular Items Recall (Cold start & Fallback)",
       "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Recommended_Fallback_Strategy"
     },
     {
@@ -107027,7 +107603,7 @@
     {
       "product": "vke",
       "id": "Configuring-HTTPS-for-a-CLB-Ingress",
-      "title": "Configure the HTTPS protocol for CLB Ingress",
+      "title": "Configuring HTTPS certificates for CLB Ingress",
       "url": "https://docs.byteplus.com/en/docs/vke/Configuring-HTTPS-for-a-CLB-Ingress"
     },
     {
@@ -107755,6 +108331,12 @@
       "id": "Deploying_ComfyUI",
       "title": "Deploying ComfyUI",
       "url": "https://docs.byteplus.com/en/docs/vke/Deploying_ComfyUI"
+    },
+    {
+      "product": "vke",
+      "id": "Deploying_Kimi-K3_model_quickly_via_LLM_general_template",
+      "title": "Deploying Kimi-K3 model quickly via LLM general template",
+      "url": "https://docs.byteplus.com/en/docs/vke/Deploying_Kimi-K3_model_quickly_via_LLM_general_template"
     },
     {
       "product": "vke",
@@ -108581,7 +109163,7 @@
     {
       "product": "vke",
       "id": "Kubernetes-version-support-policy",
-      "title": "Kubernetes version support policy",
+      "title": "Kubernetes version overview and support policy",
       "url": "https://docs.byteplus.com/en/docs/vke/Kubernetes-version-support-policy"
     },
     {
@@ -108589,6 +109171,12 @@
       "id": "Kubernetes_Version_1-24_cluster_EOM_announcement",
       "title": "[Cluster version] Kubernetes Version 1.24 cluster EOL announcement",
       "url": "https://docs.byteplus.com/en/docs/vke/Kubernetes_Version_1-24_cluster_EOM_announcement"
+    },
+    {
+      "product": "vke",
+      "id": "LLM_FAQ",
+      "title": "LLM FAQ",
+      "url": "https://docs.byteplus.com/en/docs/vke/LLM_FAQ"
     },
     {
       "product": "vke",
@@ -109324,6 +109912,12 @@
     },
     {
       "product": "vke",
+      "id": "Quickly-deploying-GLM-5-2-by-using-the-LLM-General-Template",
+      "title": "Quickly deploying GLM-5.2 by using the LLM General Template",
+      "url": "https://docs.byteplus.com/en/docs/vke/Quickly-deploying-GLM-5-2-by-using-the-LLM-General-Template"
+    },
+    {
+      "product": "vke",
       "id": "Quickly-deploying-the-MiniMax-M25-model",
       "title": "Quickly deploying the MiniMax-M2.5 model by using the LLM general-purpose template",
       "url": "https://docs.byteplus.com/en/docs/vke/Quickly-deploying-the-MiniMax-M25-model"
@@ -109331,7 +109925,7 @@
     {
       "product": "vke",
       "id": "Quickly-deploying-the-Qwen3-5-model",
-      "title": "Quickly deploying the Qwen3.5 model by using the LLM general-purpose template",
+      "title": "Quickly deploying Qwen3.5 by using the LLM General Template",
       "url": "https://docs.byteplus.com/en/docs/vke/Quickly-deploying-the-Qwen3-5-model"
     },
     {
@@ -109355,7 +109949,7 @@
     {
       "product": "vke",
       "id": "Quickly_deploying_DeepSeek-V4-Flash_using_the_LLM_General_Template",
-      "title": "Quickly deploying DeepSeek-V4-Flash by using the LLM General Template",
+      "title": "Quickly deploying DeepSeek-V4-Flash using the LLM General Template",
       "url": "https://docs.byteplus.com/en/docs/vke/Quickly_deploying_DeepSeek-V4-Flash_using_the_LLM_General_Template"
     },
     {
@@ -109363,6 +109957,12 @@
       "id": "Quickly_deploying_DeepSeek-V4-Pro_by_using_the_LLM_General_Template",
       "title": "Quickly deploying DeepSeek-V4-Pro by using the LLM General Template",
       "url": "https://docs.byteplus.com/en/docs/vke/Quickly_deploying_DeepSeek-V4-Pro_by_using_the_LLM_General_Template"
+    },
+    {
+      "product": "vke",
+      "id": "Quickly_deploying_MiniMax-M3_by_using_the_LLM_General_Template",
+      "title": "Quickly deploying MiniMax-M3 by using the LLM General Template",
+      "url": "https://docs.byteplus.com/en/docs/vke/Quickly_deploying_MiniMax-M3_by_using_the_LLM_General_Template"
     },
     {
       "product": "vke",
@@ -109391,25 +109991,25 @@
     {
       "product": "vke",
       "id": "Quickly_deploying_the_GLM-51_model_by_using_the_LLM_general-purpose_template",
-      "title": "Quickly deploying the GLM-5.1 model by using the LLM general-purpose template",
+      "title": "Quickly deploying GLM-5.1 by using the LLM General Template",
       "url": "https://docs.byteplus.com/en/docs/vke/Quickly_deploying_the_GLM-51_model_by_using_the_LLM_general-purpose_template"
     },
     {
       "product": "vke",
       "id": "Quickly_deploying_the_GLM-5_model_by_using_the_LLM_general-purpose_template",
-      "title": "Quickly deploying the GLM-5 model by using the LLM general-purpose template",
+      "title": "Quickly deploying GLM-5 by using the LLM General Template",
       "url": "https://docs.byteplus.com/en/docs/vke/Quickly_deploying_the_GLM-5_model_by_using_the_LLM_general-purpose_template"
     },
     {
       "product": "vke",
       "id": "Quickly_deploying_the_Kimi_K2-5_model_by_using_the_LLM_template",
-      "title": "Quickly deploying the Kimi K2.5 model by using the LLM general-purpose template",
+      "title": "Quickly deploying Kimi-K2.5 by using the LLM General Template",
       "url": "https://docs.byteplus.com/en/docs/vke/Quickly_deploying_the_Kimi_K2-5_model_by_using_the_LLM_template"
     },
     {
       "product": "vke",
       "id": "Quickly_deploying_the_Kimi_K26_model_by_using_the_LLM_general-purpose_template",
-      "title": "Quickly deploying the Kimi K2.6 model by using the LLM general-purpose template",
+      "title": "Quickly deploying Kimi-K2.6 by using the LLM General Template",
       "url": "https://docs.byteplus.com/en/docs/vke/Quickly_deploying_the_Kimi_K26_model_by_using_the_LLM_general-purpose_template"
     },
     {
@@ -109777,6 +110377,18 @@
       "id": "UpdateScalingPolicy",
       "title": "UpdateScalingPolicy",
       "url": "https://docs.byteplus.com/en/docs/vke/UpdateScalingPolicy"
+    },
+    {
+      "product": "vke",
+      "id": "Updating_HTTPS_certificates_for_CLB_Ingress",
+      "title": "Updating HTTPS certificates for CLB Ingress",
+      "url": "https://docs.byteplus.com/en/docs/vke/Updating_HTTPS_certificates_for_CLB_Ingress"
+    },
+    {
+      "product": "vke",
+      "id": "Updating_HTTPS_certificates_for_LoadBalancer_services",
+      "title": "Updating HTTPS certificates for LoadBalancer services",
+      "url": "https://docs.byteplus.com/en/docs/vke/Updating_HTTPS_certificates_for_LoadBalancer_services"
     },
     {
       "product": "vke",
@@ -111232,6 +111844,12 @@
     },
     {
       "product": "vmp",
+      "id": "Billing_updates_Billing_by_written_metric_volume_is_supported",
+      "title": "[Billing updates] Billing by written metric volume is supported for VMP",
+      "url": "https://docs.byteplus.com/en/docs/vmp/Billing_updates_Billing_by_written_metric_volume_is_supported"
+    },
+    {
+      "product": "vmp",
       "id": "Blackbox_Integration",
       "title": "Health inspection (blackbox) integration",
       "url": "https://docs.byteplus.com/en/docs/vmp/Blackbox_Integration"
@@ -111247,6 +111865,12 @@
       "id": "Change-history",
       "title": "API release notes",
       "url": "https://docs.byteplus.com/en/docs/vmp/Change-history"
+    },
+    {
+      "product": "vmp",
+      "id": "Changing_the_workspace_billing_type",
+      "title": "Changing the workspace billing type",
+      "url": "https://docs.byteplus.com/en/docs/vmp/Changing_the_workspace_billing_type"
     },
     {
       "product": "vmp",
@@ -113939,7 +114563,7 @@
     {
       "product": "vpc",
       "id": "Route-table-overview",
-      "title": "Route Table Overview",
+      "title": "Route table overview",
       "url": "https://docs.byteplus.com/en/docs/vpc/Route-table-overview"
     },
     {
