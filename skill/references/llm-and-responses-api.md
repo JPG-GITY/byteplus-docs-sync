@@ -162,6 +162,8 @@ Supported: `seed-2-0-pro-260328`, `seed-2-0-lite-260228`, `seed-2-0-mini-260215`
 
 Seed 2.0 models accept **images, video, PDF documents**; `seed-2-0-lite-260428` / `seed-2-0-mini-260428` additionally do **audio**. Same Responses/Chat endpoints; input via file path (Files API, ≤512 MB, recommended), Base64 (≤10 MB image / ≤50 MB audio; body ≤64 MB), or URL (≤10 MB image / ≤50 MB audio-video).
 
+<!-- TODO: verify — source https://docs.byteplus.com/en/docs/ModelArk/1958521 was cited as changed but returned no retrievable content in this update; section below is unchanged pending confirmation of what changed on that page. -->
+
 - **Files API storage lifecycle**: uploaded image/video/PDF files persist for **1–30 days, with a default of 7 days**; reference the returned `file_id` in the Responses API instead of re-uploading. Files API upload is recommended especially when files are large or reused across multiple requests. ([Multimodal understanding (Responses API)](https://docs.byteplus.com/en/docs/ModelArk/1958521))
 - **Responses API content types**: within a message's `content` array, images use `{"type": "input_image", "file_id": ...}`, video uses `{"type": "input_video", "file_id": ...}`, and PDFs/documents use `{"type": "input_file", "file_id": ...}` — each paired with an `{"type": "input_text", "text": ...}` item for the prompt. `file_id` can also be swapped for Base64 or URL per the format-specific tutorials.
 - **Document understanding mechanism**: PDF input is preprocessed by splitting the document into pages and converting each page into an image; each page-image is then fed to the model individually, so document understanding is effectively per-page image understanding under the hood.
