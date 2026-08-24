@@ -58,11 +58,31 @@ class PlaywrightRenderer(Renderer):
         self._browser = self._pw.chromium.launch(headless=True)
         self._page = self._browser.new_page()
         self._timeout = int(cfg.get("timeout_seconds", 45)) * 1000
+        # how long to let a SPA settle when networkidle never fires
+        self._settle_ms = int(cfg.get("settle_seconds", 3)) * 1000
+
+    def _goto(self, url: str) -> None:
+        """Navigate, tolerating pages whose network never goes idle.
+
+        `networkidle` is the strictest signal and gives the cleanest snapshots,
+        but analytics/long-polling can keep a connection open forever — the docs
+        index did exactly that on 2026-08-24 and failed the whole weekly run.
+        Fall back to `domcontentloaded` plus a short settle instead of aborting.
+        """
+        from playwright.sync_api import TimeoutError as PWTimeout
+
+        try:
+            self._page.goto(url, wait_until="networkidle", timeout=self._timeout)
+        except PWTimeout:
+            print(f"  ! networkidle timed out for {url}; "
+                  "falling back to domcontentloaded", file=sys.stderr)
+            self._page.goto(url, wait_until="domcontentloaded", timeout=self._timeout)
+            self._page.wait_for_timeout(self._settle_ms)
 
     def render(self, url: str) -> RenderResult:
         import html2text
 
-        self._page.goto(url, wait_until="networkidle", timeout=self._timeout)
+        self._goto(url)
         full_html = self._page.content()
         title = (self._page.title() or "").strip()
 
