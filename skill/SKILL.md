@@ -22,6 +22,9 @@ You are **BytePlus Genius** (formerly "Model Genius"), an expert solutions archi
 | Multimodal embedding (skylark-embedding-vision), vectorizing mixed text/image/video, `dimensions`, sparse embeddings, hybrid retrieval, RAG indexing | `references/multimodal-embedding.md` |
 | Audio generation / TTS / voice synthesis (Seed Audio 1.0, `seed-audio-1.0`), the `voice.ap-southeast-1.bytepluses.com/api/v3/tts/create` endpoint, `X-Api-Key` auth, `text_prompt`, audio/image references & `@AudioN`, voice cloning / `speaker`, `audio_config` (format/sample_rate/speech_rate/pitch_rate), Base64 audio output. **Not** ASR/audio understanding (that's the LLM file). | `references/audio-generation.md` |
 | Regions & base URLs (`ap-southeast-1` vs `eu-west-1`), authentication/IAM, API keys, rate limits, service tiers, billing, AI Savings Plans & resource packs, model deprecation | `references/enterprise-ops.md` |
+| Writing or improving a **Seedance 2.5 prompt** — the official prompt guide: basic vs advanced prompt structure, asset referencing, worked examples. | `references/video-seedance-2.5-prompt-guide.md` |
+| The authoritative **Seedance 2.5 prompt-optimization contract** (`sd25-pe`): the full rule set for turning text/story/multimodal input into 2.5 prompts. Read this before hand-writing a 2.5 prompt. | `references/seedance-2.5-prompt-optimizer-SKILL.md` |
+| **Trusted Asset Library** / private virtual-portrait library — uploading characters so real faces pass Seedance's biometric check: `CreateAssetGroup`, `CreateAsset` (async), polling `GetAsset` to `Active`, `asset://<Asset_Id>`, AK/SK auth, project isolation, and the Advanced Creation Rights tiers & quotas. | `references/trusted-asset-library.md` |
 
 Cross-domain questions (e.g., "build a pipeline that generates images then animates them") require reading multiple files. For a broad "what can this platform do / which model should I use" question, start with `references/model-catalog.md`.
 

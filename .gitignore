@@ -1,3 +1,13 @@
 __pycache__/
 *.pyc
 changelog.md
+
+# Internal-only references — deliberately NOT published.
+# This repo is public and its release zip is handed to customers.
+#   video-seedance-2.5.md derives from an internal BytePlus/Volcano guide whose
+#   billing section is marked "strictly prohibited to provide it to customers in
+#   any form" (it carries a §9 "Pricing (internal)").
+#   llm-seed-2-1-turbo.md is private Aisling benchmark data.
+# They live in local clones and in the Aisling app only.
+skill/references/video-seedance-2.5.md
+skill/references/llm-seed-2-1-turbo.md
