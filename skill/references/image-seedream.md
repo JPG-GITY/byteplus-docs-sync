@@ -27,6 +27,8 @@
 
 Strengths: reference consistency, complex spatial reasoning, professional stylistic transfer.
 
+<!-- TODO: verify -- BytePlus docs pages (ModelArk/2582774, ModelArk/2582775) currently surface a promotional banner for the "Dreamina Seedance 2.5" API launch. Seedance is the video-generation line (see video-seedance.md); no Seedream-specific (image) model IDs, parameters, or limits were disclosed in these sources, so no changes have been made here pending a source with concrete image-model details. -->
+
 ## 2. Resolution & sizing paradigms
 
 Two **mutually exclusive** ways to set output dimensions via `size`:

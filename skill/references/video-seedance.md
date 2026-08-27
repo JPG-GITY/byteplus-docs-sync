@@ -1,5 +1,7 @@
 # Dreamina Seedance 2.0 Video Generation & VideoPilot
 
+> **Note:** BytePlus has publicly announced that a newer **Dreamina Seedance 2.5** API is now live (promoted via `ai.byteplus.com/en/activity/seedance2-5`). At the time of this update, the linked ModelArk doc pages ([2222480](https://docs.byteplus.com/en/docs/ModelArk/2222480), [2291680](https://docs.byteplus.com/en/docs/ModelArk/2291680), [2607688](https://docs.byteplus.com/en/docs/ModelArk/2607688), [2607689](https://docs.byteplus.com/en/docs/ModelArk/2607689), [2608626](https://docs.byteplus.com/en/docs/ModelArk/2608626)) surface only this promotional banner — no model ID, parameter set, resolution/duration limits, or pricing for 2.5 were retrievable. Everything below therefore still describes **Seedance 2.0** (and 1.5 Pro where noted) and remains accurate; nothing here has been superseded by a confirmed 2.5 spec yet. <!-- TODO: verify — capture Seedance 2.5 model ID(s), resolution/duration/parameter support, and pricing once BytePlus publishes technical documentation (not just the purchase/marketing banner) -->
+
 ## Contents
 1. Models & specs
 2. Resolution, 4K & 10-bit encoding
@@ -34,6 +36,7 @@ Endpoint (AP Southeast only — video is **not** available in `eu-west-1`):
 - Mini reached API access on **June 22, 2026** (UTC+8); during the June 15–22 trial it was Playground-only with concurrency capped at 1.
 - Note on naming: billing/pricing/resource-pack docs use the `dreamina-`-prefixed IDs above; the console and Elements/Digital-Character library URLs sometimes use the un-prefixed form `seedance-2-0-260128`. Both refer to the same model. (Seedance 1.5 Pro is `seedance-1-5-pro-251215`.)
 - Prompt languages: all models support English; **Seedance 2.0 series additionally supports Japanese, Indonesian, Spanish, and Portuguese.** Recommended prompt length under ~1000 words.
+- BytePlus has announced a **Dreamina Seedance 2.5** API as "now live" (see note at top of file), but no confirmed model ID or spec has been published yet — treat 2.5 as forthcoming, not yet documented. <!-- TODO: verify -->
 
 ## 2. Resolution, 4K & 10-bit encoding
 
@@ -175,4 +178,4 @@ Per-video estimate, 5 s, 16:9, no video input: 480p $0.35 · 720p $0.76 · 1080p
 
 Token estimate = `(input_video_dur + output_video_dur) × W × H × fps / 1024`. When input includes video, 2.0/Fast enforce a resolution-/ratio-/duration-dependent **minimum token consumption**. Resource packs (prepaid, 90-day) deduct online-inference tokens; base 2.0 requires a minimum of 7× 1M-token packs. Actual cost = the `completion_tokens` returned after the call.
 
-<!-- TODO: verify — linked source pages (docs.byteplus.com/en/docs/ModelArk/2607688, /2607689, and /2608626) returned no retrievable content at time of this update; no changes applied pending confirmation of their contents. -->
+BytePlus is promoting a **Dreamina Seedance 2.5** token package (`ai

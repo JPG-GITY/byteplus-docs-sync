@@ -22,7 +22,7 @@ Two regions, and **you must match the base URL to the region** or the call fails
 | `eu-west-1` | `https://ark.eu-west.bytepluses.com/api/v3` |
 
 - **Every model in the Model list runs in `ap-southeast-1`.**
-- **`eu-west-1` is restricted**: only `seed-2-0` models and `seedream-5-0-lite` are available there. Everything else (video/Seedance, other image models, most legacy LLMs) is AP-Southeast-only — notably **all Seedance video generation is AP-Southeast-only**.
+- **`eu-west-1` is restricted**: only `seed-2-0` models and `seedream-5-0-lite` are available there. Everything else (video/Seedance, other image models, most legacy LLMs) is AP-Southeast-only — notably **all Seedance video generation is AP-Southeast-only**. <!-- TODO: verify whether the newly-launched Seedance 2.5 API follows this same AP-Southeast-only restriction; not confirmed in supplied docs -->
 - Coding Plan uses separate paths off the AP-Southeast host: `/api/coding` (Anthropic-protocol) and `/api/coding/v3` (OpenAI-compatible). See llm-and-responses-api.md.
 
 ## 2. Authentication & IAM
@@ -55,7 +55,7 @@ All published limits are **theoretical maxima, not guarantees** — real ceiling
 `service_tier` parameter:
 - **`default`**: standard online inference, queue-prioritized for minimal latency. Required for real-time user-facing apps.
 - **`flex`**: offline/batch inference during off-peak periods. Higher TTFT, but **50% discount**. Best for bulk asset generation, longitudinal analytics, overnight rendering.
-- **Caveat**: Seedance 2.0 mandates online inference — `flex` is NOT supported for it (widely used in text and legacy image/video models). Seedance 1.5 Pro and 1.0 Pro *do* support `flex` (TPD-quota'd).
+- **Caveat**: Seedance 2.0 mandates online inference — `flex` is NOT supported for it (widely used in text and legacy image/video models). Seedance 1.5 Pro and 1.0 Pro *do* support `flex` (TPD-quota'd). <!-- TODO: verify whether Seedance 2.5 (newly launched) supports flex or, like 2.0, mandates online inference; not stated in supplied docs -->
 
 ## 5. AI Savings Plans
 
@@ -63,6 +63,7 @@ All published limits are **theoretical maxima, not guarantees** — real ceiling
 - Cover broad categories: most LLMs (Dola-Seed-2.0, Skylark-pro) and multimedia models (Dola-Seedream-5.0-lite, ByteDance-Seedance-1.5-pro).
 - Unified management in Billing Center; rolling credits — up to **20% of unused monthly commitment rolls over** to the next billing period.
 - **Seedance 2.0 resource packs** are a separate, prepaid mechanism (90-day validity, per-model): base 2.0 requires a minimum of 7× 1M-token packs; Fast/Mini have their own minimums. Packs deduct online-inference tokens before pay-as-you-go kicks in.
+- **Seedance 2.5** ("Dreamina Seedance 2.5") API is now officially live, with its own dedicated token package for purchase (via the BytePlus AI activity portal). <!-- TODO: verify pack size/minimums, validity period, and whether it follows the same 90-day prepaid mechanism as Seedance 2.0 resource packs — not detailed in supplied docs --> (docs.byteplus.com/en/docs/ModelArk/1343907, /1544106, /2191806)
 
 ## 6. Billing cycle (near real-time vs hourly)
 
@@ -88,7 +89,7 @@ So: cache *hits* bill near-real-time, but cache *storage* and fine-tuning stay h
 
 ## 7. Grounded prices (embedding & Knowledge Base)
 
-These per-item prices ARE grounded (from the Billing docs). Core LLM chat, Seedream image, and Seedance 1.x/1.0 per-token prices were **not** in the supplied docs — leave those as "see Billing" until provided. Seedance 2.0 pricing lives in video-seedance.md; 3D pricing in 3d-generation.md.
+These per-item prices ARE grounded (from the Billing docs). Core LLM chat, Seedream image, and Seedance 1.x/1.0 per-token prices were **not** in the supplied docs — leave those as "see Billing" until provided. Seedance 2.0 pricing lives in video-seedance.md; 3D pricing in 3d-generation.md. Seedance 2.5 is now live with its own token package (see §5); its per-token pricing is not yet in the supplied docs — leave as "see Billing"/video-seedance.md until provided. <!-- TODO: verify Seedance 2.5 pricing location and rates -->
 
 **Skylark Embedding Vision (per input tokens):**
 - text → **$0.000125 / 1K tokens**
