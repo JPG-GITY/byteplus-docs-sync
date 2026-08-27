@@ -60,6 +60,10 @@ class PlaywrightRenderer(Renderer):
         self._timeout = int(cfg.get("timeout_seconds", 45)) * 1000
         # how long to let a SPA settle when networkidle never fires
         self._settle_ms = int(cfg.get("settle_seconds", 3)) * 1000
+        # networkidle is only the FIRST attempt and is given a short budget: on a
+        # page that never goes idle, waiting the full timeout before falling back
+        # roughly doubles a full-catalog crawl. Fail over quickly instead.
+        self._idle_timeout = int(cfg.get("networkidle_timeout_seconds", 12)) * 1000
 
     def _goto(self, url: str) -> None:
         """Navigate, tolerating pages whose network never goes idle.
@@ -72,7 +76,7 @@ class PlaywrightRenderer(Renderer):
         from playwright.sync_api import TimeoutError as PWTimeout
 
         try:
-            self._page.goto(url, wait_until="networkidle", timeout=self._timeout)
+            self._page.goto(url, wait_until="networkidle", timeout=self._idle_timeout)
         except PWTimeout:
             print(f"  ! networkidle timed out for {url}; "
                   "falling back to domcontentloaded", file=sys.stderr)
