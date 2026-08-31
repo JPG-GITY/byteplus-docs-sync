@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:06:23.803468+00:00",
+  "generated_at": "2026-08-31T12:46:51.187580+00:00",
   "base_url": "https://docs.byteplus.com/en/docs",
   "pages": {
     "ArkClaw/Feature_release_notes_for_administrators": {
@@ -9037,11 +9037,6 @@
       "title": "Canceling operation and maintenance events",
       "index_only": true
     },
-    "HBase/Enable_dictionary_compression": {
-      "url": "https://docs.byteplus.com/en/docs/HBase/Enable_dictionary_compression",
-      "title": "Enabling dictionary compression",
-      "index_only": true
-    },
     "HBase/API_overview": {
       "url": "https://docs.byteplus.com/en/docs/HBase/API_overview",
       "title": "API overview",
@@ -9907,16 +9902,6 @@
       "title": "View instance information",
       "index_only": true
     },
-    "Milvus_for_VectorDB/Modify_the_instance_configuration": {
-      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Modify_the_instance_configuration",
-      "title": "Modify the instance configuration",
-      "index_only": true
-    },
-    "Milvus_for_VectorDB/Modifiable_parameter_list": {
-      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Modifiable_parameter_list",
-      "title": "Modifiable parameter list",
-      "index_only": true
-    },
     "Milvus_for_VectorDB/Configure_delete_protection_for_an_instance": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Configure_delete_protection_for_an_instance",
       "title": "Configure delete protection for an instance",
@@ -9929,7 +9914,7 @@
     },
     "Milvus_for_VectorDB/Upgrade_kernel_version": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Upgrade_kernel_version",
-      "title": "Upgrade kernel version",
+      "title": "Upgrade instance kernel version",
       "index_only": true
     },
     "Milvus_for_VectorDB/Renew_a_subscription_instance": {
@@ -9940,6 +9925,11 @@
     "Milvus_for_VectorDB/Reset_the_instance_password": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Reset_the_instance_password",
       "title": "Reset the instance password",
+      "index_only": true
+    },
+    "Milvus_for_VectorDB/Suspend_pay-as-you-go_instance": {
+      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Suspend_pay-as-you-go_instance",
+      "title": "Suspend pay-as-you-go instance",
       "index_only": true
     },
     "Milvus_for_VectorDB/Delete_an_instance": {
@@ -9962,6 +9952,16 @@
       "title": "Configure instance public network access",
       "index_only": true
     },
+    "Milvus_for_VectorDB/Modify_the_instance_configuration": {
+      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Modify_the_instance_configuration",
+      "title": "Modify the instance configuration",
+      "index_only": true
+    },
+    "Milvus_for_VectorDB/Modifiable_parameter_list": {
+      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Modifiable_parameter_list",
+      "title": "Modifiable parameter list",
+      "index_only": true
+    },
     "Milvus_for_VectorDB/Configure_auto_scaling": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Configure_auto_scaling",
       "title": "Configure auto scaling",
@@ -9970,6 +9970,26 @@
     "Milvus_for_VectorDB/Configure_scheduled_scaling": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Configure_scheduled_scaling",
       "title": "Configure scheduled scaling",
+      "index_only": true
+    },
+    "Milvus_for_VectorDB/Query_logs": {
+      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Query_logs",
+      "title": "View running logs",
+      "index_only": true
+    },
+    "Milvus_for_VectorDB/View_access_logs": {
+      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/View_access_logs",
+      "title": "View access logs",
+      "index_only": true
+    },
+    "Milvus_for_VectorDB/View_slow_logs": {
+      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/View_slow_logs",
+      "title": "View slow logs",
+      "index_only": true
+    },
+    "Milvus_for_VectorDB/Control_panel_audit": {
+      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Control_panel_audit",
+      "title": "Control panel audit",
       "index_only": true
     },
     "Milvus_for_VectorDB/Authorize_to_use_an_instance": {
@@ -10034,12 +10054,12 @@
     },
     "Milvus_for_VectorDB/Clone_a_collection_schema": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Clone_a_collection_schema",
-      "title": "Clone a Collection schema",
+      "title": "Clone a collection schema",
       "index_only": true
     },
     "Milvus_for_VectorDB/Clone_a_Collection_schema_and_data": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Clone_a_Collection_schema_and_data",
-      "title": "Clone a Collection schema and data",
+      "title": "Clone Collection schemas and data",
       "index_only": true
     },
     "Milvus_for_VectorDB/Delete_a_collection": {
@@ -10132,6 +10152,11 @@
       "title": "View task progress",
       "index_only": true
     },
+    "Milvus_for_VectorDB/Create_integration": {
+      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Create_integration",
+      "title": "Create integration",
+      "index_only": true
+    },
     "Milvus_for_VectorDB/Monitoring_and_alarm_metrics": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Monitoring_and_alarm_metrics",
       "title": "Monitoring and alarm metrics",
@@ -10160,21 +10185,6 @@
     "Milvus_for_VectorDB/Manage_alarm_contacts": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Manage_alarm_contacts",
       "title": "Manage alarm contacts",
-      "index_only": true
-    },
-    "Milvus_for_VectorDB/Query_logs": {
-      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Query_logs",
-      "title": "View running logs",
-      "index_only": true
-    },
-    "Milvus_for_VectorDB/View_access_logs": {
-      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/View_access_logs",
-      "title": "View access logs",
-      "index_only": true
-    },
-    "Milvus_for_VectorDB/View_slow_logs": {
-      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/View_slow_logs",
-      "title": "View slow logs",
       "index_only": true
     },
     "Milvus_for_VectorDB/Build_a_RAG_system_using_Milvus_for_VectorDB_and_the_open-source_Coze_Studio": {
@@ -10357,6 +10367,11 @@
       "title": "BytePlus Milvus for VectorDB Service Level Agreement",
       "index_only": true
     },
+    "Milvus_for_VectorDB/Query_cluster_management": {
+      "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Query_cluster_management",
+      "title": "Query cluster management",
+      "index_only": true
+    },
     "Milvus_for_VectorDB/Log_management": {
       "url": "https://docs.byteplus.com/en/docs/Milvus_for_VectorDB/Log_management",
       "title": "Log management",
@@ -10401,577 +10416,571 @@
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1099455",
       "title": "Overview | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:10:12.036353+00:00"
+      "fetched_at": "2026-08-31T12:50:41.599807+00:00"
     },
     "ModelArk/1099522": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1099522",
       "title": "Create standard inference endpoint | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:10:28.233620+00:00"
+      "fetched_at": "2026-08-31T12:50:58.561508+00:00"
     },
     "ModelArk/1221660": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1221660",
       "title": "Prompt engineering | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:10:44.474871+00:00"
+      "fetched_at": "2026-08-31T12:51:14.953953+00:00"
     },
     "ModelArk/1261883": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1261883",
       "title": "Core process of knowledge Q&A | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:11:00.638312+00:00"
+      "fetched_at": "2026-08-31T12:51:31.201887+00:00"
     },
     "ModelArk/1261885": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1261885",
       "title": "Create a knowledge base | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:11:16.810354+00:00"
+      "fetched_at": "2026-08-31T12:51:47.451561+00:00"
     },
     "ModelArk/1261886": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1261886",
       "title": "Edit knowledge base | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:11:33.041126+00:00"
+      "fetched_at": "2026-08-31T12:52:03.700589+00:00"
     },
     "ModelArk/1261887": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1261887",
       "title": "View knowledge base details | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:11:49.236397+00:00"
+      "fetched_at": "2026-08-31T12:52:20.172850+00:00"
     },
     "ModelArk/1261888": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1261888",
       "title": "View knowledge base list | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:12:05.399393+00:00"
+      "fetched_at": "2026-08-31T12:52:37.054437+00:00"
     },
     "ModelArk/1261889": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1261889",
       "title": "Delete knowledge base | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:12:21.567239+00:00"
+      "fetched_at": "2026-08-31T12:52:53.421642+00:00"
     },
     "ModelArk/1261890": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1261890",
       "title": "Import documents | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:12:37.745981+00:00"
+      "fetched_at": "2026-08-31T12:53:09.669552+00:00"
     },
     "ModelArk/1261891": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1261891",
       "title": "Tag editing | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:12:53.972441+00:00"
+      "fetched_at": "2026-08-31T12:53:25.886628+00:00"
     },
     "ModelArk/1261892": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1261892",
       "title": "Delete documents | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:13:10.153905+00:00"
+      "fetched_at": "2026-08-31T12:53:42.292545+00:00"
     },
     "ModelArk/1262002": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1262002",
       "title": "AI App Lab | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:13:26.379767+00:00"
+      "fetched_at": "2026-08-31T12:53:58.567276+00:00"
     },
     "ModelArk/1262342": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1262342",
       "title": "Function call | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:13:42.990252+00:00"
+      "fetched_at": "2026-08-31T12:54:15.662213+00:00"
     },
     "ModelArk/1330310": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1330310",
       "title": "Model list | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:13:59.448613+00:00"
+      "fetched_at": "2026-08-31T13:32:19.527425+00:00"
     },
     "ModelArk/1333715": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1333715",
       "title": "App creation and deployment guide | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:14:15.648355+00:00"
+      "fetched_at": "2026-08-31T12:54:48.535451+00:00"
     },
     "ModelArk/1343907": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1343907",
       "title": "Knowledge base quota description | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:14:31.879758+00:00"
+      "fetched_at": "2026-08-31T12:55:04.897623+00:00"
     },
     "ModelArk/1353778": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1353778",
       "title": "Knowledge retrieval | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:14:48.140336+00:00"
+      "fetched_at": "2026-08-31T12:55:21.366436+00:00"
     },
     "ModelArk/1354007": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1354007",
       "title": "Unsubscribe | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:15:04.303926+00:00"
+      "fetched_at": "2026-08-31T12:55:37.858320+00:00"
     },
     "ModelArk/1359497": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1359497",
       "title": "Prefill-based response | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:15:20.642013+00:00"
+      "fetched_at": "2026-08-31T12:55:54.377550+00:00"
     },
     "ModelArk/1362931": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1362931",
       "title": "Image understanding | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:15:37.216825+00:00"
+      "fetched_at": "2026-08-31T12:56:11.079631+00:00"
     },
     "ModelArk/1389894": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1389894",
       "title": "Add slice | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:15:53.360006+00:00"
+      "fetched_at": "2026-08-31T12:56:27.441859+00:00"
     },
     "ModelArk/1389896": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1389896",
       "title": "Delete slice | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:16:09.566549+00:00"
+      "fetched_at": "2026-08-31T12:56:43.597486+00:00"
     },
     "ModelArk/1389897": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1389897",
       "title": "Edit slice | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:16:25.791259+00:00"
+      "fetched_at": "2026-08-31T12:56:59.738653+00:00"
     },
     "ModelArk/1389898": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1389898",
       "title": "View slice | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:16:41.946641+00:00"
+      "fetched_at": "2026-08-31T12:57:16.320572+00:00"
     },
     "ModelArk/1396491": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1396491",
       "title": "Context caching (Context API) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:16:58.302315+00:00"
+      "fetched_at": "2026-08-31T12:57:32.580772+00:00"
     },
     "ModelArk/1398933": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1398933",
       "title": "Context caching overview | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:17:14.689407+00:00"
+      "fetched_at": "2026-08-31T12:57:48.812973+00:00"
     },
     "ModelArk/1399008": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1399008",
       "title": "Quick start | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:17:30.919689+00:00"
+      "fetched_at": "2026-08-31T13:32:35.790928+00:00"
     },
     "ModelArk/1399009": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1399009",
       "title": "Text generation | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:17:47.516262+00:00"
+      "fetched_at": "2026-08-31T12:58:21.251354+00:00"
     },
     "ModelArk/1399495": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1399495",
       "title": "Prompt Foundry | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:18:03.989831+00:00"
+      "fetched_at": "2026-08-31T12:58:37.961271+00:00"
     },
     "ModelArk/1399496": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1399496",
       "title": "Prompt generation | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:18:20.161105+00:00"
+      "fetched_at": "2026-08-31T12:58:54.444481+00:00"
     },
     "ModelArk/1399497": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1399497",
       "title": "Prompt tuning | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:18:36.402646+00:00"
+      "fetched_at": "2026-08-31T12:59:10.935966+00:00"
     },
     "ModelArk/1399498": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1399498",
       "title": "Prompt Management | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:18:52.613377+00:00"
+      "fetched_at": "2026-08-31T12:59:27.154103+00:00"
     },
     "ModelArk/1399499": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1399499",
       "title": "Scoring DSL | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:19:08.846567+00:00"
+      "fetched_at": "2026-08-31T12:59:43.497268+00:00"
     },
     "ModelArk/1399517": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1399517",
       "title": "Batch inference | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:19:25.177585+00:00"
+      "fetched_at": "2026-08-31T12:59:59.825449+00:00"
     },
     "ModelArk/1409291": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1409291",
       "title": "Multimodal embedding | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:19:42.062000+00:00"
+      "fetched_at": "2026-08-31T13:00:16.182140+00:00"
     },
     "ModelArk/1415553": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1415553",
       "title": "Knowledge Q&A | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:19:58.427661+00:00"
+      "fetched_at": "2026-08-31T13:00:32.403292+00:00"
     },
     "ModelArk/1449737": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1449737",
       "title": "Deep reasoning | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:20:14.832186+00:00"
+      "fetched_at": "2026-08-31T13:00:48.856561+00:00"
     },
     "ModelArk/1465834": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1465834",
       "title": "Signature authentication and examples | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:20:31.108304+00:00"
+      "fetched_at": "2026-08-31T13:01:05.515823+00:00"
     },
     "ModelArk/1511946": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1511946",
       "title": "Knowledge base APIs | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:20:47.306164+00:00"
+      "fetched_at": "2026-08-31T13:01:21.741946+00:00"
     },
     "ModelArk/1544106": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
       "title": "Pricing | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:21:04.161815+00:00"
+      "fetched_at": "2026-08-31T13:01:38.638750+00:00"
     },
     "ModelArk/1544856": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1544856",
       "title": "About inference endpoint | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:21:20.468300+00:00"
+      "fetched_at": "2026-08-31T13:01:54.786521+00:00"
     },
     "ModelArk/1554502": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1554502",
       "title": "Create a knowledge service | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:21:36.629395+00:00"
+      "fetched_at": "2026-08-31T13:02:10.974511+00:00"
     },
     "ModelArk/1554504": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1554504",
       "title": "Knowledge service management | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:21:52.781826+00:00"
+      "fetched_at": "2026-08-31T13:02:27.117900+00:00"
     },
     "ModelArk/1568221": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1568221",
       "title": "Structured output (beta) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:22:09.047224+00:00"
+      "fetched_at": "2026-08-31T13:02:43.485607+00:00"
     },
     "ModelArk/1568332": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1568332",
       "title": "Model Unit | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:22:25.327374+00:00"
+      "fetched_at": "2026-08-31T13:02:59.725591+00:00"
     },
     "ModelArk/1585128": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1585128",
       "title": "Migrate to Responses API | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:22:41.619852+00:00"
+      "fetched_at": "2026-08-31T13:03:16.187608+00:00"
     },
     "ModelArk/1587837": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1587837",
       "title": "AgentPilot SDK reference | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:22:58.068424+00:00"
-    },
-    "ModelArk/1602228": {
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/1602228",
-      "title": "Context caching (Responses API) | ModelArk | BytePlus",
-      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:23:14.560221+00:00"
+      "fetched_at": "2026-08-31T13:03:32.498089+00:00"
     },
     "ModelArk/1616136": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1616136",
       "title": "Visual grounding | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:23:30.917622+00:00"
+      "fetched_at": "2026-08-31T13:03:48.742144+00:00"
     },
     "ModelArk/1824121": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1824121",
       "title": "Image generation tutorial | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:23:47.520027+00:00"
+      "fetched_at": "2026-08-31T13:04:05.346970+00:00"
     },
     "ModelArk/1827534": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1827534",
       "title": "Cloud-deployed MCP / remote MCP | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:24:03.833590+00:00"
+      "fetched_at": "2026-08-31T13:04:21.620764+00:00"
     },
     "ModelArk/1883982": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1883982",
       "title": "VideoPilot feature overview | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:24:20.078365+00:00"
+      "fetched_at": "2026-08-31T13:04:38.449596+00:00"
     },
     "ModelArk/1885708": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1885708",
       "title": "Files API tutorial | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:24:36.459986+00:00"
+      "fetched_at": "2026-08-31T13:04:55.364652+00:00"
     },
     "ModelArk/1895586": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1895586",
       "title": "Video understanding | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:24:52.992846+00:00"
+      "fetched_at": "2026-08-31T13:05:11.894116+00:00"
     },
     "ModelArk/1902647": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1902647",
       "title": "Document understanding | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:25:09.315179+00:00"
+      "fetched_at": "2026-08-31T13:05:28.143950+00:00"
     },
     "ModelArk/1904608": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1904608",
       "title": "Configure experimental versions | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:25:25.580425+00:00"
+      "fetched_at": "2026-08-31T13:05:44.530272+00:00"
     },
     "ModelArk/1956279": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1956279",
       "title": "Deep reasoning (Responses API) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:25:41.834146+00:00"
+      "fetched_at": "2026-08-31T13:06:00.807459+00:00"
     },
     "ModelArk/1958520": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1958520",
       "title": "Text generation (Responses API) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:25:58.124952+00:00"
+      "fetched_at": "2026-08-31T13:06:17.655633+00:00"
     },
     "ModelArk/1958521": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1958521",
       "title": "Multimodal understanding (Responses API) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:26:14.478707+00:00"
+      "fetched_at": "2026-08-31T13:06:33.933536+00:00"
     },
     "ModelArk/1958523": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1958523",
       "title": "Structured output (Responses API) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:26:30.724223+00:00"
+      "fetched_at": "2026-08-31T13:06:50.477183+00:00"
     },
     "ModelArk/1958524": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1958524",
       "title": "Tool use (Responses API) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:26:46.969789+00:00"
+      "fetched_at": "2026-08-31T13:07:06.795504+00:00"
     },
     "ModelArk/2085689": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2085689",
       "title": "VideoPilot API | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:27:03.220720+00:00"
+      "fetched_at": "2026-08-31T13:07:23.130361+00:00"
     },
     "ModelArk/2123215": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2123215",
       "title": "Context editing (Responses API) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:27:19.499480+00:00"
+      "fetched_at": "2026-08-31T13:07:39.453641+00:00"
     },
     "ModelArk/2123275": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2123275",
       "title": "Streaming output | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:27:35.707317+00:00"
+      "fetched_at": "2026-08-31T13:07:55.708552+00:00"
     },
     "ModelArk/2123288": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2123288",
       "title": "Context management | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:27:52.063832+00:00"
+      "fetched_at": "2026-08-31T13:08:12.045237+00:00"
     },
     "ModelArk/2160841": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2160841",
       "title": "Integrate with third-party tools | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:28:08.439290+00:00"
+      "fetched_at": "2026-08-31T13:08:28.330593+00:00"
     },
     "ModelArk/2191806": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2191806",
       "title": "Region availability | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:28:24.648758+00:00"
+      "fetched_at": "2026-08-31T13:32:51.985700+00:00"
     },
     "ModelArk/2222480": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2222480",
       "title": "Dreamina Seedance 2.0 series prompt guide | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:28:43.902448+00:00"
+      "fetched_at": "2026-08-31T13:09:03.956828+00:00"
     },
     "ModelArk/2291680": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2291680",
       "title": "Dreamina Seedance 2.0 series tutorial | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:29:00.547755+00:00"
+      "fetched_at": "2026-08-31T13:09:21.481499+00:00"
     },
     "ModelArk/2298881": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2298881",
       "title": "Video generation tutorial | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:29:19.102478+00:00"
+      "fetched_at": "2026-08-31T13:09:40.504166+00:00"
     },
     "ModelArk/2377589": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2377589",
       "title": "Audio understanding | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:29:35.600020+00:00"
+      "fetched_at": "2026-08-31T13:09:56.961953+00:00"
     },
     "ModelArk/2553713": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553713",
       "title": "Overview | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:29:51.994514+00:00"
+      "fetched_at": "2026-08-31T13:10:13.194284+00:00"
     },
     "ModelArk/2553714": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553714",
       "title": "Quick start (code) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:30:08.285466+00:00"
+      "fetched_at": "2026-08-31T13:10:29.478433+00:00"
     },
     "ModelArk/2553715": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553715",
       "title": "Quick start (console) | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:30:24.540850+00:00"
+      "fetched_at": "2026-08-31T13:10:46.202123+00:00"
     },
     "ModelArk/2553716": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553716",
       "title": "Agent | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:30:40.804603+00:00"
+      "fetched_at": "2026-08-31T13:11:02.406831+00:00"
     },
     "ModelArk/2553717": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553717",
       "title": "Skills | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:30:57.123563+00:00"
+      "fetched_at": "2026-08-31T13:11:18.578039+00:00"
     },
     "ModelArk/2553718": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553718",
       "title": "MCP | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:31:13.376670+00:00"
+      "fetched_at": "2026-08-31T13:11:34.799739+00:00"
     },
     "ModelArk/2553719": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553719",
       "title": "Tools | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:31:29.659450+00:00"
+      "fetched_at": "2026-08-31T13:11:51.258386+00:00"
     },
     "ModelArk/2553720": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553720",
       "title": "Tool permission policy | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:31:45.853660+00:00"
+      "fetched_at": "2026-08-31T13:12:07.896743+00:00"
     },
     "ModelArk/2553721": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553721",
       "title": "Configure cloud environments | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:32:02.101635+00:00"
+      "fetched_at": "2026-08-31T13:12:24.666914+00:00"
     },
     "ModelArk/2553722": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553722",
       "title": "Cloud sandbox reference | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:32:18.356282+00:00"
+      "fetched_at": "2026-08-31T13:12:41.514937+00:00"
     },
     "ModelArk/2553723": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553723",
       "title": "Start session | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:32:34.647866+00:00"
+      "fetched_at": "2026-08-31T13:12:58.288803+00:00"
     },
     "ModelArk/2553724": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553724",
       "title": "Manage session | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:32:50.872361+00:00"
+      "fetched_at": "2026-08-31T13:13:15.061498+00:00"
     },
     "ModelArk/2553725": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553725",
       "title": "Session event stream | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:33:07.174867+00:00"
+      "fetched_at": "2026-08-31T13:13:31.560519+00:00"
     },
     "ModelArk/2553726": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553726",
       "title": "Use Vaults authentication | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:33:23.439218+00:00"
+      "fetched_at": "2026-08-31T13:13:47.800022+00:00"
     },
     "ModelArk/2553727": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553727",
       "title": "Upload and mount files | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:33:39.839603+00:00"
+      "fetched_at": "2026-08-31T13:14:04.033571+00:00"
     },
     "ModelArk/2553728": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553728",
       "title": "Persistent memory | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:33:56.157252+00:00"
+      "fetched_at": "2026-08-31T13:14:20.376570+00:00"
     },
     "ModelArk/2553730": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2553730",
       "title": "Multi Agent | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:34:12.361832+00:00"
+      "fetched_at": "2026-08-31T13:14:36.614944+00:00"
     },
     "ModelArk/2582774": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2582774",
       "title": "Seedream 5.0 pro tutorial | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:34:28.766159+00:00"
+      "fetched_at": "2026-08-31T13:14:53.149732+00:00"
     },
     "ModelArk/2582775": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2582775",
       "title": "Seedream 5.0 pro interactive editing guide | ModelArk | BytePlus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:34:45.048105+00:00"
+      "fetched_at": "2026-08-31T13:15:09.565787+00:00"
     },
     "ModelArk/2607688": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2607688",
       "title": "Dreamina Seedance 2.5 tutorial--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:35:03.253282+00:00"
+      "fetched_at": "2026-08-31T13:15:28.050521+00:00"
     },
     "ModelArk/2607689": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2607689",
       "title": "Dreamina Seedance 2.5 prompt guide--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:35:19.699323+00:00"
+      "fetched_at": "2026-08-31T13:15:44.519286+00:00"
     },
     "ModelArk/2608626": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2608626",
       "title": "Create portrait videos with Dreamina Seedance models--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:35:36.135247+00:00"
+      "fetched_at": "2026-08-31T13:16:01.387676+00:00"
     },
     "ModelArk/2636748": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2636748",
       "title": "Best practices of model calling for agents--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:35:52.454016+00:00"
+      "fetched_at": "2026-08-31T13:16:17.863420+00:00"
     },
     "ModelArk/2662855": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2662855",
       "title": "List of parameters supported by models--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-08-27T10:36:08.709764+00:00"
+      "fetched_at": "2026-08-31T13:16:34.181752+00:00"
     },
     "NDB_for_MySQL/New_feature_release_notes": {
       "url": "https://docs.byteplus.com/en/docs/NDB_for_MySQL/New_feature_release_notes",
@@ -12428,6 +12437,11 @@
       "title": "Observability diagnosis",
       "index_only": true
     },
+    "Observability_Platform/Playground": {
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Playground",
+      "title": "Playground",
+      "index_only": true
+    },
     "Observability_Platform/AgentKit_tracking_fields_and_metrics_description": {
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/AgentKit_tracking_fields_and_metrics_description",
       "title": "AgentKit tracking fields and metrics description",
@@ -12968,8 +12982,8 @@
       "title": "Knowledge base quota description",
       "index_only": true
     },
-    "RAG_Cloud/Signature_authentication_and_examples": {
-      "url": "https://docs.byteplus.com/en/docs/RAG_Cloud/Signature_authentication_and_examples",
+    "RAG_Cloud/Signature_authentication": {
+      "url": "https://docs.byteplus.com/en/docs/RAG_Cloud/Signature_authentication",
       "title": "Signature authentication and examples",
       "index_only": true
     },
@@ -17738,9 +17752,9 @@
       "title": "Service Level Agreement for RDS for PostgreSQL",
       "index_only": true
     },
-    "RDS_for_PG/About_TDE_data_encryption": {
-      "url": "https://docs.byteplus.com/en/docs/RDS_for_PG/About_TDE_data_encryption",
-      "title": "About TDE data encryption",
+    "RDS_for_PG/Stopping_and_starting_an_instance": {
+      "url": "https://docs.byteplus.com/en/docs/RDS_for_PG/Stopping_and_starting_an_instance",
+      "title": "Stopping and starting an instance",
       "index_only": true
     },
     "RDS_for_PG/Modifying_an_instance_virtual_private_cloud": {
@@ -19615,7 +19629,7 @@
     },
     "agentkit/Creating_agent_runtimes_in_console": {
       "url": "https://docs.byteplus.com/en/docs/agentkit/Creating_agent_runtimes_in_console",
-      "title": "Creating runtimes (console)",
+      "title": "Creating runtime",
       "index_only": true
     },
     "agentkit/Sample_calls_for_text_prompts": {
@@ -28913,6 +28927,11 @@
       "title": "Origin Host",
       "index_only": true
     },
+    "byteplus-cdn/origin-retry-logic_en-us": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/origin-retry-logic_en-us",
+      "title": "Origin Retry Mechanism",
+      "index_only": true
+    },
     "byteplus-cdn/docs-ipv6": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs-ipv6",
       "title": "IPv6",
@@ -30923,6 +30942,11 @@
       "title": "回源 Host",
       "index_only": true
     },
+    "byteplus-cdn/origin-retry-logic_zh-cn": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/origin-retry-logic_zh-cn",
+      "title": "回源重试机制",
+      "index_only": true
+    },
     "byteplus-cdn/docs_cn-ipv6-cn": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs_cn-ipv6-cn",
       "title": "IPv6",
@@ -31085,7 +31109,7 @@
     },
     "byteplus-cdn/origin_retry-cn": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/origin_retry-cn",
-      "title": "回源重试",
+      "title": "回源重试设置",
       "index_only": true
     },
     "byteplus-cdn/docs_cn-query-parameters_1-cn": {
@@ -31101,6 +31125,11 @@
     "byteplus-cdn/docs_cn-origin-path-rewrite_1-cn": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/docs_cn-origin-path-rewrite_1-cn",
       "title": "回源 URL 改写",
+      "index_only": true
+    },
+    "byteplus-cdn/origin-response-header-configuration_zh-cn": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-cdn/origin-response-header-configuration_zh-cn",
+      "title": "源站响应头设置",
       "index_only": true
     },
     "byteplus-cdn/html-to-md_zh-cn": {
@@ -39000,7 +39029,7 @@
     },
     "byteplus-livesaas/training_digital_human_and_voice": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/training_digital_human_and_voice",
-      "title": "Training AI figure and voice",
+      "title": "Training avatar and voice",
       "index_only": true
     },
     "byteplus-livesaas/managing-products-for-digital-human-livestreams": {
@@ -46675,7 +46704,7 @@
     },
     "byteplusvoice/live-interpretaion-overview": {
       "url": "https://docs.byteplus.com/en/docs/byteplusvoice/live-interpretaion-overview",
-      "title": "Live Interpretaion",
+      "title": "Live Interpretation",
       "index_only": true
     },
     "byteplusvoice/Speech_Console_Guide": {
@@ -64768,6 +64797,11 @@
       "title": "LAS Catalog",
       "index_only": true
     },
+    "flink/Flink_Skill_AI_Tool_Integration": {
+      "url": "https://docs.byteplus.com/en/docs/flink/Flink_Skill_AI_Tool_Integration",
+      "title": "Flink Skill & AI Tool Integration",
+      "index_only": true
+    },
     "flink/Paimon_with_Fileystem_Catalog": {
       "url": "https://docs.byteplus.com/en/docs/flink/Paimon_with_Fileystem_Catalog",
       "title": "Paimon with Fileystem Catalog",
@@ -67207,6 +67241,576 @@
       "url": "https://docs.byteplus.com/en/docs/mlp/FAQs",
       "title": "FAQs",
       "index_only": true
+    },
+    "modelark/1099455": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1099455",
+      "title": "Overview | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:33:08.587360+00:00"
+    },
+    "modelark/1099522": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1099522",
+      "title": "Create standard inference endpoint | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:33:24.734382+00:00"
+    },
+    "modelark/1221660": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1221660",
+      "title": "Prompt engineering | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:33:41.079832+00:00"
+    },
+    "modelark/1261883": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1261883",
+      "title": "Core process of knowledge Q&A | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:33:57.394169+00:00"
+    },
+    "modelark/1261885": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1261885",
+      "title": "Create a knowledge base | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:34:13.674670+00:00"
+    },
+    "modelark/1261886": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1261886",
+      "title": "Edit knowledge base | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:34:29.910632+00:00"
+    },
+    "modelark/1261887": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1261887",
+      "title": "View knowledge base details | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:34:46.198463+00:00"
+    },
+    "modelark/1261888": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1261888",
+      "title": "View knowledge base list | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:35:02.634921+00:00"
+    },
+    "modelark/1261889": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1261889",
+      "title": "Delete knowledge base | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:35:18.779530+00:00"
+    },
+    "modelark/1261890": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1261890",
+      "title": "Import documents | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:35:35.002658+00:00"
+    },
+    "modelark/1261891": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1261891",
+      "title": "Tag editing | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:35:51.425877+00:00"
+    },
+    "modelark/1261892": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1261892",
+      "title": "Delete documents | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:36:07.600499+00:00"
+    },
+    "modelark/1262002": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1262002",
+      "title": "AI App Lab | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:36:23.894877+00:00"
+    },
+    "modelark/1262342": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1262342",
+      "title": "Function call | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:36:40.454694+00:00"
+    },
+    "modelark/1330310": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1330310",
+      "title": "Model list | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:36:56.911038+00:00"
+    },
+    "modelark/1333715": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1333715",
+      "title": "App creation and deployment guide | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:37:13.368225+00:00"
+    },
+    "modelark/1343907": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1343907",
+      "title": "Knowledge base quota description | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:37:29.658743+00:00"
+    },
+    "modelark/1353778": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1353778",
+      "title": "Knowledge retrieval | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:37:45.948145+00:00"
+    },
+    "modelark/1354007": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1354007",
+      "title": "Unsubscribe | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:38:02.097438+00:00"
+    },
+    "modelark/1359497": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1359497",
+      "title": "Prefill-based response | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:38:18.315767+00:00"
+    },
+    "modelark/1362931": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1362931",
+      "title": "Image understanding | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:38:35.026618+00:00"
+    },
+    "modelark/1389894": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1389894",
+      "title": "Add slice | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:38:51.256292+00:00"
+    },
+    "modelark/1389896": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1389896",
+      "title": "Delete slice | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:39:07.426370+00:00"
+    },
+    "modelark/1389897": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1389897",
+      "title": "Edit slice | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:39:23.629084+00:00"
+    },
+    "modelark/1389898": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1389898",
+      "title": "View slice | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:39:39.969262+00:00"
+    },
+    "modelark/1396491": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1396491",
+      "title": "Context caching (Context API) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:39:56.271372+00:00"
+    },
+    "modelark/1398933": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1398933",
+      "title": "Context caching overview | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:40:12.492722+00:00"
+    },
+    "modelark/1399008": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1399008",
+      "title": "Quick start | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:40:28.950544+00:00"
+    },
+    "modelark/1399009": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1399009",
+      "title": "Text generation | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:40:45.224494+00:00"
+    },
+    "modelark/1399495": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1399495",
+      "title": "Prompt Foundry | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:41:01.515637+00:00"
+    },
+    "modelark/1399496": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1399496",
+      "title": "Prompt generation | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:41:17.700684+00:00"
+    },
+    "modelark/1399497": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1399497",
+      "title": "Prompt tuning | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:41:33.948299+00:00"
+    },
+    "modelark/1399498": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1399498",
+      "title": "Prompt Management | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:41:50.487508+00:00"
+    },
+    "modelark/1399499": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1399499",
+      "title": "Scoring DSL | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:42:06.729478+00:00"
+    },
+    "modelark/1399517": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1399517",
+      "title": "Batch inference | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:42:23.067856+00:00"
+    },
+    "modelark/1409291": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1409291",
+      "title": "Multimodal embedding | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:42:39.610946+00:00"
+    },
+    "modelark/1415553": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1415553",
+      "title": "Knowledge Q&A | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:42:55.828450+00:00"
+    },
+    "modelark/1449737": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1449737",
+      "title": "Deep reasoning | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:43:12.377301+00:00"
+    },
+    "modelark/1465834": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1465834",
+      "title": "Signature authentication and examples | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:43:28.763743+00:00"
+    },
+    "modelark/1511946": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1511946",
+      "title": "Knowledge base APIs | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:43:45.069202+00:00"
+    },
+    "modelark/1544106": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1544106",
+      "title": "Pricing | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:44:01.849092+00:00"
+    },
+    "modelark/1544856": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1544856",
+      "title": "About inference endpoint | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:44:18.168888+00:00"
+    },
+    "modelark/1554502": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1554502",
+      "title": "Create a knowledge service | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:44:34.336083+00:00"
+    },
+    "modelark/1554504": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1554504",
+      "title": "Knowledge service management | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:44:50.510738+00:00"
+    },
+    "modelark/1568221": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1568221",
+      "title": "Structured output (beta) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:45:07.089761+00:00"
+    },
+    "modelark/1568332": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1568332",
+      "title": "Model Unit | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:45:23.532512+00:00"
+    },
+    "modelark/1585128": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1585128",
+      "title": "Migrate to Responses API | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:45:39.933602+00:00"
+    },
+    "modelark/1587837": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1587837",
+      "title": "AgentPilot SDK reference | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:45:56.899266+00:00"
+    },
+    "modelark/1616136": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1616136",
+      "title": "Visual grounding | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:46:13.304635+00:00"
+    },
+    "modelark/1824121": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1824121",
+      "title": "Image generation tutorial | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:46:29.981982+00:00"
+    },
+    "modelark/1827534": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1827534",
+      "title": "Cloud-deployed MCP / remote MCP | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:46:46.485456+00:00"
+    },
+    "modelark/1883982": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1883982",
+      "title": "VideoPilot feature overview | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:47:02.821519+00:00"
+    },
+    "modelark/1885708": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1885708",
+      "title": "Files API tutorial | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:47:19.218107+00:00"
+    },
+    "modelark/1895586": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1895586",
+      "title": "Video understanding | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:47:35.849020+00:00"
+    },
+    "modelark/1902647": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1902647",
+      "title": "Document understanding | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:47:52.399065+00:00"
+    },
+    "modelark/1904608": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1904608",
+      "title": "Configure experimental versions | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:48:08.786970+00:00"
+    },
+    "modelark/1956279": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1956279",
+      "title": "Deep reasoning (Responses API) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:48:25.220906+00:00"
+    },
+    "modelark/1958520": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1958520",
+      "title": "Text generation (Responses API) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:48:41.589550+00:00"
+    },
+    "modelark/1958521": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1958521",
+      "title": "Multimodal understanding (Responses API) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:48:57.932421+00:00"
+    },
+    "modelark/1958523": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1958523",
+      "title": "Structured output (Responses API) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:49:14.603787+00:00"
+    },
+    "modelark/1958524": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/1958524",
+      "title": "Tool use (Responses API) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:49:30.942467+00:00"
+    },
+    "modelark/2085689": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2085689",
+      "title": "VideoPilot API | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:49:47.315030+00:00"
+    },
+    "modelark/2123215": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2123215",
+      "title": "Context editing (Responses API) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:50:03.644078+00:00"
+    },
+    "modelark/2123275": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2123275",
+      "title": "Streaming output | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:50:19.917488+00:00"
+    },
+    "modelark/2123288": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2123288",
+      "title": "Context management | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:50:36.314662+00:00"
+    },
+    "modelark/2160841": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2160841",
+      "title": "Integrate with third-party tools | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:50:52.611489+00:00"
+    },
+    "modelark/2191806": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2191806",
+      "title": "Region availability | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:51:08.971826+00:00"
+    },
+    "modelark/2222480": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2222480",
+      "title": "Dreamina Seedance 2.0 series prompt guide | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:51:28.509344+00:00"
+    },
+    "modelark/2291680": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2291680",
+      "title": "Dreamina Seedance 2.0 series tutorial | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:51:45.141915+00:00"
+    },
+    "modelark/2298881": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2298881",
+      "title": "Video generation tutorial | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:52:03.845142+00:00"
+    },
+    "modelark/2377589": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2377589",
+      "title": "Audio understanding | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:52:20.793205+00:00"
+    },
+    "modelark/2553713": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553713",
+      "title": "Overview | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:52:37.125429+00:00"
+    },
+    "modelark/2553714": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553714",
+      "title": "Quick start (code) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:52:53.927389+00:00"
+    },
+    "modelark/2553715": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553715",
+      "title": "Quick start (console) | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:53:10.106258+00:00"
+    },
+    "modelark/2553716": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553716",
+      "title": "Agent | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:53:26.467070+00:00"
+    },
+    "modelark/2553717": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553717",
+      "title": "Skills | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:53:42.737508+00:00"
+    },
+    "modelark/2553718": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553718",
+      "title": "MCP | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:53:58.968694+00:00"
+    },
+    "modelark/2553719": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553719",
+      "title": "Tools | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:54:15.423883+00:00"
+    },
+    "modelark/2553720": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553720",
+      "title": "Tool permission policy | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:54:31.639620+00:00"
+    },
+    "modelark/2553721": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553721",
+      "title": "Configure cloud environments | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:54:47.863505+00:00"
+    },
+    "modelark/2553722": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553722",
+      "title": "Cloud sandbox reference | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:55:04.191743+00:00"
+    },
+    "modelark/2553723": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553723",
+      "title": "Start session | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:55:20.423319+00:00"
+    },
+    "modelark/2553724": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553724",
+      "title": "Manage session | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:55:37.435764+00:00"
+    },
+    "modelark/2553725": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553725",
+      "title": "Session event stream | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:55:53.783887+00:00"
+    },
+    "modelark/2553726": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553726",
+      "title": "Use Vaults authentication | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:56:10.049370+00:00"
+    },
+    "modelark/2553727": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553727",
+      "title": "Upload and mount files | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:56:26.280687+00:00"
+    },
+    "modelark/2553728": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553728",
+      "title": "Persistent memory | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:56:42.453050+00:00"
+    },
+    "modelark/2553730": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553730",
+      "title": "Multi Agent | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:56:58.708878+00:00"
+    },
+    "modelark/2582774": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2582774",
+      "title": "Seedream 5.0 pro tutorial | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:57:15.333165+00:00"
+    },
+    "modelark/2582775": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2582775",
+      "title": "Seedream 5.0 pro interactive editing guide | ModelArk | BytePlus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:57:31.626300+00:00"
+    },
+    "modelark/2607688": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2607688",
+      "title": "Dreamina Seedance 2.5 tutorial--ModelArk-Byteplus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:57:49.950246+00:00"
+    },
+    "modelark/2607689": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2607689",
+      "title": "Dreamina Seedance 2.5 prompt guide--ModelArk-Byteplus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:58:06.370245+00:00"
+    },
+    "modelark/2608626": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2608626",
+      "title": "Create portrait videos with Dreamina Seedance models--ModelArk-Byteplus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:58:22.708691+00:00"
+    },
+    "modelark/2636748": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2636748",
+      "title": "Best practices of model calling for agents--ModelArk-Byteplus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:58:39.421512+00:00"
+    },
+    "modelark/2662855": {
+      "url": "https://docs.byteplus.com/en/docs/modelark/2662855",
+      "title": "List of parameters supported by models--ModelArk-Byteplus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-08-31T13:58:55.722257+00:00"
     },
     "mongodb/feature-release-note": {
       "url": "https://docs.byteplus.com/en/docs/mongodb/feature-release-note",
@@ -85073,13 +85677,13 @@
       "title": "0017-00000409",
       "index_only": true
     },
-    "tos/0017-00000410": {
-      "url": "https://docs.byteplus.com/en/docs/tos/0017-00000410",
+    "tos/create_topic": {
+      "url": "https://docs.byteplus.com/en/docs/tos/create_topic",
       "title": "0017-00000410",
       "index_only": true
     },
-    "tos/0017-00000411": {
-      "url": "https://docs.byteplus.com/en/docs/tos/0017-00000411",
+    "tos/delete_topic": {
+      "url": "https://docs.byteplus.com/en/docs/tos/delete_topic",
       "title": "0017-00000411",
       "index_only": true
     },
@@ -85363,8 +85967,8 @@
       "title": "0019-00000105",
       "index_only": true
     },
-    "tos/0019-00000106": {
-      "url": "https://docs.byteplus.com/en/docs/tos/0019-00000106",
+    "tos/plugin_list": {
+      "url": "https://docs.byteplus.com/en/docs/tos/plugin_list",
       "title": "0019-00000106",
       "index_only": true
     },
@@ -92706,6 +93310,11 @@
     "vke/Best_practices_for_switching_alert_configuration_from_Cloud_Monitor_to_VMP": {
       "url": "https://docs.byteplus.com/en/docs/vke/Best_practices_for_switching_alert_configuration_from_Cloud_Monitor_to_VMP",
       "title": "Best practices for switching alert configuration from Cloud Monitor to VMP",
+      "index_only": true
+    },
+    "vke/Best_practices_for_container_scenario_observability": {
+      "url": "https://docs.byteplus.com/en/docs/vke/Best_practices_for_container_scenario_observability",
+      "title": "Best practices for container scenario observability",
       "index_only": true
     },
     "vke/Cluster-Autoscaler-best-practices": {

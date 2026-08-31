@@ -178,4 +178,4 @@ Per-video estimate, 5 s, 16:9, no video input: 480p $0.35 · 720p $0.76 · 1080p
 
 Token estimate = `(input_video_dur + output_video_dur) × W × H × fps / 1024`. When input includes video, 2.0/Fast enforce a resolution-/ratio-/duration-dependent **minimum token consumption**. Resource packs (prepaid, 90-day) deduct online-inference tokens; base 2.0 requires a minimum of 7× 1M-token packs. Actual cost = the `completion_tokens` returned after the call.
 
-BytePlus is promoting a **Dreamina Seedance 2.5** token package (`ai
+BytePlus is promoting a **Dreamina Seedance 2.5** token package via `ai.byteplus.com/en/activity/seedance2-5` ("Get your token package and be the pioneer"), but as of this update the linked ModelArk pricing/doc pages surface only that marketing banner — no 2.5 model ID, token rate, or per-video pricing has been published. Treat the 2.0 figures above as the only confirmed pricing until BytePlus releases 2.5 technical/pricing documentation. <!-- TODO: verify — capture Seedance 2.5 pricing once published -->
