@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T12:57:39.011320+00:00",
+  "generated_at": "2026-09-14T13:16:36.502708+00:00",
   "note": "Canonical BytePlus doc URLs. If a detail is missing from the reference files, fetch the matching url live before answering.",
   "entries": [
     {
@@ -1409,7 +1409,7 @@
     {
       "product": "ArkClaw",
       "id": "Sample_A2A_agent_JSON_file",
-      "title": "Sample A2A agent JSON file example",
+      "title": "Sample JSON file for A2A agent",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Sample_A2A_agent_JSON_file"
     },
     {
@@ -1888,6 +1888,18 @@
     },
     {
       "product": "Byteplus_LAS",
+      "id": "Enhanced_video_editing_2",
+      "title": "Video Edit Enhanced 2.0",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Enhanced_video_editing_2"
+    },
+    {
+      "product": "Byteplus_LAS",
+      "id": "Face_Blur",
+      "title": "Face Blur",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Face_Blur"
+    },
+    {
+      "product": "Byteplus_LAS",
       "id": "Fine-grained_video_understanding",
       "title": "Fine-grained video understanding",
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Fine-grained_video_understanding"
@@ -1966,6 +1978,12 @@
     },
     {
       "product": "Byteplus_LAS",
+      "id": "Video_Inpaint-Pro",
+      "title": "Video Inpaint",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Video_Inpaint-Pro"
+    },
+    {
+      "product": "Byteplus_LAS",
       "id": "Video_Translation_operator",
       "title": "Video Translation",
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Video_Translation_operator"
@@ -2003,7 +2021,7 @@
     {
       "product": "Byteplus_LAS",
       "id": "las_release_notes",
-      "title": "Feature release record",
+      "title": "Feature release notes - BytePlus",
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/las_release_notes"
     },
     {
@@ -12550,6 +12568,12 @@
     },
     {
       "product": "ModelArk",
+      "id": "1099461",
+      "title": "ModelArk Model Fine-tuning Dataset Format Description-BytePlus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/1099461"
+    },
+    {
+      "product": "ModelArk",
       "id": "1099522",
       "title": "Create standard inference endpoint | ModelArk | BytePlus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/1099522"
@@ -13066,6 +13090,12 @@
     },
     {
       "product": "ModelArk",
+      "id": "2553731",
+      "title": "Define Outcome | ModelArk | BytePlus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2553731"
+    },
+    {
+      "product": "ModelArk",
       "id": "2582774",
       "title": "Seedream 5.0 pro tutorial | ModelArk | BytePlus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2582774"
@@ -13105,6 +13135,36 @@
       "id": "2662855",
       "title": "List of parameters supported by models--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2662855"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2663772",
+      "title": "Migrate to the official Ark SDK--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2663772"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2664204",
+      "title": "Self-hosted environment overview--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2664204"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2664205",
+      "title": "Configure and run a self-hosted environment--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2664205"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2664206",
+      "title": "Self-hosted environment security--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2664206"
+    },
+    {
+      "product": "ModelArk",
+      "id": "2665244",
+      "title": "Online inference (Flex)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2665244"
     },
     {
       "product": "NDB_for_MySQL",
@@ -14794,6 +14854,12 @@
     },
     {
       "product": "Observability_Platform",
+      "id": "Alert_configurations_for_Serverside_Monitoring",
+      "title": "Alert configurations for Server-side Monitoring",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Alert_configurations_for_Serverside_Monitoring"
+    },
+    {
+      "product": "Observability_Platform",
       "id": "Alert_event",
       "title": "Alert event",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Alert_event"
@@ -14821,6 +14887,12 @@
       "id": "Application_scenarios",
       "title": "Application scenarios",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Application_scenarios"
+    },
+    {
+      "product": "Observability_Platform",
+      "id": "Applying_alert_templates_to_object_groups",
+      "title": "Applying alert templates to object groups",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Applying_alert_templates_to_object_groups"
     },
     {
       "product": "Observability_Platform",
@@ -14872,9 +14944,21 @@
     },
     {
       "product": "Observability_Platform",
+      "id": "Cloud_Monitor_alert_rules",
+      "title": "Cloud Monitor alert configurations",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Cloud_Monitor_alert_rules"
+    },
+    {
+      "product": "Observability_Platform",
       "id": "Cloud_Monitor_alerting_principles",
-      "title": "Cloud Monitor alerting principles",
+      "title": "Overview of Cloud Monitor alert configurations",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Cloud_Monitor_alerting_principles"
+    },
+    {
+      "product": "Observability_Platform",
+      "id": "Cloud_service_event_rules",
+      "title": "Alert configurations for cloud service events",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Cloud_service_event_rules"
     },
     {
       "product": "Observability_Platform",
@@ -14938,6 +15022,12 @@
     },
     {
       "product": "Observability_Platform",
+      "id": "Creating_Cloud_Monitor_alert_templates",
+      "title": "Creating Cloud Monitor alert templates",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Creating_Cloud_Monitor_alert_templates"
+    },
+    {
+      "product": "Observability_Platform",
       "id": "Creating_Server-side_Monitoring_alert_rules",
       "title": "Creating Server-side Monitoring alert rules",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Creating_Server-side_Monitoring_alert_rules"
@@ -14992,6 +15082,12 @@
     },
     {
       "product": "Observability_Platform",
+      "id": "Creating_object_groups",
+      "title": "Creating object groups",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Creating_object_groups"
+    },
+    {
+      "product": "Observability_Platform",
       "id": "Creating_on-call_schedules",
       "title": "Creating on-call schedules",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Creating_on-call_schedules"
@@ -15025,6 +15121,12 @@
       "id": "Embedding_custom_dashboards",
       "title": "Embedding custom dashboards",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Embedding_custom_dashboards"
+    },
+    {
+      "product": "Observability_Platform",
+      "id": "Enabling_Cloud_Monitor_preset_alert_templates",
+      "title": "Enabling Cloud Monitor preset alert templates",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Enabling_Cloud_Monitor_preset_alert_templates"
     },
     {
       "product": "Observability_Platform",
@@ -15082,9 +15184,27 @@
     },
     {
       "product": "Observability_Platform",
+      "id": "Integrating_AI_applications",
+      "title": "Integrating AI applications",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Integrating_AI_applications"
+    },
+    {
+      "product": "Observability_Platform",
+      "id": "Integrating_server-side_applications_from_third-party_clouds",
+      "title": "Integrating server-side applications from third-party clouds",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Integrating_server-side_applications_from_third-party_clouds"
+    },
+    {
+      "product": "Observability_Platform",
       "id": "Integrating_server-side_applications_in_VKE",
       "title": "Integrating server-side applications in VKE",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Integrating_server-side_applications_in_VKE"
+    },
+    {
+      "product": "Observability_Platform",
+      "id": "Integration_Center_overview",
+      "title": "Integration Center overview",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Integration_Center_overview"
     },
     {
       "product": "Observability_Platform",
@@ -15151,6 +15271,18 @@
       "id": "Managing_Cloud_Monitor_alert_rules",
       "title": "Managing Cloud Monitor alert rules",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Managing_Cloud_Monitor_alert_rules"
+    },
+    {
+      "product": "Observability_Platform",
+      "id": "Managing_Cloud_Monitor_alert_templates",
+      "title": "Managing Cloud Monitor alert templates",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Managing_Cloud_Monitor_alert_templates"
+    },
+    {
+      "product": "Observability_Platform",
+      "id": "Managing_Cloud_Monitor_preset_alert_templates",
+      "title": "Managing Cloud Monitor preset alert templates",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Managing_Cloud_Monitor_preset_alert_templates"
     },
     {
       "product": "Observability_Platform",
@@ -15223,6 +15355,12 @@
       "id": "Managing_notification_templates",
       "title": "Managing notification templates",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Managing_notification_templates"
+    },
+    {
+      "product": "Observability_Platform",
+      "id": "Managing_object_groups",
+      "title": "Managing object groups",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Managing_object_groups"
     },
     {
       "product": "Observability_Platform",
@@ -15311,7 +15449,7 @@
     {
       "product": "Observability_Platform",
       "id": "Overview_of_cloud_service_event_rules",
-      "title": "Overview of cloud service event rules",
+      "title": "Overview of cloud product event rules",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Overview_of_cloud_service_event_rules"
     },
     {
@@ -15406,6 +15544,12 @@
     },
     {
       "product": "Observability_Platform",
+      "id": "VMP_alert_configuration",
+      "title": "Alert configurations for VMP",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/VMP_alert_configuration"
+    },
+    {
+      "product": "Observability_Platform",
       "id": "VMP_alert_configuration_overview",
       "title": "VMP alert configuration overview",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/VMP_alert_configuration_overview"
@@ -15427,6 +15571,12 @@
       "id": "Version_management",
       "title": "Version management",
       "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Version_management"
+    },
+    {
+      "product": "Observability_Platform",
+      "id": "Viewing_Cloud_Monitor_preset_alert_templates",
+      "title": "Viewing Cloud Monitor preset alert templates",
+      "url": "https://docs.byteplus.com/en/docs/Observability_Platform/Viewing_Cloud_Monitor_preset_alert_templates"
     },
     {
       "product": "Observability_Platform",
@@ -21375,6 +21525,36 @@
       "url": "https://docs.byteplus.com/en/docs/RDS_for_PG/wal_management"
     },
     {
+      "product": "SealSuite",
+      "id": "Configuring_endpoint_firewall_policies",
+      "title": "Configuring endpoint firewall policies",
+      "url": "https://docs.byteplus.com/en/docs/SealSuite/Configuring_endpoint_firewall_policies"
+    },
+    {
+      "product": "SealSuite",
+      "id": "configure-ai-protection-policy",
+      "title": "Configure AI Protection Policy",
+      "url": "https://docs.byteplus.com/en/docs/SealSuite/configure-ai-protection-policy"
+    },
+    {
+      "product": "SealSuite",
+      "id": "docs-application-gateway-management",
+      "title": "Managing application gateway",
+      "url": "https://docs.byteplus.com/en/docs/SealSuite/docs-application-gateway-management"
+    },
+    {
+      "product": "SealSuite",
+      "id": "docs-application-management_1",
+      "title": "Managing SSO application",
+      "url": "https://docs.byteplus.com/en/docs/SealSuite/docs-application-management_1"
+    },
+    {
+      "product": "SealSuite",
+      "id": "managing-web-app",
+      "title": "Managing Web App",
+      "url": "https://docs.byteplus.com/en/docs/SealSuite/managing-web-app"
+    },
+    {
       "product": "Trafficpackage",
       "id": "Billing_Description",
       "title": "Billing methods",
@@ -23501,13 +23681,13 @@
     {
       "product": "agentkit",
       "id": "Adding_and_Removing_Skills",
-      "title": "Adding/Removing Skills",
+      "title": "Adding/Removing skills",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Adding_and_Removing_Skills"
     },
     {
       "product": "agentkit",
       "id": "Adding_and_Removing_Skills_in_Skills_Spaces",
-      "title": "Adding/Removing Skills in Skills Spaces",
+      "title": "Adding to/Removing from skills spaces",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Adding_and_Removing_Skills_in_Skills_Spaces"
     },
     {
@@ -23621,14 +23801,20 @@
     {
       "product": "agentkit",
       "id": "Changing_Internet_or_private_network_service_address",
-      "title": "Changing Internet or private network service address",
+      "title": "Changing agent's public or private network service address",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Changing_Internet_or_private_network_service_address"
     },
     {
       "product": "agentkit",
       "id": "Changing_Skill_versions",
-      "title": "Changing Skill versions",
+      "title": "Changing skill versions",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Changing_Skill_versions"
+    },
+    {
+      "product": "agentkit",
+      "id": "Changing_dedicated_gateway_instance_specifications",
+      "title": "Changing dedicated gateway instance specifications",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/Changing_dedicated_gateway_instance_specifications"
     },
     {
       "product": "agentkit",
@@ -23677,6 +23863,12 @@
       "id": "Configuration_file_overview",
       "title": "Configuration file overview",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Configuration_file_overview"
+    },
+    {
+      "product": "agentkit",
+      "id": "Configuring_private_network_domain_access",
+      "title": "Configuring private network domain access",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/Configuring_private_network_domain_access"
     },
     {
       "product": "agentkit",
@@ -23735,7 +23927,7 @@
     {
       "product": "agentkit",
       "id": "Creating_A2A_agent_spaces",
-      "title": "Creating A2A agent spaces",
+      "title": "Creating agent spaces",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Creating_A2A_agent_spaces"
     },
     {
@@ -23747,7 +23939,7 @@
     {
       "product": "agentkit",
       "id": "Creating_gateway_instances",
-      "title": "Creating gateway instances",
+      "title": "Creating dedicated gateway instances",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Creating_gateway_instances"
     },
     {
@@ -23873,7 +24065,7 @@
     {
       "product": "agentkit",
       "id": "Deleting_A2A_agent_spaces",
-      "title": "Deleting A2A agent spaces",
+      "title": "Deleting agent spaces",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Deleting_A2A_agent_spaces"
     },
     {
@@ -23891,13 +24083,13 @@
     {
       "product": "agentkit",
       "id": "Deleting_Skills",
-      "title": "Deleting Skills",
+      "title": "Deleting skills",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Deleting_Skills"
     },
     {
       "product": "agentkit",
       "id": "Deleting_Skills_spaces",
-      "title": "Deleting Skills spaces",
+      "title": "Deleting skills spaces",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Deleting_Skills_spaces"
     },
     {
@@ -23965,6 +24157,12 @@
       "id": "Gateway_FAQ",
       "title": "Gateway FAQ",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Gateway_FAQ"
+    },
+    {
+      "product": "agentkit",
+      "id": "Gateway_modes_and_MCP_request_counting_rules",
+      "title": "Gateway modes and MCP request counting rules",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/Gateway_modes_and_MCP_request_counting_rules"
     },
     {
       "product": "agentkit",
@@ -24193,6 +24391,12 @@
       "id": "Integrating_MCP_service_in_agent",
       "title": "Integrating MCP in agents",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Integrating_MCP_service_in_agent"
+    },
+    {
+      "product": "agentkit",
+      "id": "Integrating_MCP_services_with_gateway_instances_via_private_network_domain_names",
+      "title": "Integrating MCP services with gateway instances via private network domain names",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/Integrating_MCP_services_with_gateway_instances_via_private_network_domain_names"
     },
     {
       "product": "agentkit",
@@ -24479,13 +24683,13 @@
     {
       "product": "agentkit",
       "id": "Managing_A2A_agent_versions",
-      "title": "Managing A2A agent versions",
+      "title": "Managing agent versions",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Managing_A2A_agent_versions"
     },
     {
       "product": "agentkit",
       "id": "Managing_gateway_instances",
-      "title": "Managing gateway instances",
+      "title": "Managing dedicated gateway instances",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Managing_gateway_instances"
     },
     {
@@ -24599,7 +24803,7 @@
     {
       "product": "agentkit",
       "id": "Preset_Skills",
-      "title": "Preset Skills",
+      "title": "Viewing and using preset skills",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Preset_Skills"
     },
     {
@@ -24623,7 +24827,7 @@
     {
       "product": "agentkit",
       "id": "Publishing_Skills",
-      "title": "Publishing Skills",
+      "title": "Publishing skills",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Publishing_Skills"
     },
     {
@@ -24647,7 +24851,7 @@
     {
       "product": "agentkit",
       "id": "Registering_A2A_agents",
-      "title": "Registering A2A agents",
+      "title": "Registering agents",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Registering_A2A_agents"
     },
     {
@@ -24719,7 +24923,7 @@
     {
       "product": "agentkit",
       "id": "Sample_A2A_agent_JSON_file",
-      "title": "Sample A2A agent JSON file",
+      "title": "Sample JSON file for A2A agent",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Sample_A2A_agent_JSON_file"
     },
     {
@@ -24767,7 +24971,7 @@
     {
       "product": "agentkit",
       "id": "Skills_space",
-      "title": "Creating Skills spaces",
+      "title": "Creating skills spaces",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Skills_space"
     },
     {
@@ -24797,13 +25001,13 @@
     {
       "product": "agentkit",
       "id": "Testing_MCP_service",
-      "title": "Testing an MCP service",
+      "title": "Testing MCP services",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Testing_MCP_service"
     },
     {
       "product": "agentkit",
       "id": "Testing_MCP_toolset",
-      "title": "Testing MCP toolset",
+      "title": "Testing an MCP toolset",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Testing_MCP_toolset"
     },
     {
@@ -24845,7 +25049,7 @@
     {
       "product": "agentkit",
       "id": "Unregistering_A2A_agents",
-      "title": "Unregistering A2A agents",
+      "title": "Unregistering agents",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Unregistering_A2A_agents"
     },
     {
@@ -24935,7 +25139,7 @@
     {
       "product": "agentkit",
       "id": "Updating_A2A_agent_JSON_file",
-      "title": "Updating A2A agent JSON file",
+      "title": "Updating agent JSON file",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Updating_A2A_agent_JSON_file"
     },
     {
@@ -24947,7 +25151,7 @@
     {
       "product": "agentkit",
       "id": "Updating_AgentCard_addresses_of_A2A_agents",
-      "title": "Updating AgentCard addresses of A2A agents",
+      "title": "Updating agent AgentCard addresses",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Updating_AgentCard_addresses_of_A2A_agents"
     },
     {
@@ -24959,7 +25163,7 @@
     {
       "product": "agentkit",
       "id": "Updating_Skills",
-      "title": "Updating Skills",
+      "title": "Updating skills",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Updating_Skills"
     },
     {
@@ -25091,7 +25295,7 @@
     {
       "product": "agentkit",
       "id": "Viewing_A2A_agent_JSON_file",
-      "title": "Viewing A2A agent JSON file",
+      "title": "Viewing agent JSON file",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_A2A_agent_JSON_file"
     },
     {
@@ -25121,7 +25325,7 @@
     {
       "product": "agentkit",
       "id": "Viewing_Skill_change_details",
-      "title": "Viewing Skill change details",
+      "title": "Viewing skill change details",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_Skill_change_details"
     },
     {
@@ -25135,6 +25339,12 @@
       "id": "Viewing_chunk_details",
       "title": "Viewing chunk details",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_chunk_details"
+    },
+    {
+      "product": "agentkit",
+      "id": "Viewing_gateway_instance_monitoring_data",
+      "title": "Viewing gateway instance monitoring data",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_gateway_instance_monitoring_data"
     },
     {
       "product": "agentkit",
@@ -25153,6 +25363,12 @@
       "id": "Viewing_memory_monitoring_data",
       "title": "Viewing memory monitoring data",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_memory_monitoring_data"
+    },
+    {
+      "product": "agentkit",
+      "id": "Viewing_model_service_monitoring_data",
+      "title": "Viewing model service monitoring data",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_model_service_monitoring_data"
     },
     {
       "product": "agentkit",
@@ -25198,6 +25414,12 @@
     },
     {
       "product": "agentkit",
+      "id": "Viewing_shared_gateway_information",
+      "title": "Viewing shared gateway information",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_shared_gateway_information"
+    },
+    {
+      "product": "agentkit",
       "id": "Viewing_tool_instance_information",
       "title": "Viewing real-time logs",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_tool_instance_information"
@@ -25211,7 +25433,7 @@
     {
       "product": "agentkit",
       "id": "Viewing_version_details_of_Skills",
-      "title": "Viewing version details of Skills",
+      "title": "Viewing skills",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_version_details_of_Skills"
     },
     {
@@ -27826,18 +28048,6 @@
     },
     {
       "product": "apmplus",
-      "id": "Chart_groups",
-      "title": "Chart groups",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Chart_groups"
-    },
-    {
-      "product": "apmplus",
-      "id": "Chart_setting",
-      "title": "Chart setting",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Chart_setting"
-    },
-    {
-      "product": "apmplus",
       "id": "Client_IAM_permission_management",
       "title": "Client IAM permission management",
       "url": "https://docs.byteplus.com/en/docs/apmplus/Client_IAM_permission_management"
@@ -27994,14 +28204,8 @@
     },
     {
       "product": "apmplus",
-      "id": "Data_conversion",
-      "title": "Data conversion",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Data_conversion"
-    },
-    {
-      "product": "apmplus",
       "id": "Data_queries",
-      "title": "Data queries",
+      "title": "Data query",
       "url": "https://docs.byteplus.com/en/docs/apmplus/Data_queries"
     },
     {
@@ -28033,12 +28237,6 @@
       "id": "Description_of_the_APMPlus_self-developed_monitoring_system",
       "title": "Description of the APMPlus self-developed monitoring system",
       "url": "https://docs.byteplus.com/en/docs/apmplus/Description_of_the_APMPlus_self-developed_monitoring_system"
-    },
-    {
-      "product": "apmplus",
-      "id": "Description_of_tracking_fields_and_metrics_for_large_language_models",
-      "title": "Description of tracking fields and metrics for large language models",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Description_of_tracking_fields_and_metrics_for_large_language_models"
     },
     {
       "product": "apmplus",
@@ -28624,12 +28822,6 @@
     },
     {
       "product": "apmplus",
-      "id": "Global_variables",
-      "title": "Global variables",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Global_variables"
-    },
-    {
-      "product": "apmplus",
       "id": "HTML5_monitoring",
       "title": "HTML5 monitoring",
       "url": "https://docs.byteplus.com/en/docs/apmplus/HTML5_monitoring"
@@ -29110,18 +29302,6 @@
     },
     {
       "product": "apmplus",
-      "id": "Large_language_model_monitoring_dashboard",
-      "title": "Large language model monitoring dashboard",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Large_language_model_monitoring_dashboard"
-    },
-    {
-      "product": "apmplus",
-      "id": "Large_language_model_session_analysis",
-      "title": "Large language model session analysis",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Large_language_model_session_analysis"
-    },
-    {
-      "product": "apmplus",
       "id": "Lightweight_instances",
       "title": "Lightweight instances",
       "url": "https://docs.byteplus.com/en/docs/apmplus/Lightweight_instances"
@@ -29185,24 +29365,6 @@
       "id": "Log_output_APMPlus_AppToken_is_invalid",
       "title": "Log output: \"APMPlus - AppToken is invalid\"",
       "url": "https://docs.byteplus.com/en/docs/apmplus/Log_output_APMPlus_AppToken_is_invalid"
-    },
-    {
-      "product": "apmplus",
-      "id": "Manage_folders",
-      "title": "Manage folders",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Manage_folders"
-    },
-    {
-      "product": "apmplus",
-      "id": "Management_charts",
-      "title": "Management charts",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Management_charts"
-    },
-    {
-      "product": "apmplus",
-      "id": "Management_dashboards",
-      "title": "Management dashboards",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Management_dashboards"
     },
     {
       "product": "apmplus",
@@ -29470,12 +29632,6 @@
     },
     {
       "product": "apmplus",
-      "id": "Overview_of_AI_scenario_monitoring",
-      "title": "Overview of AI scenario monitoring",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Overview_of_AI_scenario_monitoring"
-    },
-    {
-      "product": "apmplus",
       "id": "PageOverview",
       "title": "PageOverview",
       "url": "https://docs.byteplus.com/en/docs/apmplus/PageOverview"
@@ -29557,12 +29713,6 @@
       "id": "Query_AppID_and_AppToken",
       "title": "Query AppID and AppToken",
       "url": "https://docs.byteplus.com/en/docs/apmplus/Query_AppID_and_AppToken"
-    },
-    {
-      "product": "apmplus",
-      "id": "Quickly_use_a_custom_dashboard",
-      "title": "Quickly use a custom dashboard",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/Quickly_use_a_custom_dashboard"
     },
     {
       "product": "apmplus",
@@ -30130,12 +30280,6 @@
     },
     {
       "product": "apmplus",
-      "id": "VeADK_agent_trace_monitoring",
-      "title": "VeADK agent trace monitoring",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/VeADK_agent_trace_monitoring"
-    },
-    {
-      "product": "apmplus",
       "id": "Version_release_records",
       "title": "Version release records",
       "url": "https://docs.byteplus.com/en/docs/apmplus/Version_release_records"
@@ -30529,12 +30673,6 @@
       "id": "traffic_monitor",
       "title": "Traffic monitor",
       "url": "https://docs.byteplus.com/en/docs/apmplus/traffic_monitor"
-    },
-    {
-      "product": "apmplus",
-      "id": "vLLM_inference_engine_trace_monitoring",
-      "title": "vLLM inference engine trace monitoring",
-      "url": "https://docs.byteplus.com/en/docs/apmplus/vLLM_inference_engine_trace_monitoring"
     },
     {
       "product": "apmplus",
@@ -50974,6 +51112,24 @@
     },
     {
       "product": "byteplus-rtc",
+      "id": "docs-1402681",
+      "title": "StartSubtitle",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1402681"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "docs-1402682",
+      "title": "StopSubtitle",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1402682"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "docs-1402683",
+      "title": "UpdateSubtitle",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1402683"
+    },
+    {
+      "product": "byteplus-rtc",
       "id": "docs-1404671",
       "title": "UpdateVoiceChat",
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1404671"
@@ -51427,6 +51583,12 @@
       "id": "docs-257549",
       "title": "Room Capacity",
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-257549"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "docs-2608589",
+      "title": "Billing of Subtitle",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-2608589"
     },
     {
       "product": "byteplus-rtc",
@@ -52147,6 +52309,12 @@
       "id": "pricing-wtn",
       "title": "Pricing",
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/pricing-wtn"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "real-time-call-subtitles-and-translation-server-side",
+      "title": "Real-time Call Subtitles and Translation",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/real-time-call-subtitles-and-translation-server-side"
     },
     {
       "product": "byteplus-rtc",
@@ -62836,6 +63004,12 @@
     },
     {
       "product": "contextsearch",
+      "id": "Configure_a_multimodal_search_scenario",
+      "title": "Configure a multimodal search scenario",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/Configure_a_multimodal_search_scenario"
+    },
+    {
+      "product": "contextsearch",
       "id": "Configure_an_Agentic_Search_scenario",
       "title": "Configure an Agentic Search scenario",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Configure_an_Agentic_Search_scenario"
@@ -62926,12 +63100,6 @@
     },
     {
       "product": "contextsearch",
-      "id": "Experience_sample_scenarios",
-      "title": "Experience sample scenarios",
-      "url": "https://docs.byteplus.com/en/docs/contextsearch/Experience_sample_scenarios"
-    },
-    {
-      "product": "contextsearch",
       "id": "Import_data",
       "title": "Import data",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Import_data"
@@ -62989,12 +63157,6 @@
       "id": "Quick_search",
       "title": "Quick search",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Quick_search"
-    },
-    {
-      "product": "contextsearch",
-      "id": "Quickly_create_and_use_scenarios",
-      "title": "Quickly create and use scenarios",
-      "url": "https://docs.byteplus.com/en/docs/contextsearch/Quickly_create_and_use_scenarios"
     },
     {
       "product": "contextsearch",
@@ -64751,7 +64913,7 @@
     {
       "product": "cr",
       "id": "Micro_Edition_instance",
-      "title": "Micro Edition instance",
+      "title": "Micro Edition instances",
       "url": "https://docs.byteplus.com/en/docs/cr/Micro_Edition_instance"
     },
     {
@@ -64865,13 +65027,13 @@
     {
       "product": "cr",
       "id": "Upgrade_a_Micro_Edition_instance_to_a_Standard_Edition_instance",
-      "title": "Upgrade Micro Edition instance to Standard Edition instance",
+      "title": "Upgrading from Micro Edition instances to Standard Edition instances",
       "url": "https://docs.byteplus.com/en/docs/cr/Upgrade_a_Micro_Edition_instance_to_a_Standard_Edition_instance"
     },
     {
       "product": "cr",
       "id": "Using_Container_Registry_with_Terraform",
-      "title": "Use Container Registry (CR) with Terraform",
+      "title": "Using CR with Terraform",
       "url": "https://docs.byteplus.com/en/docs/cr/Using_Container_Registry_with_Terraform"
     },
     {
@@ -65812,6 +65974,12 @@
     },
     {
       "product": "dataagent",
+      "id": "Cancel_Task",
+      "title": "Cancel Task",
+      "url": "https://docs.byteplus.com/en/docs/dataagent/Cancel_Task"
+    },
+    {
+      "product": "dataagent",
       "id": "Case_Automotive_User_Intention_Label_Prediction",
       "title": "[Case] Automotive User Intention Label Prediction",
       "url": "https://docs.byteplus.com/en/docs/dataagent/Case_Automotive_User_Intention_Label_Prediction"
@@ -66412,9 +66580,21 @@
     },
     {
       "product": "dataagent",
+      "id": "Get_Session_Task_List",
+      "title": "Get Session Task List",
+      "url": "https://docs.byteplus.com/en/docs/dataagent/Get_Session_Task_List"
+    },
+    {
+      "product": "dataagent",
       "id": "Get_Task_Details",
       "title": "Get Task Details",
       "url": "https://docs.byteplus.com/en/docs/dataagent/Get_Task_Details"
+    },
+    {
+      "product": "dataagent",
+      "id": "Get_a_Task_Snapshot",
+      "title": "Get a Task Snapshot",
+      "url": "https://docs.byteplus.com/en/docs/dataagent/Get_a_Task_Snapshot"
     },
     {
       "product": "dataagent",
@@ -66695,7 +66875,7 @@
     {
       "product": "dataagent",
       "id": "Intelligent_Analysis_Agent_Administrator_Quick_Start_Guide",
-      "title": "Intelligent Analysis Agent Administrator Quick Start Guide",
+      "title": "Getting Started with Intelligent Analytics Agent Administrators",
       "url": "https://docs.byteplus.com/en/docs/dataagent/Intelligent_Analysis_Agent_Administrator_Quick_Start_Guide"
     },
     {
@@ -66715,12 +66895,6 @@
       "id": "Intelligent_Analysis_Agent_Third-Party_Integration_Guide",
       "title": "Intelligent Analysis Agent Third-Party Integration Guide",
       "url": "https://docs.byteplus.com/en/docs/dataagent/Intelligent_Analysis_Agent_Third-Party_Integration_Guide"
-    },
-    {
-      "product": "dataagent",
-      "id": "Intelligent_Analysis_Agent_User_Guide",
-      "title": "Intelligent Analysis Agent Guide",
-      "url": "https://docs.byteplus.com/en/docs/dataagent/Intelligent_Analysis_Agent_User_Guide"
     },
     {
       "product": "dataagent",
@@ -67642,6 +67816,12 @@
     },
     {
       "product": "dataagent",
+      "id": "Resubscribe_to_the_Task",
+      "title": "Resubscribe to the Task",
+      "url": "https://docs.byteplus.com/en/docs/dataagent/Resubscribe_to_the_Task"
+    },
+    {
+      "product": "dataagent",
       "id": "Retrieve_Session_Information",
       "title": "Retrieve Session Information",
       "url": "https://docs.byteplus.com/en/docs/dataagent/Retrieve_Session_Information"
@@ -67789,6 +67969,12 @@
       "id": "StarRocks__",
       "title": "StarRocks",
       "url": "https://docs.byteplus.com/en/docs/dataagent/StarRocks__"
+    },
+    {
+      "product": "dataagent",
+      "id": "Start_Streaming_Q_A",
+      "title": "Start Streaming Q & A",
+      "url": "https://docs.byteplus.com/en/docs/dataagent/Start_Streaming_Q_A"
     },
     {
       "product": "dataagent",
@@ -68092,6 +68278,12 @@
     },
     {
       "product": "dataagent",
+      "id": "V4_1_0",
+      "title": "V4.1.0",
+      "url": "https://docs.byteplus.com/en/docs/dataagent/V4_1_0"
+    },
+    {
+      "product": "dataagent",
       "id": "V_4_0_0",
       "title": "V4.0.0",
       "url": "https://docs.byteplus.com/en/docs/dataagent/V_4_0_0"
@@ -68209,6 +68401,12 @@
       "id": "iDA_-Create_Prompt_Template",
       "title": "iDA -Create Prompt Template",
       "url": "https://docs.byteplus.com/en/docs/dataagent/iDA_-Create_Prompt_Template"
+    },
+    {
+      "product": "dataagent",
+      "id": "iDA_-_Acquiring_Available_Scenes_and_Skills",
+      "title": "iDA - Acquiring Available Scenes and Skills",
+      "url": "https://docs.byteplus.com/en/docs/dataagent/iDA_-_Acquiring_Available_Scenes_and_Skills"
     },
     {
       "product": "dataagent",
@@ -71479,6 +71677,12 @@
       "id": "Configuring-transparent-huge-pages",
       "title": "Configuring THP in Linux operating system",
       "url": "https://docs.byteplus.com/en/docs/ecs/Configuring-transparent-huge-pages"
+    },
+    {
+      "product": "ecs",
+      "id": "Configuring_background_asynchronous_memory_reclaim_for_Memcg",
+      "title": "Configuring background asynchronous memory reclaim for Memcg",
+      "url": "https://docs.byteplus.com/en/docs/ecs/Configuring_background_asynchronous_memory_reclaim_for_Memcg"
     },
     {
       "product": "ecs",
@@ -74980,6 +75184,12 @@
     },
     {
       "product": "ecs",
+      "id": "fix_expired_release_files_in_debian",
+      "title": "How to solve the issue of expired Release/InRelease files in the Debian security APT software repository?",
+      "url": "https://docs.byteplus.com/en/docs/ecs/fix_expired_release_files_in_debian"
+    },
+    {
+      "product": "ecs",
       "id": "kernel-panic",
       "title": "Configuring panic-induced crash restart feature in Linux operating system",
       "url": "https://docs.byteplus.com/en/docs/ecs/kernel-panic"
@@ -76043,7 +76253,7 @@
     {
       "product": "faas",
       "id": "Advanced_configuration_for_sandbox_applications",
-      "title": "Advanced configuration for sandbox applications",
+      "title": "Advanced configurations for sandbox applications",
       "url": "https://docs.byteplus.com/en/docs/faas/Advanced_configuration_for_sandbox_applications"
     },
     {
@@ -80734,6 +80944,12 @@
     },
     {
       "product": "modelark",
+      "id": "1099461",
+      "title": "ModelArk Model Fine-tuning Dataset Format Description-BytePlus",
+      "url": "https://docs.byteplus.com/en/docs/modelark/1099461"
+    },
+    {
+      "product": "modelark",
       "id": "1099522",
       "title": "Create standard inference endpoint | ModelArk | BytePlus",
       "url": "https://docs.byteplus.com/en/docs/modelark/1099522"
@@ -81250,6 +81466,12 @@
     },
     {
       "product": "modelark",
+      "id": "2553731",
+      "title": "Define Outcome | ModelArk | BytePlus",
+      "url": "https://docs.byteplus.com/en/docs/modelark/2553731"
+    },
+    {
+      "product": "modelark",
       "id": "2582774",
       "title": "Seedream 5.0 pro tutorial | ModelArk | BytePlus",
       "url": "https://docs.byteplus.com/en/docs/modelark/2582774"
@@ -81289,6 +81511,36 @@
       "id": "2662855",
       "title": "List of parameters supported by models--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/modelark/2662855"
+    },
+    {
+      "product": "modelark",
+      "id": "2663772",
+      "title": "Migrate to the official Ark SDK--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/modelark/2663772"
+    },
+    {
+      "product": "modelark",
+      "id": "2664204",
+      "title": "Self-hosted environment overview--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/modelark/2664204"
+    },
+    {
+      "product": "modelark",
+      "id": "2664205",
+      "title": "Configure and run a self-hosted environment--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/modelark/2664205"
+    },
+    {
+      "product": "modelark",
+      "id": "2664206",
+      "title": "Self-hosted environment security--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/modelark/2664206"
+    },
+    {
+      "product": "modelark",
+      "id": "2665244",
+      "title": "Online inference (Flex)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/modelark/2665244"
     },
     {
       "product": "mongodb",
@@ -81355,6 +81607,12 @@
       "id": "Upgrading_the_connection_address_domain_name",
       "title": "Upgrading the connection address domain name",
       "url": "https://docs.byteplus.com/en/docs/mongodb/Upgrading_the_connection_address_domain_name"
+    },
+    {
+      "product": "mongodb",
+      "id": "Vector_search",
+      "title": "Vector search",
+      "url": "https://docs.byteplus.com/en/docs/mongodb/Vector_search"
     },
     {
       "product": "mongodb",
@@ -81997,6 +82255,12 @@
       "id": "manual-backup",
       "title": "Manual backup",
       "url": "https://docs.byteplus.com/en/docs/mongodb/manual-backup"
+    },
+    {
+      "product": "mongodb",
+      "id": "migrate-az",
+      "title": "Migrating availability zone",
+      "url": "https://docs.byteplus.com/en/docs/mongodb/migrate-az"
     },
     {
       "product": "mongodb",
@@ -88408,6 +88672,12 @@
     },
     {
       "product": "sealsuite",
+      "id": "agent-full-link-audit",
+      "title": "Agent full link audit",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/agent-full-link-audit"
+    },
+    {
+      "product": "sealsuite",
       "id": "agent-security-overview",
       "title": "Agent Security overview",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/agent-security-overview"
@@ -89830,6 +90100,12 @@
     },
     {
       "product": "sealsuite",
+      "id": "process-running-control",
+      "title": "Configuring Process Running Control Policies",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/process-running-control"
+    },
+    {
+      "product": "sealsuite",
       "id": "quickstart",
       "title": "Quick Start Guide",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/quickstart"
@@ -89905,6 +90181,12 @@
       "id": "Byteplus_Searchinfinity_Service_Level_Agreement",
       "title": "Byteplus Searchinfinity Service Level Agreement",
       "url": "https://docs.byteplus.com/en/docs/searchinfinity/Byteplus_Searchinfinity_Service_Level_Agreement"
+    },
+    {
+      "product": "searchinfinity",
+      "id": "Release_Note",
+      "title": "Release Note",
+      "url": "https://docs.byteplus.com/en/docs/searchinfinity/Release_Note"
     },
     {
       "product": "searchinfinity",
@@ -90979,6 +91261,12 @@
       "id": "DISTINCT-clause-2",
       "title": "DISTINCT clause",
       "url": "https://docs.byteplus.com/en/docs/tls/DISTINCT-clause-2"
+    },
+    {
+      "product": "tls",
+      "id": "Data_encryption",
+      "title": "Data encryption",
+      "url": "https://docs.byteplus.com/en/docs/tls/Data_encryption"
     },
     {
       "product": "tls",
@@ -109414,6 +109702,12 @@
     },
     {
       "product": "vke",
+      "id": "Changing_cloud_disk_types",
+      "title": "Changing cloud disk types",
+      "url": "https://docs.byteplus.com/en/docs/vke/Changing_cloud_disk_types"
+    },
+    {
+      "product": "vke",
       "id": "Check_Self-healing_Observation",
       "title": "Check and self-healing observability",
       "url": "https://docs.byteplus.com/en/docs/vke/Check_Self-healing_Observation"
@@ -109519,6 +109813,12 @@
       "id": "Cluster_log_and_event_alerts",
       "title": "Cluster log and event alerts",
       "url": "https://docs.byteplus.com/en/docs/vke/Cluster_log_and_event_alerts"
+    },
+    {
+      "product": "vke",
+      "id": "Cluster_templates",
+      "title": "Creating clusters",
+      "url": "https://docs.byteplus.com/en/docs/vke/Cluster_templates"
     },
     {
       "product": "vke",
@@ -110266,6 +110566,12 @@
     },
     {
       "product": "vke",
+      "id": "Creating_node_pools",
+      "title": "Creating node pools",
+      "url": "https://docs.byteplus.com/en/docs/vke/Creating_node_pools"
+    },
+    {
+      "product": "vke",
       "id": "Cron-expressions",
       "title": "Cron expressions",
       "url": "https://docs.byteplus.com/en/docs/vke/Cron-expressions"
@@ -110743,6 +111049,12 @@
       "id": "High-risk-operations-and-recovery-solutions",
       "title": "High-risk operations and recovery solutions",
       "url": "https://docs.byteplus.com/en/docs/vke/High-risk-operations-and-recovery-solutions"
+    },
+    {
+      "product": "vke",
+      "id": "History_feature_release_notes",
+      "title": "Historical release notes",
+      "url": "https://docs.byteplus.com/en/docs/vke/History_feature_release_notes"
     },
     {
       "product": "vke",
@@ -111391,6 +111703,12 @@
       "id": "ListTagsForResources",
       "title": "ListTagsForResources",
       "url": "https://docs.byteplus.com/en/docs/vke/ListTagsForResources"
+    },
+    {
+      "product": "vke",
+      "id": "ListTasks",
+      "title": "ListTasks",
+      "url": "https://docs.byteplus.com/en/docs/vke/ListTasks"
     },
     {
       "product": "vke",
@@ -112450,6 +112768,12 @@
     },
     {
       "product": "vke",
+      "id": "UpdateClusterVersion",
+      "title": "UpdateClusterVersion",
+      "url": "https://docs.byteplus.com/en/docs/vke/UpdateClusterVersion"
+    },
+    {
+      "product": "vke",
       "id": "UpdateImageCache",
       "title": "UpdateImageCache",
       "url": "https://docs.byteplus.com/en/docs/vke/UpdateImageCache"
@@ -112480,6 +112804,12 @@
     },
     {
       "product": "vke",
+      "id": "UpdateTask",
+      "title": "UpdateTask",
+      "url": "https://docs.byteplus.com/en/docs/vke/UpdateTask"
+    },
+    {
+      "product": "vke",
       "id": "Updating_HTTPS_certificates_for_CLB_Ingress",
       "title": "Updating HTTPS certificates for CLB Ingress",
       "url": "https://docs.byteplus.com/en/docs/vke/Updating_HTTPS_certificates_for_CLB_Ingress"
@@ -112489,6 +112819,12 @@
       "id": "Updating_HTTPS_certificates_for_LoadBalancer_services",
       "title": "Updating HTTPS certificates for LoadBalancer services",
       "url": "https://docs.byteplus.com/en/docs/vke/Updating_HTTPS_certificates_for_LoadBalancer_services"
+    },
+    {
+      "product": "vke",
+      "id": "UpgradeNodePools",
+      "title": "UpgradeNodePools",
+      "url": "https://docs.byteplus.com/en/docs/vke/UpgradeNodePools"
     },
     {
       "product": "vke",
@@ -114665,7 +115001,7 @@
     {
       "product": "vmp",
       "id": "Monitoring-applications-in-an-ECS-instance",
-      "title": "Monitoring Applications in ECS Instances",
+      "title": "Monitoring applications on ECS instances",
       "url": "https://docs.byteplus.com/en/docs/vmp/Monitoring-applications-in-an-ECS-instance"
     },
     {
@@ -114725,7 +115061,7 @@
     {
       "product": "vmp",
       "id": "Permission-overview",
-      "title": "Permission overview",
+      "title": "IAM overview",
       "url": "https://docs.byteplus.com/en/docs/vmp/Permission-overview"
     },
     {
@@ -115144,6 +115480,12 @@
     },
     {
       "product": "vmp",
+      "id": "biaoqian",
+      "title": "Tag management",
+      "url": "https://docs.byteplus.com/en/docs/vmp/biaoqian"
+    },
+    {
+      "product": "vmp",
       "id": "billing-overview",
       "title": "Billing overview",
       "url": "https://docs.byteplus.com/en/docs/vmp/billing-overview"
@@ -115276,6 +115618,12 @@
     },
     {
       "product": "vmp",
+      "id": "qianyi",
+      "title": "[Product update] Migration of the VMP alert notification feature to the Alert Center of the Observability Platform",
+      "url": "https://docs.byteplus.com/en/docs/vmp/qianyi"
+    },
+    {
+      "product": "vmp",
       "id": "rdma-device-plugin_metrics",
       "title": "rdma-device-plugin metrics",
       "url": "https://docs.byteplus.com/en/docs/vmp/rdma-device-plugin_metrics"
@@ -115327,6 +115675,12 @@
       "id": "workspaces-types",
       "title": "Workspace type",
       "url": "https://docs.byteplus.com/en/docs/vmp/workspaces-types"
+    },
+    {
+      "product": "vmp",
+      "id": "xingmu",
+      "title": "Project management",
+      "url": "https://docs.byteplus.com/en/docs/vmp/xingmu"
     },
     {
       "product": "vpc",
