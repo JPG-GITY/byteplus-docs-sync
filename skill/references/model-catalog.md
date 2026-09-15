@@ -90,8 +90,8 @@ API: `POST /api/v3/contents/generations/tasks` (async). Full detail in 3d-genera
 
 | Model ID | Input | Output tiers | Polygon range | RPM / concurrency | Free quota |
 |---|---|---|---|---|---|
-| `Hyper3d-Rodin-Gen2` (console `hyper3d-gen2`) | Text→3D, Image→3D | White / Textured / PBR / Textured+PBR | tri [500, 1,000,000] · quad [1,000, 200,000] | 60 / 3 | 150K tokens |
-| `Hitem3d-2.0` (console `hitem3d-2-0`) | Image→3D | Std White/Textured · High-Precision White/Textured | [100,000, 2,000,000] | 600 / 30 | 500K tokens |
+| `hyper3d-gen2-260112` (display Hyper3d-Rodin-Gen2; that name as `model` → 404, measured 2026-09-11) <!-- MEASURED --> | Text→3D, Image→3D | White / Textured / PBR / Textured+PBR | tri [500, 1,000,000] · quad [1,000, 200,000] | 60 / 3 | 150K tokens |
+| `hitem3d-2-0-251223` (display Hitem3d-2.0; catalog ID from GET /api/v3/models, 2026-09-11) | Image→3D | Std White/Textured · High-Precision White/Textured | [100,000, 2,000,000] | 600 / 30 | 500K tokens |
 
 Formats: glb, obj, stl, fbx, usdz. **Pricing (grounded): $0.0133 / 1K output tokens; each model = fixed 30,000 tokens ≈ $0.399/model.**
 
@@ -116,6 +116,6 @@ API: `POST /api/v3/embeddings/multimodal`. Full detail in multimodal-embedding.m
 - **Coding in IDE** → Coding Plan + `seed-2-0-code-preview-260328` (correct base URL, see llm-and-responses-api.md §4).
 - **Marketing image / product shots** → `seedream-5-0-260128`; batch sets via `sequential_image_generation: auto`.
 - **Talking-head / ad video with sound** → `dreamina-seedance-2-0-260128` (4k) or `-fast`/`-mini` for cost. *(Seedance 2.5 announced as live but unconfirmed spec-wise — see note in §4 before recommending.)*
-- **Game/asset 3D** → `Hyper3d-Rodin-Gen2` (text or image, PBR) or `Hitem3d-2.0` (high-precision from image).
+- **Game/asset 3D** → `hyper3d-gen2-260112` (text or image, PBR) or `hitem3d-2-0-251223` (high-precision from image). Don't send the display names as `model`: `Hyper3d-Rodin-Gen2` 404s.
 - **Semantic search / RAG over mixed media** → `skylark-embedding-vision-251215`.
 - **Text-to-speech / voiceover / audiobook / voice cloning** → `seed-audio-1.0` (⚠️ `voice.ap-southeast-1.bytepluses.com` host, `X-Api-Key` auth) — see audio-generation.md.

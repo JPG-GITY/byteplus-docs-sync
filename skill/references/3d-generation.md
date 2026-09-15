@@ -14,7 +14,9 @@
 
 Both are AP-Southeast-only, async, and share the generation-task endpoint.
 
-| Spec | `Hyper3d-Rodin-Gen2` (console `hyper3d-gen2`) | `Hitem3d-2.0` (console `hitem3d-2-0`) |
+> **⚠️ Model IDs — MEASURED 2026-09-11 against the live API (overrides the docs).** Send the versioned catalog IDs as `model`: **`hyper3d-gen2-260112`** (Text→3D + Image→3D) and **`hitem3d-2-0-251223`** (Image→3D only), as listed by `GET https://ark.ap-southeast.bytepluses.com/api/v3/models`. The documented `"Hyper3d-Rodin-Gen2"` is rejected on the create POST with **HTTP 404 `InvalidEndpointOrModel.NotFound`**, and no task is created. `hyper3d-gen2-260112` was generated end-to-end; `hitem3d-2-0-251223` was only seen in the catalog. If a model ID 404s, check `GET /api/v3/models` before trusting any doc. <!-- MEASURED 2026-09-11: keep unless a live test reverses it -->
+
+| Spec | `hyper3d-gen2-260112` (display name Hyper3d-Rodin-Gen2) | `hitem3d-2-0-251223` (display name Hitem3d-2.0) |
 |---|---|---|
 | Input | **Text→3D and Image→3D** | **Image→3D only** |
 | Output tiers | White model · Textured model · PBR material model · Textured + PBR | Standard White · Standard Textured · High-Precision White · High-Precision Textured |
@@ -40,9 +42,11 @@ Same pattern as video generation:
 ```bash
 curl https://ark.ap-southeast.bytepluses.com/api/v3/contents/generations/tasks \
   -H "Authorization: Bearer $ARK_API_KEY" -H "Content-Type: application/json" \
-  -d '{ "model": "Hyper3d-Rodin-Gen2",
-        "content": [ {"type":"text","text":"a quadruped mech robot, orange armor --material PBR --mesh_mode Quad --fileformat glb"} ] }'
+  -d '{ "model": "hyper3d-gen2-260112",
+        "content": [ {"type":"text","text":"a quadruped mech robot, orange armor --material PBR --mesh_mode Quad --fileformat usdz"} ] }'
 ```
+
+**Measured run (2026-09-11, text→3D, flags inline in the text: `--material PBR --mesh_mode Quad --fileformat usdz`):** `succeeded` in **~120 s**. `content.file_url` downloaded an **~11 MB** zip containing `output_pbr.usdc` plus 4 PBR maps (diffuse, metallic, roughness, normal), which imported into Maya. The inline `--<param>` flags are honoured. <!-- MEASURED 2026-09-11 -->
 
 ## 3. Input methods (text / image)
 
@@ -79,4 +83,5 @@ Passed either directly in the body or appended to the text prompt as `--<param> 
 - Output `file_url` expires in **24 h** — persist to your own storage immediately.
 - Task records retained **7 days**; poll Retrieve or use `callback_url`.
 - Hitem3D is **image-only** — no text-to-3D.
+- ⚠️ **Use the catalog model IDs** `hyper3d-gen2-260112` / `hitem3d-2-0-251223`. `"model": "Hyper3d-Rodin-Gen2"` → HTTP 404 `InvalidEndpointOrModel.NotFound` with no task created (measured 2026-09-11). <!-- MEASURED 2026-09-11 -->
 - Regional availability is a fixed country list; don't promise a region without checking.
