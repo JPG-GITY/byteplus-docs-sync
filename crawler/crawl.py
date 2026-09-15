@@ -171,8 +171,36 @@ _DOC_PATH_RE = re.compile(
 
 
 def canonical_doc_url(origin: str, product: str, page_key_part: str) -> str:
-    """Canonical absolute URL for a doc page, always in the /en/docs/ form."""
+    """Canonical absolute URL for a doc page, always in the /en/docs/ form.
+
+    `product` must be the CANONICAL slug being crawled (e.g. "ModelArk"), never
+    the casing found in an href: the docs site serves /docs/ModelArk and
+    /docs/modelark alike, and a lowercase variant produced a second snapshot tree
+    (docs_cache/modelark/) that collides with docs_cache/ModelArk/ on
+    case-insensitive filesystems (macOS/Windows) and breaks `git pull`.
+    """
     return f"{origin}/en/docs/{product}/{page_key_part}"
+
+
+def canonical_slug_map(*slug_groups) -> dict[str, str]:
+    """Map lower-cased slug -> canonical casing. Earlier groups win.
+
+    Pass the config lists first (full_snapshot_products, products) so their
+    casing is authoritative; discovered slugs only fill in unknown products.
+    """
+    canon: dict[str, str] = {}
+    for group in slug_groups:
+        for slug in group:
+            canon.setdefault(slug.lower(), slug)
+    return canon
+
+
+def dedupe_slugs_casefold(slugs, canon: dict[str, str]) -> list[str]:
+    """Collapse slugs that differ only by case (ModelArk/modelark, SealSuite/sealsuite)."""
+    out: dict[str, str] = {}
+    for slug in sorted(slugs):
+        out.setdefault(slug.lower(), canon.get(slug.lower(), slug))
+    return sorted(out.values())
 
 
 def extract_doc_links(result: RenderResult, product: str, base_url: str) -> set[str]:
@@ -186,7 +214,8 @@ def extract_doc_links(result: RenderResult, product: str, base_url: str) -> set[
             return
         if m.group(1).lower() != product.lower():
             return
-        found.add(canonical_doc_url(origin, m.group(1), m.group(2)))
+        # Use the crawled product's canonical casing, not the href's.
+        found.add(canonical_doc_url(origin, product, m.group(2)))
 
     if result.html:
         from bs4 import BeautifulSoup
@@ -216,7 +245,7 @@ def extract_doc_links_with_titles(result: RenderResult, product: str, base_url: 
         m = _DOC_PATH_RE.search(href)
         if not m or m.group(1).lower() != product.lower():
             return
-        url = canonical_doc_url(origin, m.group(1), m.group(2))
+        url = canonical_doc_url(origin, product, m.group(2))
         text = (text or "").strip()
         if url not in found or (text and not found[url]):
             found[url] = text
@@ -376,7 +405,16 @@ def main() -> int:
     cache_dir = Path(cfg["cache_dir"])
     delay = float(cfg.get("request_delay_seconds", 0.6))
     retries = int(cfg.get("max_retries", 3))
+    # Config casing is authoritative (full_snapshot_products first, then
+    # products): the docs index links some products under several casings
+    # (ModelArk + modelark, SealSuite + sealsuite) and a case-sensitive set()
+    # crawled them twice.
+    canon = canonical_slug_map(
+        cfg.get("full_snapshot_products", []),
+        [p for p in cfg.get("products", []) if p != "*"],
+    )
     products = [args.product] if args.product else cfg["products"]
+    products = dedupe_slugs_casefold([p for p in products if p != "*"], canon) or products
 
     renderer = build_renderer(cfg)
 
@@ -402,9 +440,9 @@ def main() -> int:
                 f"Falling back to the {len(configured)} product(s) pinned in config.yaml.",
                 file=sys.stderr,
             )
-            products = sorted(set(configured) | set(discovered))
+            products = dedupe_slugs_casefold(set(configured) | set(discovered), canon)
         else:
-            products = sorted(set(discovered) | set(configured))
+            products = dedupe_slugs_casefold(set(discovered) | set(configured), canon)
         if not products:
             print(
                 "FATAL: no products to crawl (discovery empty and config.products empty). "
@@ -425,6 +463,9 @@ def main() -> int:
     # reference rewrites). Everything else is INDEX-ONLY: we enumerate its page
     # URLs+titles into sources.json for live-fetch, without downloading bodies.
     full_set = {p.lower() for p in cfg.get("full_snapshot_products", [])}
+    # Snapshot files must be unique ignoring case, or checkouts on macOS/Windows
+    # see two tracked paths fighting over one file (the 2026-09 pull failures).
+    snapshot_keys_lower: set[str] = set()
 
     try:
         for product in products:
@@ -438,10 +479,14 @@ def main() -> int:
                 urls = sorted(extract_doc_links(landing_res, product, base_url))
                 print(f"   found {len(urls)} page(s) — snapshotting content")
                 for i, url in enumerate(urls, 1):
+                    key = page_key(url)
+                    if key.lower() in snapshot_keys_lower:
+                        print(f"   ! skipping case-duplicate snapshot key {key}", file=sys.stderr)
+                        continue
+                    snapshot_keys_lower.add(key.lower())
                     time.sleep(delay)
                     res = with_retries(renderer.render, url, retries, delay)
                     md = normalize_markdown(res.markdown)
-                    key = page_key(url)
                     write_snapshot(cache_dir, key, url, res.title, md)
                     manifest["pages"][key] = {
                         "url": url,

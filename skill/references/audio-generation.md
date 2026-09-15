@@ -57,12 +57,13 @@ Use only one mode per request — do not mix.
 |---|---|---|---|
 | `model` | string | Yes | `seed-audio-1.0` |
 | `text_prompt` | string | Yes | Prompt / text to synthesize. **Max 2048 characters.** |
-| `references` | array | No | Reference resources. **Omit for text-only generation.** |
+| `references` | array | No | Reference resources. Omit for text-only generation (see the measured note under the modes below). |
 | `audio_config` | object | No | Output audio configuration (see §6) |
 | `watermark` | object | No | Watermark config; an **empty object `{}` is accepted**. |
 
 **Three generation modes:**
-- **Text-only** — omit `references`. Audio is generated purely from `text_prompt`.
+- **Text-only** — omit `references`. Audio is generated purely from `text_prompt` (e.g. a voice described in the prompt, or music/SFX).
+  > **Measured (live API):** on **2026-09-08** a request without `references` was rejected with `code=55001309` (downstream `50302201`) `InvalidData:SpeakerList empty requires one ReferenceAudio and one Data`. On **2026-09-10** the same mode **worked**: a 5 s music/SFX clip from text only, and a 4 s line with the voice described in the prompt and no `speaker`. Three preset `speaker` voices (`en_male_tim_uranus_bigtts`, `en_female_dacey_uranus_bigtts`, `zh_female_vv_uranus_bigtts`) also worked. Treat text-only as supported but not guaranteed. If you get `SpeakerList empty`, retry or fall back to a `speaker` or audio reference. Don't claim it always fails or always works. <!-- MEASURED 2026-09-08/09-10: keep unless a live test reverses it -->
 - **Audio-reference** — provide audio via `speaker`, `audio_data`, or `audio_url`. Refer to reference items *by order* in `text_prompt` using **`@Audio1`, `@Audio2`, `@Audio3`**.
 - **Image-reference** — provide one image via `image_data` or `image_url`. `text_prompt` contains only the text to synthesize.
 
@@ -92,6 +93,8 @@ Each reference item picks exactly one source field:
 | `speech_rate` | int | `0` | −50 to 100 (100 = 2.0× speed; −50 = 0.5× speed) |
 | `loudness_rate` | int | `0` | −50 to 100 (100 = 2.0× volume; −50 = 0.5× volume) |
 | `pitch_rate` | int | `0` | −12 to 12 |
+
+> **Measured 2026-09-11:** `format: "wav"` with **no `sample_rate` in the request** returned **PCM signed 16-bit little-endian (pcm_s16le), 40 kHz, stereo**. That is not the documented 24000 Hz default, and 40000 is not in the allowed `sample_rate` list. Read the WAV header instead of assuming 24 kHz mono. If a downstream tool needs a fixed rate, pass `sample_rate` explicitly or resample; explicit values were not re-measured. <!-- MEASURED 2026-09-11 -->
 
 ## 7. Response shape & billing
 
