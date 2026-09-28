@@ -22,7 +22,7 @@ Two regions, and **you must match the base URL to the region** or the call fails
 | `eu-west-1` | `https://ark.eu-west.bytepluses.com/api/v3` |
 
 - **Every model in the Model list runs in `ap-southeast-1`.**
-- **`eu-west-1` is restricted**: only `seed-2-0` models and `seedream-5-0-lite` are available there. Everything else (video/Seedance, other image models, most legacy LLMs) is AP-Southeast-only — notably **all Seedance video generation is AP-Southeast-only**. <!-- TODO: verify whether the newly-launched Seedance 2.5 API follows this same AP-Southeast-only restriction; not confirmed in supplied docs -->
+- **`eu-west-1` is restricted**: only `seed-2-0` models and `seedream-5-0-lite` are available there. Everything else (video/Seedance, other image models, most legacy LLMs) is AP-Southeast-only — notably **all Seedance video generation is AP-Southeast-only**. <!-- TODO: verify whether the newly-launched Seedance 2.5 API follows this same AP-Southeast-only restriction; not confirmed in supplied docs (see docs.byteplus.com/en/docs/ModelArk/region-availability, which currently only carries the Seedance 2.5 launch banner, no region detail) -->
 - Coding Plan uses separate paths off the AP-Southeast host: `/api/coding` (Anthropic-protocol) and `/api/coding/v3` (OpenAI-compatible). See llm-and-responses-api.md.
 
 ## 2. Authentication & IAM
@@ -89,7 +89,7 @@ So: cache *hits* bill near-real-time, but cache *storage* and fine-tuning stay h
 
 ## 7. Grounded prices (embedding & Knowledge Base)
 
-These per-item prices ARE grounded (from the Billing docs). Core LLM chat, Seedream image, and Seedance 1.x/1.0 per-token prices were **not** in the supplied docs — leave those as "see Billing" until provided. Seedance 2.0 pricing lives in video-seedance.md; 3D pricing in 3d-generation.md. Seedance 2.5 is now live with its own token package (see §5); its per-token pricing is not yet in the supplied docs — leave as "see Billing"/video-seedance.md until provided. <!-- TODO: verify Seedance 2.5 pricing location and rates -->
+These per-item prices ARE grounded (from the Billing docs). Core LLM chat, Seedream image, and Seedance 1.x/1.0 per-token prices were **not** in the supplied docs — leave those as "see Billing" until provided. Seedance 2.0 pricing lives in video-seedance.md; 3D pricing in 3d-generation.md. Seedance 2.5 is now live with its own token package (see §5); its per-token pricing is not yet in the supplied docs — leave as "see Billing"/video-seedance.md until provided. <!-- TODO: verify Seedance 2.5 pricing location and rates; docs.byteplus.com/en/docs/ModelArk/model-pricing currently only carries the launch banner, no rate table -->
 
 **Skylark Embedding Vision (per input tokens):**
 - text → **$0.000125 / 1K tokens**
@@ -111,7 +111,7 @@ These per-item prices ARE grounded (from the Billing docs). Core LLM chat, Seedr
 | `Skylark-embedding-vision-image_knowledge` | input tokens | **$0.000325 / 1K** |
 | VLM/LLM used inside KB | — | "Follow Ark" (standard model pricing) |
 
-KB gotchas: uploading documents **immediately reserves compute and starts hourly billing**; deleting documents does **not** free the resources — you must delete the whole Knowledge Base to stop charges. Compute autoscales with data volume; multiple vector-model combos bill separately.
+KB gotchas: uploading documents **immediately reserves compute and starts hourly billing**; deleting documents does **not** free the resources — you must delete the whole Knowledge Base to stop charges. Compute autoscales with data volume; multiple vector-model combos bill separately. <!-- note: docs.byteplus.com/en/docs/ModelArk/knowledge-base-quota-guide currently only carries the Seedance 2.5 launch banner; no quota-guide detail supplied to update this section -->
 
 ## 8. Model deprecation lifecycle
 

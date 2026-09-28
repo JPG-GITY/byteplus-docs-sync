@@ -6,7 +6,7 @@ Complete list of models on BytePlus ModelArk, grouped by capability. All IDs are
 
 The three banner ("flagship") models: **Dola Seed 2.0** (agentic LLM), **Dola Seedream 5.0** (image), **Dreamina Seedance 2.0** (video).
 
-> ⚠️ **Dreamina Seedance 2.5** API has been announced as live across BytePlus docs pages (banner: "Official Dreamina Seedance 2.5 API is now live 🚀 Get your token package and be the pioneer"), with a token-package purchase page at https://ai.byteplus.com/en/activity/seedance2-5. <!-- TODO: verify exact model ID, resolutions, duration limits, audio-visual sync support, pricing, and whether it supersedes `dreamina-seedance-2-0-260128` as the video flagship — sources so far are promo banners only (confirmed present on both /en/docs/ModelArk/2664204 and /en/docs/modelark/2664204), no spec detail --> Do not treat this as replacing Seedance 2.0 in guidance below until confirmed.
+> ⚠️ **Dreamina Seedance 2.5** API has been announced as live via a promo banner ("Official Dreamina Seedance 2.5 API is now live 🚀 Get your token package and be the pioneer") with a token-package purchase page at https://ai.byteplus.com/en/activity/seedance2-5. This banner is now confirmed present across a wide range of BytePlus docs pages, not just the two originally spotted — including `/en/docs/ModelArk/1330310`, `/en/docs/ModelArk/model-list`, `/en/docs/ModelArk/model-unit-overview`, `/en/docs/ModelArk/overview`, `/en/docs/ModelArk/product-overview`, `/en/docs/ModelArk/promptpilot-overview`, `/en/docs/ModelArk/self-hosted-environment-overview`, `/en/docs/ModelArk/videopilot-feature-overview`, plus the previously-noted `/en/docs/ModelArk/2664204` and `/en/docs/modelark/2664204`. <!-- TODO: verify exact model ID, resolutions, duration limits, audio-visual sync support, pricing, and whether it supersedes `dreamina-seedance-2-0-260128` as the video flagship — every source so far is the same site-wide promo banner, no spec detail anywhere --> Do not treat this as replacing Seedance 2.0 in guidance below until confirmed.
 
 ---
 
@@ -69,7 +69,7 @@ API: `POST /api/v3/contents/generations/tasks` (async). Full detail in video-see
 
 24 FPS, `.mp4`. Rate: enterprise 600 RPM / 10 concurrency (4k: 15 / 1); individual 180 / 3. Pricing (Seedance 2.0 base, USD/1M tokens, no-video/with-video): 480p&720p 7.0/4.3 · 1080p 7.7/4.7 · 4k 4.0/2.4 — see video-seedance.md §11.
 
-> **Dreamina Seedance 2.5** is advertised as newly live (promo banners on multiple ModelArk docs pages — confirmed present at both /en/docs/ModelArk/2664204 and /en/docs/modelark/2664204 as of this update, purchase link https://ai.byteplus.com/en/activity/seedance2-5) but no model ID, resolution/duration specs, or pricing have been published in the sources reviewed yet. <!-- TODO: verify and add a row to the table above once spec docs are available --> Do not recommend it in client guidance until confirmed.
+> **Dreamina Seedance 2.5** is advertised as newly live via a site-wide promo banner (now confirmed on numerous ModelArk docs pages, including `/en/docs/ModelArk/1330310`, `/en/docs/ModelArk/model-list`, `/en/docs/ModelArk/model-unit-overview`, `/en/docs/ModelArk/overview`, `/en/docs/ModelArk/product-overview`, `/en/docs/ModelArk/promptpilot-overview`, `/en/docs/ModelArk/self-hosted-environment-overview`, `/en/docs/ModelArk/videopilot-feature-overview`, `/en/docs/ModelArk/2664204`, and `/en/docs/modelark/2664204`; purchase link https://ai.byteplus.com/en/activity/seedance2-5) but no model ID, resolution/duration specs, or pricing have been published in any source reviewed yet. <!-- TODO: verify and add a row to the table above once spec docs are available --> Do not recommend it in client guidance until confirmed.
 
 ## 5. Image generation (Seedream)
 
@@ -115,7 +115,7 @@ API: `POST /api/v3/embeddings/multimodal`. Full detail in multimodal-embedding.m
 - **Million-token context** → `glm-5-2-260617` or `deepseek-v4-*-260425` (1024K).
 - **Coding in IDE** → Coding Plan + `seed-2-0-code-preview-260328` (correct base URL, see llm-and-responses-api.md §4).
 - **Marketing image / product shots** → `seedream-5-0-260128`; batch sets via `sequential_image_generation: auto`.
-- **Talking-head / ad video with sound** → `dreamina-seedance-2-0-260128` (4k) or `-fast`/`-mini` for cost. *(Seedance 2.5 announced as live but unconfirmed spec-wise — see note in §4 before recommending.)*
+- **Talking-head / ad video with sound** → `dreamina-seedance-2-0-260128` (4k) or `-fast`/`-mini` for cost. *(Seedance 2.5 announced as live via a site-wide promo banner but unconfirmed spec-wise — see note in §4 before recommending.)*
 - **Game/asset 3D** → `hyper3d-gen2-260112` (text or image, PBR) or `hitem3d-2-0-251223` (high-precision from image). Don't send the display names as `model`: `Hyper3d-Rodin-Gen2` 404s.
 - **Semantic search / RAG over mixed media** → `skylark-embedding-vision-251215`.
 - **Text-to-speech / voiceover / audiobook / voice cloning** → `seed-audio-1.0` (⚠️ `voice.ap-southeast-1.bytepluses.com` host, `X-Api-Key` auth) — see audio-generation.md.

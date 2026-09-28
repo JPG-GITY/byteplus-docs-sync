@@ -27,7 +27,7 @@
 
 Strengths: reference consistency, complex spatial reasoning, professional stylistic transfer.
 
-<!-- TODO: verify -- BytePlus docs pages (ModelArk/2582774, ModelArk/2582775) currently surface a promotional banner for the "Dreamina Seedance 2.5" API launch. Seedance is the video-generation line (see video-seedance.md); no Seedream-specific (image) model IDs, parameters, or limits were disclosed in these sources, so no changes have been made here pending a source with concrete image-model details. -->
+<!-- TODO: verify -- BytePlus docs pages fetched at docs.byteplus.com/en/docs/ModelArk/seedream-4-0-5-0, /seedream-5-0-pro-editing-guide, and /seedream-5-0-pro currently render only a promotional banner for the "Dreamina Seedance 2.5" API launch (Seedance is the video-generation line — see video-seedance.md). No Seedream-specific (image) model IDs, parameters, or limits were disclosed in these sources, so no factual changes have been made here. Note, however, that the URL slugs themselves ("seedream-5-0-pro" and a distinct "5-0-pro-editing-guide") hint at a possible `seedream-5-0-pro` model or naming variant separate from `seedream-5-0-260128` / `seedream-5-0-lite-260128` listed above — this is unconfirmed and should not be added to the table until a source discloses concrete details. -->
 
 ## 2. Resolution & sizing paradigms
 

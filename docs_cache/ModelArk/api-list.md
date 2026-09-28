@@ -1,7 +1,7 @@
 ---
-url: https://docs.byteplus.com/en/docs/ModelArk/1330310
-title: 'Model list--ModelArk-Byteplus'
-key: ModelArk/1330310
+url: https://docs.byteplus.com/en/docs/ModelArk/api-list
+title: 'APIs--ModelArk-Byteplus'
+key: ModelArk/api-list
 ---
 
 Official Dreamina Seedance 2.5 API is now live 🚀 Get your token package and be the pioneer

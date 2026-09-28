@@ -1,7 +1,7 @@
 ---
-url: https://docs.byteplus.com/en/docs/ModelArk/1330310
-title: 'Model list--ModelArk-Byteplus'
-key: ModelArk/1330310
+url: https://docs.byteplus.com/en/docs/ModelArk/promptpilot-overview
+title: 'PromptPilot Overview--ModelArk-Byteplus'
+key: ModelArk/promptpilot-overview
 ---
 
 Official Dreamina Seedance 2.5 API is now live 🚀 Get your token package and be the pioneer

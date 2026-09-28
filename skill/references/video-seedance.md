@@ -1,6 +1,6 @@
 # Dreamina Seedance 2.0 Video Generation & VideoPilot
 
-> **Note:** BytePlus has publicly announced that a newer **Dreamina Seedance 2.5** API is now live (promoted via `ai.byteplus.com/en/activity/seedance2-5`). At the time of this update, the linked ModelArk doc pages ([2222480](https://docs.byteplus.com/en/docs/ModelArk/2222480), [2291680](https://docs.byteplus.com/en/docs/ModelArk/2291680), [2607688](https://docs.byteplus.com/en/docs/ModelArk/2607688), [2607689](https://docs.byteplus.com/en/docs/ModelArk/2607689), [2608626](https://docs.byteplus.com/en/docs/ModelArk/2608626)) surface only this promotional banner — no model ID, parameter set, resolution/duration limits, or pricing for 2.5 were retrievable. Everything below therefore still describes **Seedance 2.0** (and 1.5 Pro where noted) and remains accurate; nothing here has been superseded by a confirmed 2.5 spec yet. <!-- TODO: verify — capture Seedance 2.5 model ID(s), resolution/duration/parameter support, and pricing once BytePlus publishes technical documentation (not just the purchase/marketing banner) -->
+> **Note:** BytePlus has publicly announced that a newer **Dreamina Seedance 2.5** API is now live (promoted via `ai.byteplus.com/en/activity/seedance2-5`). At the time of this update, the linked ModelArk doc pages ([2222480](https://docs.byteplus.com/en/docs/ModelArk/2222480), [2291680](https://docs.byteplus.com/en/docs/ModelArk/2291680), [2607688](https://docs.byteplus.com/en/docs/ModelArk/2607688), [2607689](https://docs.byteplus.com/en/docs/ModelArk/2607689), [2608626](https://docs.byteplus.com/en/docs/ModelArk/2608626)) surface only this promotional banner — no model ID, parameter set, resolution/duration limits, or pricing for 2.5 were retrievable. This has since been re-confirmed against the slug-based doc URLs [seedance-2-0-prompt-guide](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-0-prompt-guide), [seedance-2-0](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-0), [seedance-2-5](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5), and [seedance-portrait-asset-guide](https://docs.byteplus.com/en/docs/ModelArk/seedance-portrait-asset-guide) — all four currently render **only** the "Official Dreamina Seedance 2.5 API is now live 🚀 / Get your token package and be the pioneer / [Purchase]" banner, with no accompanying technical content, including on pages whose slugs suggest they should hold the 2.0 prompt-engineering guide and the portrait/biometric-asset guide. This does not contradict or supersede the prompt-engineering guidance in §8 or the biometric-compliance detail in §7 below (those remain sourced from the ComfyUI partner-node docs and the ModelArk Terms page cited there) — it simply means the ModelArk-hosted versions of those guide pages are not currently retrievable as technical content, only as this marketing banner. Everything below therefore still describes **Seedance 2.0** (and 1.5 Pro where noted) and remains accurate; nothing here has been superseded by a confirmed 2.5 spec yet. <!-- TODO: verify — capture Seedance 2.5 model ID(s), resolution/duration/parameter support, and pricing once BytePlus publishes technical documentation (not just the purchase/marketing banner); also re-check seedance-2-0-prompt-guide and seedance-portrait-asset-guide once they render actual content again -->
 
 ## Contents
 1. Models & specs
@@ -124,6 +124,8 @@ Seedance 2.0 **categorically rejects** reference images/videos containing unveri
 
 Trust is **nullified** by altering file metadata, third-party compression, or cross-account asset transfer → task fails. Alternatives provided: preset digital characters (`asset://<ASSET_ID>`) and authorized real-person assets via enterprise contract. Restriction applies to **real human faces only** — stylized 3D/cartoon characters are unaffected.
 
+<!-- TODO: verify — the ModelArk seedance-portrait-asset-guide page currently renders only the Seedance 2.5 promotional banner (no content), so this section's detail could not be re-confirmed against that live page at this update; retained as-is from the prior source snapshot (docs.comfy.org / ModelArk Terms page below) until the guide page is restored. -->
+
 ### Working with real human faces — the verified-person route (self-service)
 
 The legitimate path to use a real human face is a **one-time identity/liveness verification** that mints a trusted asset. In ComfyUI this is the **`ByteDance Create Image/Video Asset`** partner node (it handles verification + asset creation):
@@ -141,6 +143,8 @@ The legitimate path to use a real human face is a **one-time identity/liveness v
 
 ## 8. Video prompt engineering — the Advanced Formula
 
+<!-- TODO: verify — the ModelArk seedance-2-0-prompt-guide page currently renders only the Seedance 2.5 promotional banner (no content), so this section could not be re-confirmed against that live page at this update; retained as-is from the prior source snapshot until the guide page is restored. -->
+
 The engine decouples a **spatial layer** (what's in frame) from a **temporal layer** (how it changes). Address both.
 
 **Formula**: Precise Subject + Action Details + Scene/Environment + Lighting & Color Tone + Camera Movement + Visual Style + Image Quality + Constraints.
@@ -155,27 +159,4 @@ Key heuristics:
 
 ⚠️ Draft mode is **no longer a Seedance 2.0 feature** in the current API. `draft: true` and the `draft_task` / sample-task content type are supported **only by `seedance-1-5-pro-251215`**. On 1.5 Pro: draft renders at 480p (other resolutions error), no last-frame return, no offline inference; the final render reuses `model`, `content.text`, `content.image_url`, `generate_audio`, `seed`, `ratio`, `duration`, `camera_fixed` keyed by the returned `draft_task_id`.
 
-For Seedance 2.0 cost-efficient iteration, substitute: prototype at 480p/720p (and/or use Mini/Fast), lock the prompt, then re-render at 1080p/4k on the base model.
-
-## 10. VideoPilot editing API
-
-Iterative editing suite, parallel to core generation:
-- **`ImitateAndGenerateVideo`**: `RefVideoUrl` + edit instructions. `TimeBudget` (1/2/3) allocates compute (higher = better quality, more latency). `ImitationSetting` toggles 'imitative' vs 'creative'.
-- **`RegenerateVideoSegmentFromFeedback`**: isolate a `SegmentId`, give targeted `FeedbackMessage` → re-renders only that slice.
-- **`ListSegmentVersions`**: temporal version control — review/hot-swap historical segment versions.
-- **`ExtractKeyFramesAndPlot`**: analyzes existing videos, extracts keyframes, auto-builds prompt libraries to reproduce styles.
-
-Roadmap: native video splitting and precise keyframe insertion are scheduled additions.
-
-## 11. Pricing quick reference (Seedance 2.0 base, online)
-
-Unit price (USD per 1M tokens) — input without video / with video:
-- 480p & 720p: **7.0 / 4.3**
-- 1080p: **7.7 / 4.7**
-- **4k: 4.0 / 2.4** — lower unit price, but ~4× the pixels of 1080p → higher net cost per video.
-
-Per-video estimate, 5 s, 16:9, no video input: 480p $0.35 · 720p $0.76 · 1080p $1.87 · **4k $3.89**. With video input, 4k runs **$4.20–9.33** depending on input length (2–4 s → low, 15 s → high). Fast/Mini do not support 1080p or 4k.
-
-Token estimate = `(input_video_dur + output_video_dur) × W × H × fps / 1024`. When input includes video, 2.0/Fast enforce a resolution-/ratio-/duration-dependent **minimum token consumption**. Resource packs (prepaid, 90-day) deduct online-inference tokens; base 2.0 requires a minimum of 7× 1M-token packs. Actual cost = the `completion_tokens` returned after the call.
-
-BytePlus is promoting a **Dreamina Seedance 2.5** token package via `ai.byteplus.com/en/activity/seedance2-5` ("Get your token package and be the pioneer"), but as of this update the linked ModelArk pricing/doc pages surface only that marketing banner — no 2.5 model ID, token rate, or per-video pricing has been published. Treat the 2.0 figures above as the only confirmed pricing until BytePlus releases 2.5 technical/pricing documentation. <!-- TODO: verify — capture Seedance 2.5 pricing once published -->
+For Seedance 2.0 cost-efficient iteration, substitute: prototype at 480p/720p (and/or use Mini/Fast), lock the prompt, then re-render at 1080p/4k on the
