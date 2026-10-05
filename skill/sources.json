@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:59:38.579627+00:00",
+  "generated_at": "2026-10-05T14:28:11.112523+00:00",
   "note": "Canonical BytePlus doc URLs. If a detail is missing from the reference files, fetch the matching url live before answering.",
   "entries": [
     {
@@ -11224,6 +11224,12 @@
     },
     {
       "product": "E-MapReduce",
+      "id": "Commercialization-announcement-for-EMR-Spark-on-Native-engine-Bolt",
+      "title": "[Announcement] Commercialization announcement for EMR Spark on Native engine Bolt",
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Commercialization-announcement-for-EMR-Spark-on-Native-engine-Bolt"
+    },
+    {
+      "product": "E-MapReduce",
       "id": "Compute-enhanced_CPU_computing_resources",
       "title": "Compute-enhanced CPU computing resources",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Compute-enhanced_CPU_computing_resources"
@@ -13576,12 +13582,6 @@
     },
     {
       "product": "ModelArk",
-      "id": "1399498",
-      "title": "Prompt Management | ModelArk | BytePlus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/1399498"
-    },
-    {
-      "product": "ModelArk",
       "id": "2191806",
       "title": "Region availability--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/2191806"
@@ -13591,12 +13591,6 @@
       "id": "about-inference-endpoint",
       "title": "About inference endpoint--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/about-inference-endpoint"
-    },
-    {
-      "product": "ModelArk",
-      "id": "add-chunks",
-      "title": "Add slice--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/add-chunks"
     },
     {
       "product": "ModelArk",
@@ -13612,18 +13606,6 @@
     },
     {
       "product": "ModelArk",
-      "id": "agentpilot-sdk-reference",
-      "title": "AgentPilot SDK reference--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/agentpilot-sdk-reference"
-    },
-    {
-      "product": "ModelArk",
-      "id": "api-list",
-      "title": "APIs--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/api-list"
-    },
-    {
-      "product": "ModelArk",
       "id": "audio-understanding",
       "title": "Audio understanding--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/audio-understanding"
@@ -13636,12 +13618,6 @@
     },
     {
       "product": "ModelArk",
-      "id": "cancel-knowledge-base-subscription",
-      "title": "Unsubscribe--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/cancel-knowledge-base-subscription"
-    },
-    {
-      "product": "ModelArk",
       "id": "cloud-sandbox-reference",
       "title": "Cloud sandbox reference--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/cloud-sandbox-reference"
@@ -13651,12 +13627,6 @@
       "id": "configure-cloud-environment",
       "title": "Configure cloud environments--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/configure-cloud-environment"
-    },
-    {
-      "product": "ModelArk",
-      "id": "configure-experimental-version",
-      "title": "Configure experimental versions--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/configure-experimental-version"
     },
     {
       "product": "ModelArk",
@@ -13681,24 +13651,6 @@
       "id": "continuation-mode",
       "title": "Prefill-based response--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/continuation-mode"
-    },
-    {
-      "product": "ModelArk",
-      "id": "core-workflow-for-document-q-and-a",
-      "title": "Core process of knowledge Q&A--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/core-workflow-for-document-q-and-a"
-    },
-    {
-      "product": "ModelArk",
-      "id": "create-knowledge-bases",
-      "title": "Create a knowledge base--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/create-knowledge-bases"
-    },
-    {
-      "product": "ModelArk",
-      "id": "create-knowledge-services",
-      "title": "Create a knowledge service--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/create-knowledge-services"
     },
     {
       "product": "ModelArk",
@@ -13732,45 +13684,9 @@
     },
     {
       "product": "ModelArk",
-      "id": "delete-chunks",
-      "title": "Delete slice--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/delete-chunks"
-    },
-    {
-      "product": "ModelArk",
-      "id": "delete-documents",
-      "title": "Delete documents--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/delete-documents"
-    },
-    {
-      "product": "ModelArk",
-      "id": "delete-knowledge-bases",
-      "title": "Delete knowledge base--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/delete-knowledge-bases"
-    },
-    {
-      "product": "ModelArk",
       "id": "document-understanding",
       "title": "Document understanding--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/document-understanding"
-    },
-    {
-      "product": "ModelArk",
-      "id": "dsl",
-      "title": "Scoring DSL--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/dsl"
-    },
-    {
-      "product": "ModelArk",
-      "id": "edit-chunks",
-      "title": "Edit slice--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/edit-chunks"
-    },
-    {
-      "product": "ModelArk",
-      "id": "edit-knowledge-base",
-      "title": "Edit knowledge base--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/edit-knowledge-base"
     },
     {
       "product": "ModelArk",
@@ -13810,39 +13726,15 @@
     },
     {
       "product": "ModelArk",
-      "id": "import-documents",
-      "title": "Import documents--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/import-documents"
-    },
-    {
-      "product": "ModelArk",
       "id": "integrate-third-party-tools",
       "title": "Integrate with third-party tools--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/integrate-third-party-tools"
     },
     {
       "product": "ModelArk",
-      "id": "knowledge-base-quota-guide",
-      "title": "Knowledge base quota description--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/knowledge-base-quota-guide"
-    },
-    {
-      "product": "ModelArk",
-      "id": "knowledge-q-and-a",
-      "title": "Knowledge Q&A--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/knowledge-q-and-a"
-    },
-    {
-      "product": "ModelArk",
-      "id": "knowledge-retrieval",
-      "title": "Knowledge retrieval--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/knowledge-retrieval"
-    },
-    {
-      "product": "ModelArk",
-      "id": "knowledge-service-management",
-      "title": "Knowledge service management--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/knowledge-service-management"
+      "id": "knowledge-base-index",
+      "title": "Knowledge base--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/knowledge-base-index"
     },
     {
       "product": "ModelArk",
@@ -13933,24 +13825,6 @@
       "id": "prompt-engineering",
       "title": "Prompt engineering--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/prompt-engineering"
-    },
-    {
-      "product": "ModelArk",
-      "id": "prompt-generation",
-      "title": "Prompt generation--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/prompt-generation"
-    },
-    {
-      "product": "ModelArk",
-      "id": "prompt-tuning",
-      "title": "Prompt tuning--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/prompt-tuning"
-    },
-    {
-      "product": "ModelArk",
-      "id": "promptpilot-overview",
-      "title": "PromptPilot Overview--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/promptpilot-overview"
     },
     {
       "product": "ModelArk",
@@ -14074,12 +13948,6 @@
     },
     {
       "product": "ModelArk",
-      "id": "signature-authentication-and-calling-examples",
-      "title": "Signature authentication and examples--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/signature-authentication-and-calling-examples"
-    },
-    {
-      "product": "ModelArk",
       "id": "skills",
       "title": "Skills--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/skills"
@@ -14101,12 +13969,6 @@
       "id": "structured-output-beta",
       "title": "Structured output (beta)--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/structured-output-beta"
-    },
-    {
-      "product": "ModelArk",
-      "id": "tag-configuration",
-      "title": "Tag editing--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/tag-configuration"
     },
     {
       "product": "ModelArk",
@@ -14155,36 +14017,6 @@
       "id": "video-understanding",
       "title": "Video understanding--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/video-understanding"
-    },
-    {
-      "product": "ModelArk",
-      "id": "videopilot-api",
-      "title": "VideoPilot API--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/videopilot-api"
-    },
-    {
-      "product": "ModelArk",
-      "id": "videopilot-feature-overview",
-      "title": "VideoPilot feature overview--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/videopilot-feature-overview"
-    },
-    {
-      "product": "ModelArk",
-      "id": "view-chunks",
-      "title": "View slice--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/view-chunks"
-    },
-    {
-      "product": "ModelArk",
-      "id": "view-knowledge-base-details",
-      "title": "View knowledge base details--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/view-knowledge-base-details"
-    },
-    {
-      "product": "ModelArk",
-      "id": "view-knowledge-base-list",
-      "title": "View knowledge base list--ModelArk-Byteplus",
-      "url": "https://docs.byteplus.com/en/docs/ModelArk/view-knowledge-base-list"
     },
     {
       "product": "NDB_for_MySQL",
@@ -24689,7 +24521,7 @@
     {
       "product": "agentkit",
       "id": "Adding_and_Removing_MCP_tools",
-      "title": "Adding/Removing MCP tools",
+      "title": "Adding tools to or removing tools from an MCP toolset",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Adding_and_Removing_MCP_tools"
     },
     {
@@ -24833,7 +24665,7 @@
     {
       "product": "agentkit",
       "id": "Changing_gateway_instance_specifications",
-      "title": "Changing gateway instance specifications",
+      "title": "Changing dedicated gateway instance specifications",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Changing_gateway_instance_specifications"
     },
     {
@@ -25841,13 +25673,13 @@
     {
       "product": "agentkit",
       "id": "Obtaining_sample_calls",
-      "title": "Obtaining sample calls",
+      "title": "Obtaining call examples for MCP toolsets",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Obtaining_sample_calls"
     },
     {
       "product": "agentkit",
       "id": "Obtaining_sample_calls_svc",
-      "title": "Obtaining sample calls",
+      "title": "Obtain call examples",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Obtaining_sample_calls_svc"
     },
     {
@@ -26255,7 +26087,7 @@
     {
       "product": "agentkit",
       "id": "Updating_inbound_identity_authentication",
-      "title": "Updating inbound identity authentication",
+      "title": "Updating inbound identity authentication information",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Updating_inbound_identity_authentication"
     },
     {
@@ -26525,7 +26357,7 @@
     {
       "product": "agentkit",
       "id": "agent_development_and_deployment_tutorial",
-      "title": "Advanced quick start​: Developing and deploying agents with VeADK",
+      "title": "Developing and deploying agents with VeADK",
       "url": "https://docs.byteplus.com/en/docs/agentkit/agent_development_and_deployment_tutorial"
     },
     {
@@ -26603,7 +26435,7 @@
     {
       "product": "agentkit",
       "id": "create_skills",
-      "title": "Creating Skills",
+      "title": "Creating skills",
       "url": "https://docs.byteplus.com/en/docs/agentkit/create_skills"
     },
     {
@@ -110272,6 +110104,12 @@
     },
     {
       "product": "viking-aisearch",
+      "id": "Overview-Search-Summary",
+      "title": "Overview - Search Summary",
+      "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Overview-Search-Summary"
+    },
+    {
+      "product": "viking-aisearch",
       "id": "Overview_of_Item_Datasets",
       "title": "Overview of Item Datasets",
       "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Overview_of_Item_Datasets"
@@ -110308,9 +110146,27 @@
     },
     {
       "product": "viking-aisearch",
+      "id": "QuestionSuggestions",
+      "title": "QuestionSuggestions",
+      "url": "https://docs.byteplus.com/en/docs/viking-aisearch/QuestionSuggestions"
+    },
+    {
+      "product": "viking-aisearch",
+      "id": "RecReason-Recommendation-Assistant",
+      "title": "RecReason - Recommendation Assistant",
+      "url": "https://docs.byteplus.com/en/docs/viking-aisearch/RecReason-Recommendation-Assistant"
+    },
+    {
+      "product": "viking-aisearch",
       "id": "Recommendation",
       "title": "Recommend",
       "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Recommendation"
+    },
+    {
+      "product": "viking-aisearch",
+      "id": "Recommendation-Assistant",
+      "title": "Recommendation Assistant",
+      "url": "https://docs.byteplus.com/en/docs/viking-aisearch/Recommendation-Assistant"
     },
     {
       "product": "viking-aisearch",
