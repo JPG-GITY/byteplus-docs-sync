@@ -1,6 +1,6 @@
 # Dreamina Seedance 2.0 Video Generation & VideoPilot
 
-> **Note:** BytePlus has publicly announced that a newer **Dreamina Seedance 2.5** API is now live (promoted via `ai.byteplus.com/en/activity/seedance2-5`). At the time of this update, the linked ModelArk doc pages ([2222480](https://docs.byteplus.com/en/docs/ModelArk/2222480), [2291680](https://docs.byteplus.com/en/docs/ModelArk/2291680), [2607688](https://docs.byteplus.com/en/docs/ModelArk/2607688), [2607689](https://docs.byteplus.com/en/docs/ModelArk/2607689), [2608626](https://docs.byteplus.com/en/docs/ModelArk/2608626)) surface only this promotional banner — no model ID, parameter set, resolution/duration limits, or pricing for 2.5 were retrievable. This has since been re-confirmed against the slug-based doc URLs [seedance-2-0-prompt-guide](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-0-prompt-guide), [seedance-2-0](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-0), [seedance-2-5](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5), [seedance-portrait-asset-guide](https://docs.byteplus.com/en/docs/ModelArk/seedance-portrait-asset-guide), and [seedance-2-5-prompt-guide](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5-prompt-guide) — all five currently render **only** the "Official Dreamina Seedance 2.5 API is now live 🚀 / Get your token package and be the pioneer / [Purchase]" banner, with no accompanying technical content, including on pages whose slugs suggest they should hold the 2.0 prompt-engineering guide, the portrait/biometric-asset guide, and the (presumably forthcoming) 2.5 prompt-engineering guide. This does not contradict or supersede the prompt-engineering guidance in §8 or the biometric-compliance detail in §7 below (those remain sourced from the ComfyUI partner-node docs and the ModelArk Terms page cited there) — it simply means the ModelArk-hosted versions of those guide pages are not currently retrievable as technical content, only as this marketing banner. Everything below therefore still describes **Seedance 2.0** (and 1.5 Pro where noted) and remains accurate; nothing here has been superseded by a confirmed 2.5 spec yet. <!-- TODO: verify — capture Seedance 2.5 model ID(s), resolution/duration/parameter support, and pricing once BytePlus publishes technical documentation (not just the purchase/marketing banner); also re-check seedance-2-0-prompt-guide, seedance-portrait-asset-guide, and seedance-2-5-prompt-guide once they render actual content again -->
+> **Note:** BytePlus has publicly announced that a newer **Dreamina Seedance 2.5** API is now live (promoted via `ai.byteplus.com/en/activity/seedance2-5`). At the time of this update, the linked ModelArk doc pages ([2222480](https://docs.byteplus.com/en/docs/ModelArk/2222480), [2291680](https://docs.byteplus.com/en/docs/ModelArk/2291680), [2607688](https://docs.byteplus.com/en/docs/ModelArk/2607688), [2607689](https://docs.byteplus.com/en/docs/ModelArk/2607689), [2608626](https://docs.byteplus.com/en/docs/ModelArk/2608626)) surface only this promotional banner — no model ID, parameter set, resolution/duration limits, or pricing for 2.5 were retrievable. This has since been re-confirmed against the slug-based doc URLs [seedance-2-0](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-0), [seedance-2-5](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5), [seedance-portrait-asset-guide](https://docs.byteplus.com/en/docs/ModelArk/seedance-portrait-asset-guide), and [seedance-2-5-prompt-guide](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5-prompt-guide) — all four currently render **only** the "Official Dreamina Seedance 2.5 API is now live 🚀 / Get your token package and be the pioneer / [Purchase]" banner, with no accompanying technical content. **Update:** the fifth page, [seedance-2-0-prompt-guide](https://docs.byteplus.com/en/docs/ModelArk/seedance-2-0-prompt-guide), now renders its full technical content again (confirmed and re-captured in §8 below) — it is no longer banner-only. This does not contradict or supersede the biometric-compliance detail in §7 below (that remains sourced from the ComfyUI partner-node docs and the ModelArk Terms page cited there) — the ModelArk-hosted portrait-asset guide and the 2.5-specific pages are simply not yet retrievable as technical content, only as this marketing banner. Everything below therefore still describes **Seedance 2.0** (and 1.5 Pro where noted) and remains accurate; nothing here has been superseded by a confirmed 2.5 spec yet. <!-- TODO: verify — capture Seedance 2.5 model ID(s), resolution/duration/parameter support, and pricing once BytePlus publishes technical documentation (not just the purchase/marketing banner); also re-check seedance-portrait-asset-guide and seedance-2-5-prompt-guide once they render actual content again -->
 
 ## Contents
 1. Models & specs
@@ -63,100 +63,4 @@ Video **reference inputs** also accept up to 4k (480p/720p/1080p/4k), frame rate
 
 Two ways to pass `resolution`/`ratio`/`duration`/`frames`/`seed`/`camera_fixed`/`watermark`:
 - **New (recommended)** — fields directly in the request body; **strict validation** (bad value → error). Write values in full (`"resolution": "720p"`), no abbreviations.
-- **Legacy** — appended to the prompt text; **loose validation** (bad value → silently defaulted): `--rs 720p --rt 16:9 --dur 5 --seed 11 --cf false --wm true` (or full `--resolution/--ratio/--duration/--camerafixed/--watermark`).
-
-Support matrix (Seedance 2.0 base unless noted):
-
-| Parameter | 2.0 | Notes |
-|---|---|---|
-| `resolution` (+`4k`) | ✅ | 4k = base 2.0 only; 1080p not on Fast/Mini |
-| `ratio` (`adaptive` default) | ✅ | actual ratio returned by Retrieve API |
-| `duration` (`[4,15]` or `-1`) | ✅ | `-1` = model picks length within range |
-| `frames` | ❌ | unsupported on 2.0 **and** 1.5 Pro; use `duration`. (Formula where supported: frames = 25+4n, range [29,289].) |
-| `seed` | ❌ | unsupported on 2.0 |
-| `camera_fixed` | ❌ | unsupported on 2.0 (and reference-to-image scenarios) |
-| `generate_audio` (default `true`) | ✅ | output is **always mono**; put dialogue in double quotes to optimize |
-| `draft` | ❌ | **1.5 Pro only** (see §9) |
-| `service_tier=flex` | ❌ | 2.0 is **online-only**; no offline / 50%-price tier |
-| `priority` (`0–9`, default `0`) | ✅ | **2.0 only**; reorders the queue within one Endpoint, FIFO within same priority; doesn't preempt running tasks; not available in flex |
-| `safety_identifier` | ✅ | ≤64-char hashed end-user ID for usage-policy abuse detection |
-| `return_last_frame` (default `false`) | ✅ | watermark-free PNG, same dims as video |
-| `execution_expires_after` | ✅ | default 172800 s (48 h), range [3600, 259200]; on timeout → `expired` |
-| `watermark` (default `false`) | ✅ | `true` → "AI Generated" bottom-right |
-| `callback_url` | ✅ | POST mirrors the Retrieve response on state change |
-
-Image inputs: formats .jpeg/.png/.webp/.bmp/.tiff/.gif (2.0 & 1.5 Pro also .heic/.heif); aspect ratio (0.4, 2.5); 300–6000 px per side; single image <30 MB; **request body ≤64 MB** (don't Base64 large files); 1–9 reference images for 2.0 multimodal. URL, Base64, or `asset://<ASSET_ID>` (digital characters) accepted.
-
-## 4. Multimodal reference injection
-
-A single `content[]` payload combines text + image + video + audio:
-- **Image references (0–9)**: lock character identity, environment composition, style. `role: reference_image`.
-- **Video reference (0–3, ≤15 s total)**: temporal dynamics — camera kinematics (pan/tilt/zoom/orbit), motion cadence, pacing. `role: reference_video`. Seedance 2.0 only.
-- **Audio (0–3, ≤15 s total) + `generate_audio: true`**: synced vocals, SFX, score. Seedance 2.0 only. Formats wav/mp3, each ≤15 MB. **Audio cannot be sent alone** — at least one image or video reference is required.
-
-**Three mutually exclusive modes — cannot be mixed in one request:**
-1. **First frame**: one `image_url`, `role: first_frame` (or left blank). All models.
-2. **First + last frames**: two `image_url`s, `role: first_frame` and `last_frame` (required). Seedance 2.0 / 1.5 Pro / 1.0 Pro. Frames may be identical; mismatched ratios → first frame wins, last is center-cropped.
-3. **Multimodal reference**: 1–9 `reference_image` (+ optional video/audio). Seedance 2.0 only.
-
-This is the root of the `first_frame`/`reference_image` exclusivity: a single call can't carry both roles. To approximate "first/last frame + references," stay in mode 3 and name the reference images as first/last **in the prompt text**. For a guaranteed exact first/last frame, use mode 2 with explicit roles. (Also supported: `draft_task` content type for sample-based generation — 1.5 Pro only.)
-
-## 5. Async task lifecycle
-
-1. **Create**: `POST .../contents/generations/tasks` → returns `id` (task ID, stored 7 days from `created_at`).
-2. **Retrieve**: `GET .../contents/generations/tasks/{id}` → `status` ∈ `queued → running → succeeded/failed`, plus `cancelled` (only from `queued`) and `expired`.
-3. **Webhooks**: `callback_url` receives a POST mirroring the Retrieve response on state change; retried 3× if no 5-second delivery ack.
-4. **Output**: `content.video_url` valid **24 h** — download immediately (this is the CDN-expiry behavior); `content.last_frame_url` also 24 h.
-5. **Usage**: `usage.completion_tokens` = billable tokens; for video `total_tokens = completion_tokens` (input tokens always 0). Response also echoes `resolution`, `ratio`, `duration`/`frames`, `framespersecond`, `generate_audio`, `priority`, `safety_identifier`, `service_tier`.
-
-## 6. Frame math & video extension
-
-- Output base rate **24 FPS**; `frames` is unsupported on 2.0 (use `duration`). Reference videos may be 24–60 FPS.
-- `return_last_frame: true` → final frame as a watermark-free PNG, dimensions matching the video.
-- **Extension pattern**: feed video A's `last_frame_url` as video B's first frame to daisy-chain past the 15 s cap.
-
-## 7. Biometric compliance — "Trusted Outputs"
-
-Seedance 2.0 **categorically rejects** reference images/videos containing unverified real human faces. A face asset is accepted only if it originates from a trusted platform output generated **within the preceding 30 days**, on the same account:
-- Face-containing videos generated by Seedance 2.0 series
-- Last-frame images derived from Seedance 2.0 outputs
-- Face-containing images from Dola Seedream 5.0 Lite
-
-Trust is **nullified** by altering file metadata, third-party compression, or cross-account asset transfer → task fails. Alternatives provided: preset digital characters (`asset://<ASSET_ID>`) and authorized real-person assets via enterprise contract. Restriction applies to **real human faces only** — stylized 3D/cartoon characters are unaffected.
-
-<!-- TODO: verify — the ModelArk seedance-portrait-asset-guide page currently renders only the Seedance 2.5 promotional banner (no content), so this section's detail could not be re-confirmed against that live page at this update; retained as-is from the prior source snapshot (docs.comfy.org / ModelArk Terms page below) until the guide page is restored. -->
-
-### Working with real human faces — the verified-person route (self-service)
-
-The legitimate path to use a real human face is a **one-time identity/liveness verification** that mints a trusted asset. In ComfyUI this is the **`ByteDance Create Image/Video Asset`** partner node (it handles verification + asset creation):
-
-1. Upload the portrait in the node and run the workflow.
-2. A **ByteDance verification link** appears in the ComfyUI output.
-3. Complete a **liveness check** on phone or browser (< 1 min).
-4. Return to ComfyUI to access the verified outputs.
-
-**Persist two IDs from the output:** `Group ID` = the verified person (reuse it to skip re-verification; new photos of the same person with the `Group ID` prefilled are auto-matched by facial features and skip the check), and `Asset ID` = the specific image, which is what you feed into the Seedance 2.0 video node as the reference. Prereqs: logged in, permitted network environment, updated ComfyUI (Nightly for portable). Two templates ship: **Reference-to-Video** (verified portrait + optional images/videos/audio) and **First-Last-Frame-to-Video**.
-
-**Why this fixes `InputVideoSensitiveContentDetected.PrivacyInformation`:** you pass the verified `Asset ID` (a trusted asset), not a raw/re-encoded real-face file. **Disabling the Custom Endpoint "Content pre-filter" does NOT lift this check** — the pre-filter only moderates prompt *text*; the biometric face check on *media* is a separate, mandatory layer. Because ComfyUI re-encodes raw media on load/save, feeding a raw real face nullifies trust (third-party compression) → the same input can fail via the API yet pass on a platform that uses the verified-asset path.
-
-**Consent & rights** to a real person's likeness are the customer's responsibility (BytePlus *Specific Terms for the Video Generation Model Services*); real named talent at scale uses the complementary **enterprise authorized-real-person** contract. Sources: `docs.comfy.org/tutorials/partner-nodes/bytedance/seedance-2-0-real-human`, `docs.byteplus.com/en/docs/ModelArk/Specific_Terms_for_the_BytePlus_Video_Generation_Model_Services`.
-
-## 8. Video prompt engineering — the Advanced Formula
-
-<!-- TODO: verify — the ModelArk seedance-2-0-prompt-guide page currently renders only the Seedance 2.5 promotional banner (no content), so this section could not be re-confirmed against that live page at this update; retained as-is from the prior source snapshot until the guide page is restored. The sibling seedance-2-5-prompt-guide page likewise renders only the same promotional banner, so no 2.5-specific prompt guidance exists yet to compare against. -->
-
-The engine decouples a **spatial layer** (what's in frame) from a **temporal layer** (how it changes). Address both.
-
-**Formula**: Precise Subject + Action Details + Scene/Environment + Lighting & Color Tone + Camera Movement + Visual Style + Image Quality + Constraints.
-
-Key heuristics:
-- **Subject tagging**: `Define the woman wearing a red dress in <Image_1> as <Subject_1>`, then use `<Subject_1>` rigorously. Failure → subject mutation mid-timeline.
-- **Quantify kinematics**: abstract verbs hallucinate. Specify vector/speed/inertia ("slowly raise a hand", "use the inertia of turning to naturally raise a hand"). Slow coherent transitions suppress burst-dynamic failures.
-- **Externalize emotion somatically**: not "anger" but "both fists clenched, jawline tense, chest heaving, eyes sharp as knives".
-- **Functional typography**: accurate in-scene text (slogans, synced subtitles, tracking speech bubbles) via text + positioning templates.
-
-## 9. Draft mode — **Seedance 1.5 Pro only**
-
-⚠️ Draft mode is **no longer a Seedance 2.0 feature** in the current API. `draft: true` and the `draft_task` / sample-task content type are supported **only by `seedance-1-5-pro-251215`**. On 1.5 Pro: draft renders at 480p (other resolutions error), no last-frame return, no offline inference; the final render reuses `model`, `content.text`, `content.image_url`, `generate_audio`, `seed`, `ratio`, `duration`, `camera_fixed` keyed by the returned `draft_task_id`.
-
-For Seedance 2.0 cost-efficient iteration, substitute: prototype at 480p/720p (and/or use Mini/Fast), lock the prompt, then re-render at 1080p/4k on the
+- **Legacy** — appended to
