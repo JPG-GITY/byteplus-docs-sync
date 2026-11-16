@@ -1,6 +1,6 @@
 ---
 url: https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5
-title: 'Dreamina Seedance 2.5 tutorial--ModelArk-Byteplus'
+title: 'Dreamina Seedance 2.5 series tutorial--ModelArk-Byteplus'
 key: ModelArk/seedance-2-5
 ---
 
