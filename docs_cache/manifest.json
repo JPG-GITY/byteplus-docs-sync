@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T14:52:08.307346+00:00",
+  "generated_at": "2026-11-23T17:27:46.222415+00:00",
   "base_url": "https://docs.byteplus.com/en/docs",
   "pages": {
     "ArkClaw/Feature_release_notes_for_administrators": {
@@ -330,6 +330,11 @@
     "ArkClaw/Using_connectors": {
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/Using_connectors",
       "title": "Using connectors",
+      "index_only": true
+    },
+    "ArkClaw/contextusageandcompressionmanagement-1": {
+      "url": "https://docs.byteplus.com/en/docs/ArkClaw/contextusageandcompressionmanagement-1",
+      "title": "Context usage and compression management",
       "index_only": true
     },
     "ArkClaw/Configuring_message_channels__": {
@@ -1622,6 +1627,16 @@
       "title": "BytePlus LAS_Service Level Agreement",
       "index_only": true
     },
+    "Byteplus_LAS/service-specific-terms-for-byteplus-data-platform-products": {
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/service-specific-terms-for-byteplus-data-platform-products",
+      "title": "Service-Specific Terms for BytePlus Data Platform Products",
+      "index_only": true
+    },
+    "Byteplus_LAS/sensitive-content-masking": {
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/sensitive-content-masking",
+      "title": "Sensitive Content Masking",
+      "index_only": true
+    },
     "Byteplus_LAS/Enhanced_video_editing_2": {
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/Enhanced_video_editing_2",
       "title": "Video Edit Enhanced 2.0",
@@ -1670,11 +1685,6 @@
     "Byteplus_LAS/video-packaging": {
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/video-packaging",
       "title": "Video Packaging",
-      "index_only": true
-    },
-    "Byteplus_LAS/sensitive-content-masking": {
-      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/sensitive-content-masking",
-      "title": "Sensitive Content Masking",
       "index_only": true
     },
     "Byteplus_LAS/Intelligent-Video-Remix": {
@@ -9762,34 +9772,54 @@
       "title": "Overview",
       "index_only": true
     },
-    "E-MapReduce/Billing_Items": {
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Billing_Items",
-      "title": "Billing Items",
-      "index_only": true
-    },
     "E-MapReduce/Standard_Computing_Resources": {
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Standard_Computing_Resources",
-      "title": "Standard Computing Resources",
-      "index_only": true
-    },
-    "E-MapReduce/Memory-enhanced_CPU_computing_resources": {
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Memory-enhanced_CPU_computing_resources",
-      "title": "Memory-enhanced CPU computing resources",
+      "title": "Computing resources: Standard CPU",
       "index_only": true
     },
     "E-MapReduce/Compute-enhanced_CPU_computing_resources": {
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Compute-enhanced_CPU_computing_resources",
-      "title": "Compute-enhanced CPU computing resources",
+      "title": "Computing resources: Compute-enhanced CPU",
       "index_only": true
     },
-    "E-MapReduce/Renewal_and_Cancellation_Instructions": {
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Renewal_and_Cancellation_Instructions",
-      "title": "Renewal and Cancellation Instructions",
+    "E-MapReduce/Memory-enhanced_CPU_computing_resources": {
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Memory-enhanced_CPU_computing_resources",
+      "title": "Computing resources: Memory-enhanced CPU",
+      "index_only": true
+    },
+    "E-MapReduce/computing-resources-gpu-accelerated-type": {
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/computing-resources-gpu-accelerated-type",
+      "title": "Computing resources: GPU-accelerated",
+      "index_only": true
+    },
+    "E-MapReduce/high-performance-computing-resources-46104d5cb0748ce8": {
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/high-performance-computing-resources-46104d5cb0748ce8",
+      "title": "Computing resources: High-performance CPU",
+      "index_only": true
+    },
+    "E-MapReduce/storage-resources-cloud-drive-billing-details": {
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/storage-resources-cloud-drive-billing-details",
+      "title": "Storage resources: Cloud disk pricing details",
+      "index_only": true
+    },
+    "E-MapReduce/data-scanning-billing-details": {
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/data-scanning-billing-details",
+      "title": "Data scan pricing details",
+      "index_only": true
+    },
+    "E-MapReduce/shuffle-capacity-billing-details": {
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/shuffle-capacity-billing-details",
+      "title": "Shuffle capacity pricing details",
       "index_only": true
     },
     "E-MapReduce/Billing_for_Bolt": {
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Billing_for_Bolt",
       "title": "Bolt acceleration engine pricing details",
+      "index_only": true
+    },
+    "E-MapReduce/Renewal_and_Cancellation_Instructions": {
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Renewal_and_Cancellation_Instructions",
+      "title": "Renewal and Cancellation Instructions",
       "index_only": true
     },
     "E-MapReduce/Overdue_payments": {
@@ -9964,7 +9994,7 @@
     },
     "HBase/Enabling_Capacity_storage": {
       "url": "https://docs.byteplus.com/en/docs/HBase/Enabling_Capacity_storage",
-      "title": "Enabling Capacity storage",
+      "title": "Enabling capacity storage",
       "index_only": true
     },
     "HBase/Configure_hot_and_cold_data_separation": {
@@ -9979,7 +10009,12 @@
     },
     "HBase/Changing_the_capacity_of_Capacity_storage": {
       "url": "https://docs.byteplus.com/en/docs/HBase/Changing_the_capacity_of_Capacity_storage",
-      "title": "Changing the capacity of Capacity storage",
+      "title": "Changing the capacity of capacity storage",
+      "index_only": true
+    },
+    "HBase/disabling-capacity-storage": {
+      "url": "https://docs.byteplus.com/en/docs/HBase/disabling-capacity-storage",
+      "title": "Disabling capacity storage",
       "index_only": true
     },
     "HBase/Performance_test": {
@@ -11631,445 +11666,457 @@
       "url": "https://docs.byteplus.com/en/docs/ModelArk/agent-model-invocation-practice",
       "title": "Best practices of model calling for agents--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:53:59.939329+00:00"
+      "fetched_at": "2026-11-23T17:29:02.067071+00:00"
     },
     "ModelArk/audio-understanding": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/audio-understanding",
       "title": "Audio understanding--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:07.535685+00:00"
+      "fetched_at": "2026-11-23T17:29:07.503897+00:00"
     },
     "ModelArk/background-tool-tasks": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/background-tool-tasks",
       "title": "Run and manage background tool tasks--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:12.607895+00:00"
+      "fetched_at": "2026-11-23T17:29:12.411017+00:00"
     },
     "ModelArk/batch-inference": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/batch-inference",
       "title": "Batch inference--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:18.383800+00:00"
+      "fetched_at": "2026-11-23T17:29:17.252862+00:00"
     },
     "ModelArk/cloud-sandbox-reference": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/cloud-sandbox-reference",
       "title": "Cloud sandbox reference--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:24.169515+00:00"
+      "fetched_at": "2026-11-23T17:29:22.064104+00:00"
     },
     "ModelArk/configure-cloud-environment": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/configure-cloud-environment",
       "title": "Configure cloud environments--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:31.029431+00:00"
+      "fetched_at": "2026-11-23T17:29:27.147868+00:00"
     },
     "ModelArk/configure-self-hosted-environment": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/configure-self-hosted-environment",
       "title": "Configure and run a self-hosted environment--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:36.468787+00:00"
+      "fetched_at": "2026-11-23T17:29:31.770663+00:00"
     },
     "ModelArk/context-cache": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/context-cache",
       "title": "Context cache--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:43.506168+00:00"
+      "fetched_at": "2026-11-23T17:29:39.078368+00:00"
     },
     "ModelArk/context-compaction": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/context-compaction",
       "title": "Configure context compaction--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:48.099651+00:00"
+      "fetched_at": "2026-11-23T17:29:43.766443+00:00"
     },
     "ModelArk/context-management": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/context-management",
       "title": "Context management--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:53.506442+00:00"
+      "fetched_at": "2026-11-23T17:29:49.120281+00:00"
     },
     "ModelArk/continuation-mode": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/continuation-mode",
       "title": "Prefill-based response--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:54:59.001760+00:00"
+      "fetched_at": "2026-11-23T17:29:53.785839+00:00"
     },
     "ModelArk/deep-thinking": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/deep-thinking",
       "title": "Deep reasoning--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:55:05.072532+00:00"
+      "fetched_at": "2026-11-23T17:29:59.427123+00:00"
     },
     "ModelArk/deepseek-v4-1-flash": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/deepseek-v4-1-flash",
       "title": "DeepSeek V4.1 Flash--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:55:12.132887+00:00"
+      "fetched_at": "2026-11-23T17:30:04.687498+00:00"
     },
     "ModelArk/define-agent": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/define-agent",
       "title": "Agent--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:55:17.317243+00:00"
+      "fetched_at": "2026-11-23T17:30:09.403796+00:00"
     },
     "ModelArk/deployment-overview": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/deployment-overview",
       "title": "Inference methods overview--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:55:21.765386+00:00"
+      "fetched_at": "2026-11-23T17:30:13.880270+00:00"
     },
     "ModelArk/document-understanding": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/document-understanding",
       "title": "Document understanding--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:55:27.851427+00:00"
+      "fetched_at": "2026-11-23T17:30:18.779964+00:00"
     },
     "ModelArk/file-api": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/file-api",
       "title": "Files API tutorial--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:55:33.217406+00:00"
+      "fetched_at": "2026-11-23T17:30:24.190745+00:00"
+    },
+    "ModelArk/fine-tuning-dataset-format": {
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/fine-tuning-dataset-format",
+      "title": "Model fine-tuning dataset format description--ModelArk-Byteplus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-11-23T17:30:29.418578+00:00"
     },
     "ModelArk/function-calling": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/function-calling",
       "title": "Function call--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:55:38.367860+00:00"
+      "fetched_at": "2026-11-23T17:30:34.694933+00:00"
     },
     "ModelArk/grounding": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/grounding",
       "title": "Visual grounding--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:55:43.974408+00:00"
+      "fetched_at": "2026-11-23T17:30:40.748084+00:00"
     },
     "ModelArk/image-generation-tutorial": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/image-generation-tutorial",
       "title": "Image generation tutorial--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:00.868237+00:00"
+      "fetched_at": "2026-11-23T17:30:51.274302+00:00"
     },
     "ModelArk/image-understanding": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/image-understanding",
       "title": "Image understanding--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:09.040689+00:00"
+      "fetched_at": "2026-11-23T17:30:57.013986+00:00"
     },
     "ModelArk/integrate-third-party-tools": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/integrate-third-party-tools",
       "title": "Integrate with third-party tools--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:14.522238+00:00"
+      "fetched_at": "2026-11-23T17:31:03.289139+00:00"
     },
     "ModelArk/manage-session": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/manage-session",
       "title": "Manage session--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:19.670513+00:00"
+      "fetched_at": "2026-11-23T17:31:08.199160+00:00"
     },
     "ModelArk/mcp": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/mcp",
       "title": "MCP--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:24.800716+00:00"
+      "fetched_at": "2026-11-23T17:31:12.576235+00:00"
     },
     "ModelArk/mcp-remote-mcp": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/mcp-remote-mcp",
       "title": "Cloud-deployed MCP / remote MCP--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:29.675717+00:00"
+      "fetched_at": "2026-11-23T17:31:17.361239+00:00"
     },
     "ModelArk/migrate-ark-runtime-sdk": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/migrate-ark-runtime-sdk",
       "title": "Migrate to the official Ark SDK--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:35.439572+00:00"
+      "fetched_at": "2026-11-23T17:31:21.367438+00:00"
     },
     "ModelArk/model-list": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/model-list",
       "title": "Model list--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:42.635783+00:00"
+      "fetched_at": "2026-11-23T17:31:27.265776+00:00"
     },
     "ModelArk/model-parameter-support": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/model-parameter-support",
       "title": "List of parameters supported by models--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:47.313280+00:00"
+      "fetched_at": "2026-11-23T17:31:31.765560+00:00"
     },
     "ModelArk/model-pricing": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/model-pricing",
       "title": "Pricing--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:54.580295+00:00"
+      "fetched_at": "2026-11-23T17:31:39.533290+00:00"
     },
     "ModelArk/model-unit-overview": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/model-unit-overview",
       "title": "Model Unit--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:56:59.081216+00:00"
+      "fetched_at": "2026-11-23T17:31:43.999694+00:00"
     },
     "ModelArk/multi-agent": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/multi-agent",
       "title": "Multi Agent--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:05.101085+00:00"
+      "fetched_at": "2026-11-23T17:31:49.374650+00:00"
     },
     "ModelArk/multimodal-understanding": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/multimodal-understanding",
       "title": "Multimodal understanding (Responses API)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:09.995641+00:00"
+      "fetched_at": "2026-11-23T17:31:54.459337+00:00"
     },
     "ModelArk/ocr-supported-fonts": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/ocr-supported-fonts",
       "title": "Seedream 5.5 OCR supported fonts--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:15.684874+00:00"
+      "fetched_at": "2026-11-23T17:31:59.542653+00:00"
     },
     "ModelArk/online-inference-flex": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/online-inference-flex",
       "title": "Online inference (Flex)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:21.448490+00:00"
+      "fetched_at": "2026-11-23T17:32:04.118245+00:00"
+    },
+    "ModelArk/online-inference-low-latency": {
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/online-inference-low-latency",
+      "title": "Online inference (low latency)--ModelArk-Byteplus",
+      "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
+      "fetched_at": "2026-11-23T17:32:09.723357+00:00"
     },
     "ModelArk/online-inference-standard": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/online-inference-standard",
       "title": "Online inference (standard)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:26.161824+00:00"
+      "fetched_at": "2026-11-23T17:32:14.172532+00:00"
     },
     "ModelArk/overview": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/overview",
       "title": "Overview--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:32.093444+00:00"
+      "fetched_at": "2026-11-23T17:32:18.723876+00:00"
     },
     "ModelArk/persistent-memory": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/persistent-memory",
       "title": "Persistent memory--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:36.321229+00:00"
+      "fetched_at": "2026-11-23T17:32:23.512587+00:00"
     },
     "ModelArk/product-overview": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/product-overview",
       "title": "Overview--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:41.778081+00:00"
+      "fetched_at": "2026-11-23T17:32:28.825532+00:00"
     },
     "ModelArk/prompt-engineering": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/prompt-engineering",
       "title": "Prompt engineering--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:46.164996+00:00"
+      "fetched_at": "2026-11-23T17:32:33.592098+00:00"
     },
     "ModelArk/quick-start": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/quick-start",
       "title": "Quick start--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:51.802158+00:00"
+      "fetched_at": "2026-11-23T17:32:38.522582+00:00"
     },
     "ModelArk/quick-start-code": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/quick-start-code",
       "title": "Quick start (code)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:57:56.432683+00:00"
+      "fetched_at": "2026-11-23T17:32:42.884159+00:00"
     },
     "ModelArk/quick-start-console": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/quick-start-console",
       "title": "Quick start (console)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:00.810383+00:00"
+      "fetched_at": "2026-11-23T17:32:47.184250+00:00"
     },
     "ModelArk/receive-webhook-events": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/receive-webhook-events",
       "title": "Receive webhook events--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:05.962041+00:00"
+      "fetched_at": "2026-11-23T17:32:51.677037+00:00"
     },
     "ModelArk/region-availability": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/region-availability",
       "title": "Region availability--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:11.735601+00:00"
+      "fetched_at": "2026-11-23T17:32:56.416091+00:00"
     },
     "ModelArk/responses-api-context-editing": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/responses-api-context-editing",
       "title": "Context editing (Responses API)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:16.325188+00:00"
+      "fetched_at": "2026-11-23T17:33:01.242040+00:00"
     },
     "ModelArk/responses-api-deep-thinking": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/responses-api-deep-thinking",
       "title": "Deep reasoning (Responses API)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:20.992015+00:00"
+      "fetched_at": "2026-11-23T17:33:06.541499+00:00"
     },
     "ModelArk/responses-api-migration": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/responses-api-migration",
       "title": "Migrate to Responses API--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:25.832042+00:00"
+      "fetched_at": "2026-11-23T17:33:11.883776+00:00"
     },
     "ModelArk/responses-api-structured-output": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/responses-api-structured-output",
       "title": "Structured output (Responses API)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:31.417925+00:00"
+      "fetched_at": "2026-11-23T17:33:16.737156+00:00"
     },
     "ModelArk/responses-api-text-generation": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/responses-api-text-generation",
       "title": "Text generation (Responses API)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:36.513225+00:00"
+      "fetched_at": "2026-11-23T17:33:23.730773+00:00"
     },
     "ModelArk/responses-api-tool-calling": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/responses-api-tool-calling",
       "title": "Tool use (Responses API)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:42.329465+00:00"
+      "fetched_at": "2026-11-23T17:33:28.425849+00:00"
     },
     "ModelArk/schedule-agent-runs": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/schedule-agent-runs",
       "title": "Schedule agent runs--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:47.119027+00:00"
+      "fetched_at": "2026-11-23T17:33:32.993580+00:00"
     },
     "ModelArk/seedance-2-0": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/seedance-2-0",
       "title": "Dreamina Seedance 2.0 series tutorial--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:58:53.376802+00:00"
+      "fetched_at": "2026-11-23T17:33:41.589519+00:00"
     },
     "ModelArk/seedance-2-0-prompt-guide": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/seedance-2-0-prompt-guide",
       "title": "Dreamina Seedance 2.0 series prompt guide--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:59:04.391822+00:00"
+      "fetched_at": "2026-11-23T17:33:50.222917+00:00"
     },
     "ModelArk/seedance-2-5": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5",
       "title": "Dreamina Seedance 2.5 series tutorial--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:59:17.174705+00:00"
+      "fetched_at": "2026-11-23T17:34:08.160754+00:00"
     },
     "ModelArk/seedance-2-5-prompt-guide": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5-prompt-guide",
       "title": "Dreamina Seedance 2.5 series prompt guide--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:59:36.875687+00:00"
+      "fetched_at": "2026-11-23T17:34:26.872451+00:00"
     },
     "ModelArk/seedance-portrait-asset-guide": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/seedance-portrait-asset-guide",
       "title": "Create portrait videos with Dreamina Seedance models--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:59:41.717975+00:00"
+      "fetched_at": "2026-11-23T17:34:31.687373+00:00"
     },
     "ModelArk/seedream-5-0-pro": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/seedream-5-0-pro",
       "title": "Seedream 5.0 pro / flash tutorial--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:59:53.891169+00:00"
+      "fetched_at": "2026-11-23T17:34:47.911716+00:00"
     },
     "ModelArk/seedream-5-0-pro-editing-guide": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/seedream-5-0-pro-editing-guide",
       "title": "Seedream 5.0 pro / flash interactive editing guide--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T14:59:59.044709+00:00"
+      "fetched_at": "2026-11-23T17:34:53.039692+00:00"
     },
     "ModelArk/seedream-5-5": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/seedream-5-5",
       "title": "Dola Seedream 5.5 tutorial--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:00:15.534666+00:00"
+      "fetched_at": "2026-11-23T17:35:09.343927+00:00"
     },
     "ModelArk/self-hosted-environment-overview": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/self-hosted-environment-overview",
       "title": "Self-hosted environment overview--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:00:20.486382+00:00"
+      "fetched_at": "2026-11-23T17:35:13.901392+00:00"
     },
     "ModelArk/self-hosted-environment-security": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/self-hosted-environment-security",
       "title": "Self-hosted environment security--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:00:28.573139+00:00"
+      "fetched_at": "2026-11-23T17:35:18.846583+00:00"
     },
     "ModelArk/session-event-stream": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/session-event-stream",
       "title": "Session event stream--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:00:33.703245+00:00"
+      "fetched_at": "2026-11-23T17:35:23.832525+00:00"
     },
     "ModelArk/skills": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/skills",
       "title": "Skills--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:00:38.691895+00:00"
+      "fetched_at": "2026-11-23T17:35:28.549693+00:00"
     },
     "ModelArk/start-session": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/start-session",
       "title": "Start session--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:00:43.655482+00:00"
+      "fetched_at": "2026-11-23T17:35:33.400001+00:00"
     },
     "ModelArk/streaming-output": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/streaming-output",
       "title": "Streaming output--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:00:49.506911+00:00"
+      "fetched_at": "2026-11-23T17:35:39.689248+00:00"
     },
     "ModelArk/structured-output-beta": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/structured-output-beta",
       "title": "Structured output (beta)--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:00:55.323819+00:00"
+      "fetched_at": "2026-11-23T17:35:44.326174+00:00"
     },
     "ModelArk/text-generation": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/text-generation",
       "title": "Text generation--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:01:01.646278+00:00"
+      "fetched_at": "2026-11-23T17:35:49.548873+00:00"
     },
     "ModelArk/tool-permission-policy": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/tool-permission-policy",
       "title": "Tool permission policy--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:01:06.194365+00:00"
+      "fetched_at": "2026-11-23T17:35:53.772184+00:00"
     },
     "ModelArk/tools": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/tools",
       "title": "Tools--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:01:12.144933+00:00"
+      "fetched_at": "2026-11-23T17:35:59.085238+00:00"
     },
     "ModelArk/upload-and-mount-files": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/upload-and-mount-files",
       "title": "Upload and mount files--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:01:16.836047+00:00"
+      "fetched_at": "2026-11-23T17:36:04.976096+00:00"
     },
     "ModelArk/use-vaults-authentication": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/use-vaults-authentication",
       "title": "Use Vaults authentication--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:01:21.500186+00:00"
+      "fetched_at": "2026-11-23T17:36:09.759804+00:00"
     },
     "ModelArk/vectorization": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/vectorization",
       "title": "Multimodal embedding--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:01:26.892538+00:00"
+      "fetched_at": "2026-11-23T17:36:15.076745+00:00"
     },
     "ModelArk/video-generation-tutorial": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/video-generation-tutorial",
       "title": "Video generation tutorial--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:01:34.991723+00:00"
+      "fetched_at": "2026-11-23T17:36:21.725997+00:00"
     },
     "ModelArk/video-understanding": {
       "url": "https://docs.byteplus.com/en/docs/ModelArk/video-understanding",
       "title": "Video understanding--ModelArk-Byteplus",
       "sha256": "7c40e02750a783f66286b042c8ec955d82cf6f33b03d79a55f1938be7ae3b8aa",
-      "fetched_at": "2026-11-16T15:01:41.834330+00:00"
+      "fetched_at": "2026-11-23T17:36:27.255462+00:00"
     },
     "NDB_for_MySQL/New_feature_release_notes": {
       "url": "https://docs.byteplus.com/en/docs/NDB_for_MySQL/New_feature_release_notes",
@@ -15409,6 +15456,11 @@
     "RDS-for-SQL-Server/log_reuse_wait_desc_attribute_value": {
       "url": "https://docs.byteplus.com/en/docs/RDS-for-SQL-Server/log_reuse_wait_desc_attribute_value",
       "title": "How to view the log_reuse_wait_desc attribute value of a database?",
+      "index_only": true
+    },
+    "RDS-for-SQL-Server/database-principal-schema-error-solution": {
+      "url": "https://docs.byteplus.com/en/docs/RDS-for-SQL-Server/database-principal-schema-error-solution",
+      "title": "How to resolve the Error \"The database principal owns a schema, and cannot be dropped\" when managing database permissions",
       "index_only": true
     },
     "RDS-for-SQL-Server/service-level-agreement-for-RDS-for-SQL-Server": {
@@ -20961,6 +21013,11 @@
       "title": "Changing dedicated gateway instance specifications",
       "index_only": true
     },
+    "agentkit/view-cost-details": {
+      "url": "https://docs.byteplus.com/en/docs/agentkit/view-cost-details",
+      "title": "Viewing cost trends and details",
+      "index_only": true
+    },
     "agentkit/Viewing_AgentKit_billing_details": {
       "url": "https://docs.byteplus.com/en/docs/agentkit/Viewing_AgentKit_billing_details",
       "title": "Viewing AgentKit billing details",
@@ -21661,6 +21718,11 @@
       "title": "Deleting MCP services",
       "index_only": true
     },
+    "agentkit/manage-mcp-deployment-instance-resources": {
+      "url": "https://docs.byteplus.com/en/docs/agentkit/manage-mcp-deployment-instance-resources",
+      "title": "Managing instance resources of MCP services",
+      "index_only": true
+    },
     "agentkit/MCP_toolset": {
       "url": "https://docs.byteplus.com/en/docs/agentkit/MCP_toolset",
       "title": "Creating MCP toolsets",
@@ -21863,7 +21925,7 @@
     },
     "agentkit/creating-volcano-engine-cloud-role-credentials": {
       "url": "https://docs.byteplus.com/en/docs/agentkit/creating-volcano-engine-cloud-role-credentials",
-      "title": "Creating Volcano Engine cloud role credentials",
+      "title": "Creating Byteplus cloud role credentials",
       "index_only": true
     },
     "agentkit/viewing-credentials": {
@@ -22656,36 +22718,6 @@
       "title": "Terms of Use and Disclaimer on AgentKit Agent Gallery",
       "index_only": true
     },
-    "agentkit/SkillsOverview": {
-      "url": "https://docs.byteplus.com/en/docs/agentkit/SkillsOverview",
-      "title": "Skill overview",
-      "index_only": true
-    },
-    "agentkit/EditSkillsFile": {
-      "url": "https://docs.byteplus.com/en/docs/agentkit/EditSkillsFile",
-      "title": "Creating skills via Vibe",
-      "index_only": true
-    },
-    "agentkit/Viewqualityinspection": {
-      "url": "https://docs.byteplus.com/en/docs/agentkit/Viewqualityinspection",
-      "title": "Viewing and fixing quality check issues",
-      "index_only": true
-    },
-    "agentkit/Reviewandfixsecurityscanningissues": {
-      "url": "https://docs.byteplus.com/en/docs/agentkit/Reviewandfixsecurityscanningissues",
-      "title": "Viewing and fixing security scan issues",
-      "index_only": true
-    },
-    "agentkit/ManagementSkillsAssessment": {
-      "url": "https://docs.byteplus.com/en/docs/agentkit/ManagementSkillsAssessment",
-      "title": "Running skill evaluation experiments",
-      "index_only": true
-    },
-    "agentkit/view-evaluation-progress-and-report": {
-      "url": "https://docs.byteplus.com/en/docs/agentkit/view-evaluation-progress-and-report",
-      "title": "Viewing evaluation results and fixing skill issues",
-      "index_only": true
-    },
     "aidap/New_feature_release_notes": {
       "url": "https://docs.byteplus.com/en/docs/aidap/New_feature_release_notes",
       "title": "Release note",
@@ -22868,7 +22900,7 @@
     },
     "aidap/Supabase-Deleting_a_branch": {
       "url": "https://docs.byteplus.com/en/docs/aidap/Supabase-Deleting_a_branch",
-      "title": "Deleting a branch",
+      "title": "Delete a branch",
       "index_only": true
     },
     "aidap/Supabase-Restoring_a_branch": {
@@ -22883,7 +22915,7 @@
     },
     "aidap/supabase-renaming-a-branch": {
       "url": "https://docs.byteplus.com/en/docs/aidap/supabase-renaming-a-branch",
-      "title": "Rename a branch",
+      "title": "Renaming a branch",
       "index_only": true
     },
     "aidap/Supabase-Getting_compute_connection_information": {
@@ -23086,14 +23118,14 @@
       "title": "Observability",
       "index_only": true
     },
-    "aidap/Configuring_custom_routes": {
-      "url": "https://docs.byteplus.com/en/docs/aidap/Configuring_custom_routes",
-      "title": "Configuring custom routes",
-      "index_only": true
-    },
     "aidap/supabase-logs-analytics-log-management": {
       "url": "https://docs.byteplus.com/en/docs/aidap/supabase-logs-analytics-log-management",
       "title": "Logs & analytics log management",
+      "index_only": true
+    },
+    "aidap/Configuring_custom_routes": {
+      "url": "https://docs.byteplus.com/en/docs/aidap/Configuring_custom_routes",
+      "title": "Configuring custom routes",
       "index_only": true
     },
     "aidap/Supabase-Model_usage": {
@@ -24136,16 +24168,6 @@
       "title": "AI (rds_ai)",
       "index_only": true
     },
-    "aidap/supabase-enabling-disabling-acceleration-service": {
-      "url": "https://docs.byteplus.com/en/docs/aidap/supabase-enabling-disabling-acceleration-service",
-      "title": "Enabling and disabling acceleration service",
-      "index_only": true
-    },
-    "aidap/Recovering_latency_deleting_workspace": {
-      "url": "https://docs.byteplus.com/en/docs/aidap/Recovering_latency_deleting_workspace",
-      "title": "Restoring delayed deleted workspace (PostgreSQL engine)",
-      "index_only": true
-    },
     "aidap/Sandbox_service": {
       "url": "https://docs.byteplus.com/en/docs/aidap/Sandbox_service",
       "title": "Sandbox service",
@@ -24886,6 +24908,11 @@
       "title": "DeerGo integration",
       "index_only": true
     },
+    "apmplus/service-overview": {
+      "url": "https://docs.byteplus.com/en/docs/apmplus/service-overview",
+      "title": "Service Overview",
+      "index_only": true
+    },
     "apmplus/Service_monitoring": {
       "url": "https://docs.byteplus.com/en/docs/apmplus/Service_monitoring",
       "title": "Service monitoring",
@@ -24969,6 +24996,16 @@
     "apmplus/Trace_correlation_configuration": {
       "url": "https://docs.byteplus.com/en/docs/apmplus/Trace_correlation_configuration",
       "title": "Trace correlation configuration",
+      "index_only": true
+    },
+    "apmplus/tabs-on-the-service-details-page": {
+      "url": "https://docs.byteplus.com/en/docs/apmplus/tabs-on-the-service-details-page",
+      "title": "Tabs on the service details page",
+      "index_only": true
+    },
+    "apmplus/tabs-on-the-span-details-page": {
+      "url": "https://docs.byteplus.com/en/docs/apmplus/tabs-on-the-span-details-page",
+      "title": "Tabs on the span details page",
       "index_only": true
     },
     "apmplus/Performance_profiling": {
@@ -27258,7 +27295,7 @@
     },
     "apmplus/Compliance_guidelines_for_SDK_developer_usage": {
       "url": "https://docs.byteplus.com/en/docs/apmplus/Compliance_guidelines_for_SDK_developer_usage",
-      "title": "SDK developer compliance specificiations",
+      "title": "SDK developer compliance specifications",
       "index_only": true
     },
     "apmplus/Service-Specific_Terms_for_BytePlus_Application_Performance_Management_Plus": {
@@ -38171,6 +38208,11 @@
       "title": "BytePlus Terms of Service",
       "index_only": true
     },
+    "byteplus-certificate-center/notice-compatibility-issues-with-digicert-g1-g5-certificate-chains": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-certificate-center/notice-compatibility-issues-with-digicert-g1-g5-certificate-chains",
+      "title": "Notice: Compatibility Issues with DigiCert G1/G5 Certificate Chains",
+      "index_only": true
+    },
     "byteplus-certificate-center/notice-on-revocation-of-select-digicert-tls-ssl-certificates": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-certificate-center/notice-on-revocation-of-select-digicert-tls-ssl-certificates",
       "title": "Notice of Revocation for Certain DigiCert TLS/SSL Certificates",
@@ -41141,6 +41183,16 @@
       "title": "Integrating the Viewer SDK for iOS (for versions earlier than 1.39.0)",
       "index_only": true
     },
+    "byteplus-livesaas/Authorization_concepts": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/Authorization_concepts",
+      "title": "Authorization concepts",
+      "index_only": true
+    },
+    "byteplus-livesaas/docs-managing-iam-users-and-roles": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/docs-managing-iam-users-and-roles",
+      "title": "Adding IAM users, organizations, or roles",
+      "index_only": true
+    },
     "byteplus-livesaas/digital-human-overview": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/digital-human-overview",
       "title": "AI Live overview",
@@ -41151,6 +41203,11 @@
       "title": "AI Live Billing",
       "index_only": true
     },
+    "byteplus-livesaas/account-data-isolation-for-ai-live": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/account-data-isolation-for-ai-live",
+      "title": "Account data isolation for AI Live",
+      "index_only": true
+    },
     "byteplus-livesaas/preparing-audio-and-video-for-digital-human-livestreaming": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/preparing-audio-and-video-for-digital-human-livestreaming",
       "title": "Preparing avatar training assets",
@@ -41159,11 +41216,6 @@
     "byteplus-livesaas/training_digital_human_and_voice": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/training_digital_human_and_voice",
       "title": "Training avatar and voice",
-      "index_only": true
-    },
-    "byteplus-livesaas/managing-products-for-digital-human-livestreams": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/managing-products-for-digital-human-livestreams",
-      "title": "Managing product library",
       "index_only": true
     },
     "byteplus-livesaas/configuring-product-kb": {
@@ -41211,6 +41263,11 @@
       "title": "Going live on Shopee via RTMP",
       "index_only": true
     },
+    "byteplus-livesaas/going-live-on-facebook-via-rtmp": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/going-live-on-facebook-via-rtmp",
+      "title": "Going live on Facebook via RTMP",
+      "index_only": true
+    },
     "byteplus-livesaas/viewing-resource-usage-and-purchase-records": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/viewing-resource-usage-and-purchase-records",
       "title": "Viewing resource usage and purchase records",
@@ -41221,9 +41278,29 @@
       "title": "Using an iframe to embed the AI Live console",
       "index_only": true
     },
+    "byteplus-livesaas/managing-products-for-digital-human-livestreams": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/managing-products-for-digital-human-livestreams",
+      "title": "Managing product library",
+      "index_only": true
+    },
+    "byteplus-livesaas/ai-analysis-overview": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/ai-analysis-overview",
+      "title": "AI Analysis Overview",
+      "index_only": true
+    },
+    "byteplus-livesaas/ai-analysis-billing": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/ai-analysis-billing",
+      "title": "AI Analysis Billing",
+      "index_only": true
+    },
+    "byteplus-livesaas/account-data-isolation-for-ai-analysis": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/account-data-isolation-for-ai-analysis",
+      "title": "Account data isolation for AI analysis",
+      "index_only": true
+    },
     "byteplus-livesaas/AI-Live-analysis": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/AI-Live-analysis",
-      "title": "AI livestream review",
+      "title": "Live commerce recap",
       "index_only": true
     },
     "byteplus-livesaas/content-review-overview": {
@@ -41371,24 +41448,9 @@
       "title": "Cursor-based pagination",
       "index_only": true
     },
-    "byteplus-livesaas/Authorization_concepts": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/Authorization_concepts",
-      "title": "Authorization concepts",
-      "index_only": true
-    },
-    "byteplus-livesaas/docs-managing-iam-users-and-roles": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/docs-managing-iam-users-and-roles",
-      "title": "Adding IAM users, organizations, or roles",
-      "index_only": true
-    },
-    "byteplus-livesaas/account-data-isolation-for-ai-live": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/account-data-isolation-for-ai-live",
-      "title": "Account data isolation for AI live",
-      "index_only": true
-    },
-    "byteplus-livesaas/adding-third-party-product-library": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/adding-third-party-product-library",
-      "title": "Adding third-party product library",
+    "byteplus-livesaas/viewing-ai-analysis-resource-usage-and-purchase-records": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/viewing-ai-analysis-resource-usage-and-purchase-records",
+      "title": "Viewing AI analysis usage and bills",
       "index_only": true
     },
     "byteplus-livesaas/docs-byteplus-live-service-level-agreement": {
@@ -44018,7 +44080,7 @@
     },
     "byteplus-rtc/docs-1392587": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1392587",
-      "title": "Billing of Push Media Stream to WTN",
+      "title": "Billing of Push Media Stream to RTC/WTN",
       "index_only": true
     },
     "byteplus-rtc/docs-2608589": {
@@ -45426,14 +45488,29 @@
       "title": "Solution Integration",
       "index_only": true
     },
+    "byteplus-rtc/configure-asr": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/configure-asr",
+      "title": "Configure ASR",
+      "index_only": true
+    },
+    "byteplus-rtc/configure-llm": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/configure-llm",
+      "title": "Configure LLM",
+      "index_only": true
+    },
+    "byteplus-rtc/configure-tts": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/configure-tts",
+      "title": "Configure TTS",
+      "index_only": true
+    },
     "byteplus-rtc/docs-1798100": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1798100",
       "title": "Integrate Self-hosted ASR or TTS Model",
       "index_only": true
     },
-    "byteplus-rtc/docs-2139328": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-2139328",
-      "title": "Control AI Emotion with Instruction Tags",
+    "byteplus-rtc/docs-1399966": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1399966",
+      "title": "Integrate Third-Party Model",
       "index_only": true
     },
     "byteplus-rtc/docs-1337284": {
@@ -45466,9 +45543,19 @@
       "title": "Noise Reduction",
       "index_only": true
     },
+    "byteplus-rtc/docs-2139328": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-2139328",
+      "title": "Control AI Emotion with Instruction Tags",
+      "index_only": true
+    },
     "byteplus-rtc/docs-1350596": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1350596",
       "title": "Control Voice Broadcast Content",
+      "index_only": true
+    },
+    "byteplus-rtc/pass-custom-directives-d56c7cd7a81c95c7": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/pass-custom-directives-d56c7cd7a81c95c7",
+      "title": "Pass Custom Directives",
       "index_only": true
     },
     "byteplus-rtc/docs-2129096": {
@@ -45486,11 +45573,6 @@
       "title": "Video and Image Understanding",
       "index_only": true
     },
-    "byteplus-rtc/docs-1848567": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1848567",
-      "title": "Integrate Akool Avatar",
-      "index_only": true
-    },
     "byteplus-rtc/docs-1554654": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1554654",
       "title": "Function Calling",
@@ -45506,9 +45588,9 @@
       "title": "Integrate AskEcho Search Agent",
       "index_only": true
     },
-    "byteplus-rtc/docs-1399966": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1399966",
-      "title": "Integrate Third-Party Model",
+    "byteplus-rtc/docs-1848567": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1848567",
+      "title": "Integrate Akool Avatar",
       "index_only": true
     },
     "byteplus-rtc/docs-1415216": {
@@ -45519,6 +45601,16 @@
     "byteplus-rtc/docs-1798101": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1798101",
       "title": "Obtain Conversation AI Task Events",
+      "index_only": true
+    },
+    "byteplus-rtc/reduce-conversation-latency": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/reduce-conversation-latency",
+      "title": "Reduce Conversation Latency",
+      "index_only": true
+    },
+    "byteplus-rtc/improve-speech-recognition-accuracy": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/improve-speech-recognition-accuracy",
+      "title": "Improve Speech Recognition Accuracy",
       "index_only": true
     },
     "byteplus-rtc/docs-1558163": {
@@ -45553,7 +45645,7 @@
     },
     "byteplus-rtc/docs-1557772": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1557772",
-      "title": "Agent Failed to Join the Room or Not Working Properly?",
+      "title": "Agent failed to join the room or not working properly?",
       "index_only": true
     },
     "byteplus-rtc/docs-1557770": {
@@ -45564,6 +45656,21 @@
     "byteplus-rtc/docs-2222050": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-2222050",
       "title": "What should I do if echo leakage or 'self-questioning and answering' occurs?",
+      "index_only": true
+    },
+    "byteplus-rtc/how-to-retrieve-conversation-recordings-accec01b406d81a5": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/how-to-retrieve-conversation-recordings-accec01b406d81a5",
+      "title": "How to Retrieve Conversation Recordings",
+      "index_only": true
+    },
+    "byteplus-rtc/why-is-there-no-response-audio-after-asr-results-f633a18460f5cdf0": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/why-is-there-no-response-audio-after-asr-results-f633a18460f5cdf0",
+      "title": "Why is there no response audio after ASR results?",
+      "index_only": true
+    },
+    "byteplus-rtc/how-to-play-a-comfort-message-when-the-ai-takes-too-long": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/how-to-play-a-comfort-message-when-the-ai-takes-too-long",
+      "title": "How to play a comfort message if the AI takes a long time to respond?",
       "index_only": true
     },
     "byteplus-rtc/81145": {
@@ -46836,6 +46943,16 @@
       "title": "International Availability for BytePlus ID Verification Service",
       "index_only": true
     },
+    "byteplus-vision/notice-on-facial-information-processing": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-vision/notice-on-facial-information-processing",
+      "title": "Notice on Facial Information Processing on Face Comparison and Liveness Detection",
+      "index_only": true
+    },
+    "byteplus-vision/processing-terms-for-identity-verification-authorization": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-vision/processing-terms-for-identity-verification-authorization",
+      "title": "Processing Terms for Identity Verification Authorization",
+      "index_only": true
+    },
     "byteplus-vod/docs-release-notes": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-vod/docs-release-notes",
       "title": "What's new",
@@ -46976,6 +47093,11 @@
       "title": "Cross-region upload acceleration",
       "index_only": true
     },
+    "byteplus-vod/docs-saving-ai-generated-videos-to-vod": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-vod/docs-saving-ai-generated-videos-to-vod",
+      "title": "Saving AI-generated videos to VOD",
+      "index_only": true
+    },
     "byteplus-vod/docs-media-asset-management": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-vod/docs-media-asset-management",
       "title": "Overview",
@@ -46996,14 +47118,14 @@
       "title": "Deleting media files",
       "index_only": true
     },
-    "byteplus-vod/docs-download-media-files": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-vod/docs-download-media-files",
-      "title": "Batch downloading media files",
-      "index_only": true
-    },
     "byteplus-vod/media-asset-information": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-vod/media-asset-information",
       "title": "Managing media asset information",
+      "index_only": true
+    },
+    "byteplus-vod/docs-download-media-files": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-vod/docs-download-media-files",
+      "title": "Batch downloading media files",
       "index_only": true
     },
     "byteplus-vod/docs-image-asset-management": {
@@ -48386,11 +48508,6 @@
       "title": "UpdateMediaPublishStatus",
       "index_only": true
     },
-    "byteplus-vod/reference-listdownloadurls": {
-      "url": "https://docs.byteplus.com/en/docs/byteplus-vod/reference-listdownloadurls",
-      "title": "ListDownloadUrls",
-      "index_only": true
-    },
     "byteplus-vod/reference-deletemedia": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-vod/reference-deletemedia",
       "title": "DeleteMedia",
@@ -48479,6 +48596,11 @@
     "byteplus-vod/deletemediatosfile": {
       "url": "https://docs.byteplus.com/en/docs/byteplus-vod/deletemediatosfile",
       "title": "DeleteMediaTosFile",
+      "index_only": true
+    },
+    "byteplus-vod/reference-listdownloadurls": {
+      "url": "https://docs.byteplus.com/en/docs/byteplus-vod/reference-listdownloadurls",
+      "title": "ListDownloadUrls",
       "index_only": true
     },
     "byteplus-vod/reference-getimagelist": {
@@ -49246,13 +49368,13 @@
       "title": "Client SDK components",
       "index_only": true
     },
-    "byteplusvoice/texttospeechv2": {
-      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/texttospeechv2",
-      "title": "TTS 2.0",
+    "byteplusvoice/seed-tts-3": {
+      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/seed-tts-3",
+      "title": "TTS 3.0",
       "index_only": true
     },
-    "byteplusvoice/tts-voice-list": {
-      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/tts-voice-list",
+    "byteplusvoice/voicelist-3-0": {
+      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/voicelist-3-0",
       "title": "Voice List",
       "index_only": true
     },
@@ -49279,6 +49401,11 @@
     "byteplusvoice/voicereplication": {
       "url": "https://docs.byteplus.com/en/docs/byteplusvoice/voicereplication",
       "title": "Voice Replication Order and Usage Guide",
+      "index_only": true
+    },
+    "byteplusvoice/live-interpretation-2-0-integration-guide": {
+      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/live-interpretation-2-0-integration-guide",
+      "title": "Live Interpretation 2.0 - Integration Guide",
       "index_only": true
     },
     "byteplusvoice/commitment-statement": {
@@ -53878,7 +54005,7 @@
     },
     "cloudsearch/custom-plugin-issues": {
       "url": "https://docs.byteplus.com/en/docs/cloudsearch/custom-plugin-issues",
-      "title": "Troubleshooting custom plugin installation issues",
+      "title": "Installation exception handling usage",
       "index_only": true
     },
     "cloudsearch/Using-ngram-type": {
@@ -54344,6 +54471,11 @@
     "cloudsearch/Use_DNAT_to_configure_Logstash_access_from_the_public_network": {
       "url": "https://docs.byteplus.com/en/docs/cloudsearch/Use_DNAT_to_configure_Logstash_access_from_the_public_network",
       "title": "Use DNAT to configure Logstash access from the public network",
+      "index_only": true
+    },
+    "cloudsearch/configure-logstash-public-access-snat": {
+      "url": "https://docs.byteplus.com/en/docs/cloudsearch/configure-logstash-public-access-snat",
+      "title": "Use SNAT to configure Logstash access to the public network",
       "index_only": true
     },
     "cloudsearch/Differences_Between_Plugins_in_Elasticsearch_and_OpenSearch": {
@@ -54856,13 +54988,13 @@
       "title": "Add TOS files through the API",
       "index_only": true
     },
-    "contextsearch/Add_a_data_source_new": {
-      "url": "https://docs.byteplus.com/en/docs/contextsearch/Add_a_data_source_new",
+    "contextsearch/Add_a_data_source": {
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/Add_a_data_source",
       "title": "Add a data source",
       "index_only": true
     },
-    "contextsearch/Manage_data_sources_new": {
-      "url": "https://docs.byteplus.com/en/docs/contextsearch/Manage_data_sources_new",
+    "contextsearch/Data_source_management": {
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/Data_source_management",
       "title": "Manage data sources",
       "index_only": true
     },
@@ -54964,6 +55096,11 @@
     "contextsearch/Data_migration_service_agreement": {
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Data_migration_service_agreement",
       "title": "Data migration service agreement",
+      "index_only": true
+    },
+    "contextsearch/model_development": {
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/model_development",
+      "title": "Model development",
       "index_only": true
     },
     "contextsearch/Personalization_Search": {
@@ -63161,6 +63298,11 @@
       "title": "Changing VPC or subnet",
       "index_only": true
     },
+    "ecs/modify-private-ip-address": {
+      "url": "https://docs.byteplus.com/en/docs/ecs/modify-private-ip-address",
+      "title": "Modifying private IP address",
+      "index_only": true
+    },
     "ecs/Network-interface-overview": {
       "url": "https://docs.byteplus.com/en/docs/ecs/Network-interface-overview",
       "title": "Overview of network interface",
@@ -64474,6 +64616,11 @@
     "ecs/Copy-text-in-Safari-and-Edge-browsers": {
       "url": "https://docs.byteplus.com/en/docs/ecs/Copy-text-in-Safari-and-Edge-browsers",
       "title": "Copying text content from Windows instance accessed by using Safari or Edge browser",
+      "index_only": true
+    },
+    "ecs/clean-shared-custom-images-before-account-deletion": {
+      "url": "https://docs.byteplus.com/en/docs/ecs/clean-shared-custom-images-before-account-deletion",
+      "title": "Cleaning up shared custom images before unregistering your account",
       "index_only": true
     },
     "ecs/Delivering-event-monitoring-data-to-TLS": {
@@ -65793,7 +65940,7 @@
     },
     "ecs/Image-FAQs": {
       "url": "https://docs.byteplus.com/en/docs/ecs/Image-FAQs",
-      "title": "Image FAQ",
+      "title": "Image and operating system FAQ",
       "index_only": true
     },
     "ecs/Network-FAQs": {
@@ -65849,11 +65996,6 @@
     "ecs/High_Performance_Compute_GPU_Service_Level_Agreement": {
       "url": "https://docs.byteplus.com/en/docs/ecs/High_Performance_Compute_GPU_Service_Level_Agreement",
       "title": "BytePlus High Performance Compute Service Level Agreement",
-      "index_only": true
-    },
-    "ecs/modify-private-ip-address": {
-      "url": "https://docs.byteplus.com/en/docs/ecs/modify-private-ip-address",
-      "title": "Modifying private IP address",
       "index_only": true
     },
     "effects/docs-body-motion": {
@@ -66269,6 +66411,11 @@
     "eip/Whats-New": {
       "url": "https://docs.byteplus.com/en/docs/eip/Whats-New",
       "title": "New feature release notes",
+      "index_only": true
+    },
+    "eip/subscription-eip-billing-policy-change-october-9-2026": {
+      "url": "https://docs.byteplus.com/en/docs/eip/subscription-eip-billing-policy-change-october-9-2026",
+      "title": "Subscription EIP billing policy change (October 9, 2026)",
       "index_only": true
     },
     "eip/What-is-EIP": {
@@ -74036,41 +74183,6 @@
       "title": "ListTagsForResources - Querying the resource tags",
       "index_only": true
     },
-    "privatelink/EnablePrivateEgressDns": {
-      "url": "https://docs.byteplus.com/en/docs/privatelink/EnablePrivateEgressDns",
-      "title": "EnablePrivateEgressDns - Enabling private egress DNS resolution",
-      "index_only": true
-    },
-    "privatelink/DescribePrivateEgressEndpoints": {
-      "url": "https://docs.byteplus.com/en/docs/privatelink/DescribePrivateEgressEndpoints",
-      "title": "DescribePrivateEgressEndpoints - Listing private egress endpoints",
-      "index_only": true
-    },
-    "privatelink/ModifyPrivateEgressEndpoint": {
-      "url": "https://docs.byteplus.com/en/docs/privatelink/ModifyPrivateEgressEndpoint",
-      "title": "ModifyPrivateEgressEndpoint - Modifying a private egress endpoint",
-      "index_only": true
-    },
-    "privatelink/DisablePrivateEgressDns": {
-      "url": "https://docs.byteplus.com/en/docs/privatelink/DisablePrivateEgressDns",
-      "title": "DisablePrivateEgressDns - Disabling private egress DNS resolution",
-      "index_only": true
-    },
-    "privatelink/DeletePrivateEgressEndpoint": {
-      "url": "https://docs.byteplus.com/en/docs/privatelink/DeletePrivateEgressEndpoint",
-      "title": "DeletePrivateEgressEndpoint - Deleting a private egress endpoint",
-      "index_only": true
-    },
-    "privatelink/CreatePrivateEgressEndpoint": {
-      "url": "https://docs.byteplus.com/en/docs/privatelink/CreatePrivateEgressEndpoint",
-      "title": "CreatePrivateEgressEndpoint - Creating a private egress endpoint",
-      "index_only": true
-    },
-    "privatelink/DescribePrivateEgress": {
-      "url": "https://docs.byteplus.com/en/docs/privatelink/DescribePrivateEgress",
-      "title": "DescribePrivateEgress - Viewing the private egress details",
-      "index_only": true
-    },
     "privatelink/FAQs": {
       "url": "https://docs.byteplus.com/en/docs/privatelink/FAQs",
       "title": "FAQs",
@@ -75628,7 +75740,7 @@
     },
     "redis/restore-deleted-instance": {
       "url": "https://docs.byteplus.com/en/docs/redis/restore-deleted-instance",
-      "title": "Restoring deleted instance",
+      "title": "Restoring a deleted instance",
       "index_only": true
     },
     "redis/parameter-template-overview": {
@@ -76386,6 +76498,36 @@
       "title": "DescribeTasks",
       "index_only": true
     },
+    "redis/disabledbinstancessl": {
+      "url": "https://docs.byteplus.com/en/docs/redis/disabledbinstancessl",
+      "title": "DisableDBInstanceSSL",
+      "index_only": true
+    },
+    "redis/modifydbinstancetlsminversion": {
+      "url": "https://docs.byteplus.com/en/docs/redis/modifydbinstancetlsminversion",
+      "title": "ModifyDBInstanceTLSMinVersion",
+      "index_only": true
+    },
+    "redis/describedbinstancessl": {
+      "url": "https://docs.byteplus.com/en/docs/redis/describedbinstancessl",
+      "title": "DescribeDBInstanceSSL",
+      "index_only": true
+    },
+    "redis/enabledbinstancessl": {
+      "url": "https://docs.byteplus.com/en/docs/redis/enabledbinstancessl",
+      "title": "EnableDBInstanceSSL",
+      "index_only": true
+    },
+    "redis/renewdbinstancesslcertificate": {
+      "url": "https://docs.byteplus.com/en/docs/redis/renewdbinstancesslcertificate",
+      "title": "RenewDBInstanceSSLCertificate",
+      "index_only": true
+    },
+    "redis/downloaddbinstancesslcertificate": {
+      "url": "https://docs.byteplus.com/en/docs/redis/downloaddbinstancesslcertificate",
+      "title": "DownloadDBInstanceSSLCertificate",
+      "index_only": true
+    },
     "redis/error-code": {
       "url": "https://docs.byteplus.com/en/docs/redis/error-code",
       "title": "Common error code",
@@ -76793,7 +76935,7 @@
     },
     "sealsuite/docs-configuring-account-security-policies": {
       "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-configuring-account-security-policies",
-      "title": "Configuring account security policies",
+      "title": "Manage SealSuite account security",
       "index_only": true
     },
     "sealsuite/docs-configuring-login-by-ldap-account": {
@@ -77051,11 +77193,6 @@
       "title": "Configuring device scanning items",
       "index_only": true
     },
-    "sealsuite/docs-managing-windows-patches-and-repairs": {
-      "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-managing-windows-patches-and-repairs",
-      "title": "Managing Windows patches and repairs",
-      "index_only": true
-    },
     "sealsuite/configuring-endpoint-network-control": {
       "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-endpoint-network-control",
       "title": "Configuring endpoint network control",
@@ -77076,16 +77213,6 @@
       "title": "Managing software licenses",
       "index_only": true
     },
-    "sealsuite/docs-distributing-software-to-user-devices": {
-      "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-distributing-software-to-user-devices",
-      "title": "Distributing software to user devices",
-      "index_only": true
-    },
-    "sealsuite/docs-configuring-software-libraries-for-client": {
-      "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-configuring-software-libraries-for-client",
-      "title": "Configure a software library for the client",
-      "index_only": true
-    },
     "sealsuite/managing-software-installation-control-policies": {
       "url": "https://docs.byteplus.com/en/docs/sealsuite/managing-software-installation-control-policies",
       "title": "Managing software installation control policies",
@@ -77094,31 +77221,6 @@
     "sealsuite/process-running-control": {
       "url": "https://docs.byteplus.com/en/docs/sealsuite/process-running-control",
       "title": "Configuring Process Running Control Policies",
-      "index_only": true
-    },
-    "sealsuite/configuring-and-managing-mdm-policies": {
-      "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-policies",
-      "title": "Configuring and managing MDM policies",
-      "index_only": true
-    },
-    "sealsuite/configuring-and-managing-mdm-disk-encryption": {
-      "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-disk-encryption",
-      "title": "Configuring and managing MDM disk encryption",
-      "index_only": true
-    },
-    "sealsuite/managing-macos-firmware-locks": {
-      "url": "https://docs.byteplus.com/en/docs/sealsuite/managing-macos-firmware-locks",
-      "title": "Managing macOS firmware locks",
-      "index_only": true
-    },
-    "sealsuite/configuring-and-managing-mdm-script-execution": {
-      "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-script-execution",
-      "title": "Configuring and managing MDM script execution",
-      "index_only": true
-    },
-    "sealsuite/configuring-and-managing-mdm-privilege-policies": {
-      "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-privilege-policies",
-      "title": "Configuring and managing MDM privilege policies",
       "index_only": true
     },
     "sealsuite/managing-vpp-applications": {
@@ -77143,7 +77245,7 @@
     },
     "sealsuite/ai-tool-control-capabilities-list": {
       "url": "https://docs.byteplus.com/en/docs/sealsuite/ai-tool-control-capabilities-list",
-      "title": "AI Tool Control Capabilities List",
+      "title": "AI tool control capabilities list",
       "index_only": true
     },
     "sealsuite/monitoring-and-remediating-malicious-skills": {
@@ -77174,6 +77276,16 @@
     "sealsuite/cli-asset-inventory": {
       "url": "https://docs.byteplus.com/en/docs/sealsuite/cli-asset-inventory",
       "title": "CLI Asset Inventory",
+      "index_only": true
+    },
+    "sealsuite/ide-extension-asset-inventory": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/ide-extension-asset-inventory",
+      "title": "IDE extension Asset Inventory",
+      "index_only": true
+    },
+    "sealsuite/browser-extension-asset-inventory": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/browser-extension-asset-inventory",
+      "title": "Browser extension Asset Inventory",
       "index_only": true
     },
     "sealsuite/configuring-skill-detection-policy": {
@@ -77661,6 +77773,11 @@
       "title": "Configure client rate limiting in proxy mode",
       "index_only": true
     },
+    "sealsuite/manage-proxy-access-devices": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/manage-proxy-access-devices",
+      "title": "Managing proxy access devices",
+      "index_only": true
+    },
     "sealsuite/docs-office-networking-overview": {
       "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-office-networking-overview",
       "title": "SD-WAN overview",
@@ -78031,6 +78148,11 @@
       "title": "Labs",
       "index_only": true
     },
+    "sealsuite/other-features": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/other-features",
+      "title": "Other features",
+      "index_only": true
+    },
     "sealsuite/Best-practices-for-data-security-scenarios": {
       "url": "https://docs.byteplus.com/en/docs/sealsuite/Best-practices-for-data-security-scenarios",
       "title": "Best practices for data security scenarios",
@@ -78166,6 +78288,61 @@
       "title": "SealSuite Network Toolbox",
       "index_only": true
     },
+    "sealsuite/docs-distributing-software-to-user-devices": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-distributing-software-to-user-devices",
+      "title": "Distribute software to employee devices",
+      "index_only": true
+    },
+    "sealsuite/docs-configuring-software-libraries-for-client": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-configuring-software-libraries-for-client",
+      "title": "Configure a software library for the client",
+      "index_only": true
+    },
+    "sealsuite/configuring-and-managing-mdm-policies": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-policies",
+      "title": "MDM policies",
+      "index_only": true
+    },
+    "sealsuite/docs-managing-windows-patches-and-repairs": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-managing-windows-patches-and-repairs",
+      "title": "Configure patch policies",
+      "index_only": true
+    },
+    "sealsuite/patch-compliance-detection": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/patch-compliance-detection",
+      "title": "Check patch compliance",
+      "index_only": true
+    },
+    "sealsuite/patch-library": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/patch-library",
+      "title": "View the patch library",
+      "index_only": true
+    },
+    "sealsuite/configuring-and-managing-mdm-disk-encryption": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-disk-encryption",
+      "title": "Configure disk encryption",
+      "index_only": true
+    },
+    "sealsuite/managing-macos-firmware-locks": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/managing-macos-firmware-locks",
+      "title": "Configure the macOS firmware lock",
+      "index_only": true
+    },
+    "sealsuite/configuring-and-managing-mdm-privilege-policies": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-privilege-policies",
+      "title": "Endpoint privileges and elevation",
+      "index_only": true
+    },
+    "sealsuite/configuring-and-managing-mdm-script-execution": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-script-execution",
+      "title": "Configure execution scripts",
+      "index_only": true
+    },
+    "sealsuite/distribute-and-extract-terminal-files": {
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/distribute-and-extract-terminal-files",
+      "title": "Distributing and extracting Endpoint files",
+      "index_only": true
+    },
     "sealsuite/it-tools-overview": {
       "url": "https://docs.byteplus.com/en/docs/sealsuite/it-tools-overview",
       "title": "IT tools overview",
@@ -78219,6 +78396,11 @@
     "searchinfinity/Searchinfinity-Search-API-Reference-Omnira": {
       "url": "https://docs.byteplus.com/en/docs/searchinfinity/Searchinfinity-Search-API-Reference-Omnira",
       "title": "Searchinfinity Search API Reference-Omnira",
+      "index_only": true
+    },
+    "searchinfinity/searchinfinity-lean-search-api-reference": {
+      "url": "https://docs.byteplus.com/en/docs/searchinfinity/searchinfinity-lean-search-api-reference",
+      "title": "Searchinfinity Lean Search API Reference",
       "index_only": true
     },
     "searchinfinity/Searchinfinity_Fetch": {
@@ -80383,7 +80565,7 @@
     },
     "tls/components-of-an-API-request": {
       "url": "https://docs.byteplus.com/en/docs/tls/components-of-an-API-request",
-      "title": "Components of an API request",
+      "title": "Request structure",
       "index_only": true
     },
     "tls/calculating-a-signature": {
@@ -83134,6 +83316,36 @@
     "tos/AI_agent_guide": {
       "url": "https://docs.byteplus.com/en/docs/tos/AI_agent_guide",
       "title": "AI agent guide",
+      "index_only": true
+    },
+    "tos/tos-fsp-overview": {
+      "url": "https://docs.byteplus.com/en/docs/tos/tos-fsp-overview",
+      "title": "Overview",
+      "index_only": true
+    },
+    "tos/install-tos-fsp": {
+      "url": "https://docs.byteplus.com/en/docs/tos/install-tos-fsp",
+      "title": "Using tos-fsp",
+      "index_only": true
+    },
+    "tos/configure-and-mount": {
+      "url": "https://docs.byteplus.com/en/docs/tos/configure-and-mount",
+      "title": "Configuration and mounting",
+      "index_only": true
+    },
+    "tos/mount-parameters-configuration": {
+      "url": "https://docs.byteplus.com/en/docs/tos/mount-parameters-configuration",
+      "title": "Mount parameters and configuration",
+      "index_only": true
+    },
+    "tos/usage-limits": {
+      "url": "https://docs.byteplus.com/en/docs/tos/usage-limits",
+      "title": "Constraints and limitations",
+      "index_only": true
+    },
+    "tos/troubleshooting-and-logs": {
+      "url": "https://docs.byteplus.com/en/docs/tos/troubleshooting-and-logs",
+      "title": "Troubleshooting with logs",
       "index_only": true
     },
     "tos/reference-overview": {
@@ -96681,6 +96893,11 @@
       "title": "Application inspection",
       "index_only": true
     },
+    "vke/large-scale-cluster-inspection": {
+      "url": "https://docs.byteplus.com/en/docs/vke/large-scale-cluster-inspection",
+      "title": "Large-scale cluster inspection",
+      "index_only": true
+    },
     "vke/Application-templates": {
       "url": "https://docs.byteplus.com/en/docs/vke/Application-templates",
       "title": "Application templates",
@@ -98846,6 +99063,11 @@
       "title": "Managing PromQL blocking policies",
       "index_only": true
     },
+    "vmp/write-ban-rule": {
+      "url": "https://docs.byteplus.com/en/docs/vmp/write-ban-rule",
+      "title": "Managing write blocking policies",
+      "index_only": true
+    },
     "vmp/Slow_queries": {
       "url": "https://docs.byteplus.com/en/docs/vmp/Slow_queries",
       "title": "Slow queries",
@@ -98864,6 +99086,11 @@
     "vmp/Global_aggregation_across_accounts_and_regions": {
       "url": "https://docs.byteplus.com/en/docs/vmp/Global_aggregation_across_accounts_and_regions",
       "title": "Cross-account/region Workspace Aggregation",
+      "index_only": true
+    },
+    "vmp/health-check": {
+      "url": "https://docs.byteplus.com/en/docs/vmp/health-check",
+      "title": "Health checks",
       "index_only": true
     },
     "vmp/Resource-consumption": {
@@ -99034,6 +99261,11 @@
     "vmp/xingmu": {
       "url": "https://docs.byteplus.com/en/docs/vmp/xingmu",
       "title": "Project management",
+      "index_only": true
+    },
+    "vmp/metric-features": {
+      "url": "https://docs.byteplus.com/en/docs/vmp/metric-features",
+      "title": "Metric features",
       "index_only": true
     },
     "vmp/Monitoring-overview": {

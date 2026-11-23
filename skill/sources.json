@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T15:09:47.549221+00:00",
+  "generated_at": "2026-11-23T17:43:05.449792+00:00",
   "note": "Canonical BytePlus doc URLs. If a detail is missing from the reference files, fetch the matching url live before answering.",
   "entries": [
     {
@@ -1870,6 +1870,12 @@
     },
     {
       "product": "ArkClaw",
+      "id": "contextusageandcompressionmanagement-1",
+      "title": "Context usage and compression management",
+      "url": "https://docs.byteplus.com/en/docs/ArkClaw/contextusageandcompressionmanagement-1"
+    },
+    {
+      "product": "ArkClaw",
       "id": "custom-domain-overview",
       "title": "Custom Domain overview",
       "url": "https://docs.byteplus.com/en/docs/ArkClaw/custom-domain-overview"
@@ -2143,6 +2149,12 @@
       "id": "sensitive-content-masking",
       "title": "Sensitive Content Masking",
       "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/sensitive-content-masking"
+    },
+    {
+      "product": "Byteplus_LAS",
+      "id": "service-specific-terms-for-byteplus-data-platform-products",
+      "title": "Service-Specific Terms for BytePlus Data Platform Products",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/service-specific-terms-for-byteplus-data-platform-products"
     },
     {
       "product": "Byteplus_LAS",
@@ -11548,12 +11560,6 @@
     },
     {
       "product": "E-MapReduce",
-      "id": "Billing_Items",
-      "title": "Billing Items",
-      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Billing_Items"
-    },
-    {
-      "product": "E-MapReduce",
       "id": "Billing_for_Bolt",
       "title": "Bolt acceleration engine pricing details",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Billing_for_Bolt"
@@ -11579,7 +11585,7 @@
     {
       "product": "E-MapReduce",
       "id": "Compute-enhanced_CPU_computing_resources",
-      "title": "Compute-enhanced CPU computing resources",
+      "title": "Computing resources: Compute-enhanced CPU",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Compute-enhanced_CPU_computing_resources"
     },
     {
@@ -11651,7 +11657,7 @@
     {
       "product": "E-MapReduce",
       "id": "Memory-enhanced_CPU_computing_resources",
-      "title": "Memory-enhanced CPU computing resources",
+      "title": "Computing resources: Memory-enhanced CPU",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Memory-enhanced_CPU_computing_resources"
     },
     {
@@ -11705,7 +11711,7 @@
     {
       "product": "E-MapReduce",
       "id": "Standard_Computing_Resources",
-      "title": "Standard Computing Resources",
+      "title": "Computing resources: Standard CPU",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/Standard_Computing_Resources"
     },
     {
@@ -11740,6 +11746,18 @@
     },
     {
       "product": "E-MapReduce",
+      "id": "computing-resources-gpu-accelerated-type",
+      "title": "Computing resources: GPU-accelerated",
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/computing-resources-gpu-accelerated-type"
+    },
+    {
+      "product": "E-MapReduce",
+      "id": "data-scanning-billing-details",
+      "title": "Data scan pricing details",
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/data-scanning-billing-details"
+    },
+    {
+      "product": "E-MapReduce",
       "id": "ecs_billing_items",
       "title": "Billing items",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/ecs_billing_items"
@@ -11770,9 +11788,27 @@
     },
     {
       "product": "E-MapReduce",
+      "id": "high-performance-computing-resources-46104d5cb0748ce8",
+      "title": "Computing resources: High-performance CPU",
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/high-performance-computing-resources-46104d5cb0748ce8"
+    },
+    {
+      "product": "E-MapReduce",
       "id": "serverless_billing_overview",
       "title": "Overview",
       "url": "https://docs.byteplus.com/en/docs/E-MapReduce/serverless_billing_overview"
+    },
+    {
+      "product": "E-MapReduce",
+      "id": "shuffle-capacity-billing-details",
+      "title": "Shuffle capacity pricing details",
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/shuffle-capacity-billing-details"
+    },
+    {
+      "product": "E-MapReduce",
+      "id": "storage-resources-cloud-drive-billing-details",
+      "title": "Storage resources: Cloud disk pricing details",
+      "url": "https://docs.byteplus.com/en/docs/E-MapReduce/storage-resources-cloud-drive-billing-details"
     },
     {
       "product": "E-MapReduce",
@@ -11933,7 +11969,7 @@
     {
       "product": "HBase",
       "id": "Changing_the_capacity_of_Capacity_storage",
-      "title": "Changing the capacity of Capacity storage",
+      "title": "Changing the capacity of capacity storage",
       "url": "https://docs.byteplus.com/en/docs/HBase/Changing_the_capacity_of_Capacity_storage"
     },
     {
@@ -12173,7 +12209,7 @@
     {
       "product": "HBase",
       "id": "Enabling_Capacity_storage",
-      "title": "Enabling Capacity storage",
+      "title": "Enabling capacity storage",
       "url": "https://docs.byteplus.com/en/docs/HBase/Enabling_Capacity_storage"
     },
     {
@@ -12529,6 +12565,12 @@
       "id": "Yearly_or_monthly_subscription",
       "title": "Yearly or monthly subscription",
       "url": "https://docs.byteplus.com/en/docs/HBase/Yearly_or_monthly_subscription"
+    },
+    {
+      "product": "HBase",
+      "id": "disabling-capacity-storage",
+      "title": "Disabling capacity storage",
+      "url": "https://docs.byteplus.com/en/docs/HBase/disabling-capacity-storage"
     },
     {
       "product": "IPv6",
@@ -14056,6 +14098,12 @@
     },
     {
       "product": "ModelArk",
+      "id": "fine-tuning-dataset-format",
+      "title": "Model fine-tuning dataset format description--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/fine-tuning-dataset-format"
+    },
+    {
+      "product": "ModelArk",
       "id": "function-calling",
       "title": "Function call--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/function-calling"
@@ -14155,6 +14203,12 @@
       "id": "online-inference-flex",
       "title": "Online inference (Flex)--ModelArk-Byteplus",
       "url": "https://docs.byteplus.com/en/docs/ModelArk/online-inference-flex"
+    },
+    {
+      "product": "ModelArk",
+      "id": "online-inference-low-latency",
+      "title": "Online inference (low latency)--ModelArk-Byteplus",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/online-inference-low-latency"
     },
     {
       "product": "ModelArk",
@@ -17785,6 +17839,12 @@
       "id": "data-structure",
       "title": "Data structure",
       "url": "https://docs.byteplus.com/en/docs/RDS-for-SQL-Server/data-structure"
+    },
+    {
+      "product": "RDS-for-SQL-Server",
+      "id": "database-principal-schema-error-solution",
+      "title": "How to resolve the Error \"The database principal owns a schema, and cannot be dropped\" when managing database permissions",
+      "url": "https://docs.byteplus.com/en/docs/RDS-for-SQL-Server/database-principal-schema-error-solution"
     },
     {
       "product": "RDS-for-SQL-Server",
@@ -25498,12 +25558,6 @@
     },
     {
       "product": "agentkit",
-      "id": "EditSkillsFile",
-      "title": "Creating skills via Vibe",
-      "url": "https://docs.byteplus.com/en/docs/agentkit/EditSkillsFile"
-    },
-    {
-      "product": "agentkit",
       "id": "Enabling_logs",
       "title": "Enabling logs",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Enabling_logs"
@@ -26056,12 +26110,6 @@
     },
     {
       "product": "agentkit",
-      "id": "ManagementSkillsAssessment",
-      "title": "Running skill evaluation experiments",
-      "url": "https://docs.byteplus.com/en/docs/agentkit/ManagementSkillsAssessment"
-    },
-    {
-      "product": "agentkit",
       "id": "Managing_A2A_agent_versions",
       "title": "Managing agent versions",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Managing_A2A_agent_versions"
@@ -26272,12 +26320,6 @@
     },
     {
       "product": "agentkit",
-      "id": "Reviewandfixsecurityscanningissues",
-      "title": "Viewing and fixing security scan issues",
-      "url": "https://docs.byteplus.com/en/docs/agentkit/Reviewandfixsecurityscanningissues"
-    },
-    {
-      "product": "agentkit",
       "id": "Runtime_FAQ",
       "title": "Runtime FAQ",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Runtime_FAQ"
@@ -26359,12 +26401,6 @@
       "id": "Skill_Overview",
       "title": "Skill overview",
       "url": "https://docs.byteplus.com/en/docs/agentkit/Skill_Overview"
-    },
-    {
-      "product": "agentkit",
-      "id": "SkillsOverview",
-      "title": "Skill overview",
-      "url": "https://docs.byteplus.com/en/docs/agentkit/SkillsOverview"
     },
     {
       "product": "agentkit",
@@ -26866,12 +26902,6 @@
     },
     {
       "product": "agentkit",
-      "id": "Viewqualityinspection",
-      "title": "Viewing and fixing quality check issues",
-      "url": "https://docs.byteplus.com/en/docs/agentkit/Viewqualityinspection"
-    },
-    {
-      "product": "agentkit",
       "id": "What_is_AgentKit",
       "title": "What is AgentKit",
       "url": "https://docs.byteplus.com/en/docs/agentkit/What_is_AgentKit"
@@ -27017,7 +27047,7 @@
     {
       "product": "agentkit",
       "id": "creating-volcano-engine-cloud-role-credentials",
-      "title": "Creating Volcano Engine cloud role credentials",
+      "title": "Creating Byteplus cloud role credentials",
       "url": "https://docs.byteplus.com/en/docs/agentkit/creating-volcano-engine-cloud-role-credentials"
     },
     {
@@ -27076,6 +27106,12 @@
     },
     {
       "product": "agentkit",
+      "id": "manage-mcp-deployment-instance-resources",
+      "title": "Managing instance resources of MCP services",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/manage-mcp-deployment-instance-resources"
+    },
+    {
+      "product": "agentkit",
       "id": "rotating-secret",
       "title": "Rotating secret",
       "url": "https://docs.byteplus.com/en/docs/agentkit/rotating-secret"
@@ -27118,9 +27154,9 @@
     },
     {
       "product": "agentkit",
-      "id": "view-evaluation-progress-and-report",
-      "title": "Viewing evaluation results and fixing skill issues",
-      "url": "https://docs.byteplus.com/en/docs/agentkit/view-evaluation-progress-and-report"
+      "id": "view-cost-details",
+      "title": "Viewing cost trends and details",
+      "url": "https://docs.byteplus.com/en/docs/agentkit/view-cost-details"
     },
     {
       "product": "agentkit",
@@ -28204,12 +28240,6 @@
     },
     {
       "product": "aidap",
-      "id": "Recovering_latency_deleting_workspace",
-      "title": "Restoring delayed deleted workspace (PostgreSQL engine)",
-      "url": "https://docs.byteplus.com/en/docs/aidap/Recovering_latency_deleting_workspace"
-    },
-    {
-      "product": "aidap",
       "id": "RemoveTagsFromWorkspaces",
       "title": "RemoveTagsFromWorkspaces",
       "url": "https://docs.byteplus.com/en/docs/aidap/RemoveTagsFromWorkspaces"
@@ -28421,7 +28451,7 @@
     {
       "product": "aidap",
       "id": "Supabase-Deleting_a_branch",
-      "title": "Deleting a branch",
+      "title": "Delete a branch",
       "url": "https://docs.byteplus.com/en/docs/aidap/Supabase-Deleting_a_branch"
     },
     {
@@ -28852,12 +28882,6 @@
     },
     {
       "product": "aidap",
-      "id": "supabase-enabling-disabling-acceleration-service",
-      "title": "Enabling and disabling acceleration service",
-      "url": "https://docs.byteplus.com/en/docs/aidap/supabase-enabling-disabling-acceleration-service"
-    },
-    {
-      "product": "aidap",
       "id": "supabase-logs-analytics-log-management",
       "title": "Logs & analytics log management",
       "url": "https://docs.byteplus.com/en/docs/aidap/supabase-logs-analytics-log-management"
@@ -28877,7 +28901,7 @@
     {
       "product": "aidap",
       "id": "supabase-renaming-a-branch",
-      "title": "Rename a branch",
+      "title": "Renaming a branch",
       "url": "https://docs.byteplus.com/en/docs/aidap/supabase-renaming-a-branch"
     },
     {
@@ -29963,7 +29987,7 @@
     {
       "product": "apmplus",
       "id": "Compliance_guidelines_for_SDK_developer_usage",
-      "title": "SDK developer compliance specificiations",
+      "title": "SDK developer compliance specifications",
       "url": "https://docs.byteplus.com/en/docs/apmplus/Compliance_guidelines_for_SDK_developer_usage"
     },
     {
@@ -32614,9 +32638,27 @@
     },
     {
       "product": "apmplus",
+      "id": "service-overview",
+      "title": "Service Overview",
+      "url": "https://docs.byteplus.com/en/docs/apmplus/service-overview"
+    },
+    {
+      "product": "apmplus",
       "id": "service_address",
       "title": "Service address",
       "url": "https://docs.byteplus.com/en/docs/apmplus/service_address"
+    },
+    {
+      "product": "apmplus",
+      "id": "tabs-on-the-service-details-page",
+      "title": "Tabs on the service details page",
+      "url": "https://docs.byteplus.com/en/docs/apmplus/tabs-on-the-service-details-page"
+    },
+    {
+      "product": "apmplus",
+      "id": "tabs-on-the-span-details-page",
+      "title": "Tabs on the span details page",
+      "url": "https://docs.byteplus.com/en/docs/apmplus/tabs-on-the-span-details-page"
     },
     {
       "product": "apmplus",
@@ -46156,6 +46198,12 @@
     },
     {
       "product": "byteplus-certificate-center",
+      "id": "notice-compatibility-issues-with-digicert-g1-g5-certificate-chains",
+      "title": "Notice: Compatibility Issues with DigiCert G1/G5 Certificate Chains",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-certificate-center/notice-compatibility-issues-with-digicert-g1-g5-certificate-chains"
+    },
+    {
+      "product": "byteplus-certificate-center",
       "id": "notice-digicert-certificate-pricing-adjustment",
       "title": "Notice: DigiCert SSL Certificate Pricing Adjustments",
       "url": "https://docs.byteplus.com/en/docs/byteplus-certificate-center/notice-digicert-certificate-pricing-adjustment"
@@ -47729,7 +47777,7 @@
     {
       "product": "byteplus-livesaas",
       "id": "AI-Live-analysis",
-      "title": "AI livestream review",
+      "title": "Live commerce recap",
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/AI-Live-analysis"
     },
     {
@@ -47860,8 +47908,14 @@
     },
     {
       "product": "byteplus-livesaas",
+      "id": "account-data-isolation-for-ai-analysis",
+      "title": "Account data isolation for AI analysis",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/account-data-isolation-for-ai-analysis"
+    },
+    {
+      "product": "byteplus-livesaas",
       "id": "account-data-isolation-for-ai-live",
-      "title": "Account data isolation for AI live",
+      "title": "Account data isolation for AI Live",
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/account-data-isolation-for-ai-live"
     },
     {
@@ -47908,9 +47962,15 @@
     },
     {
       "product": "byteplus-livesaas",
-      "id": "adding-third-party-product-library",
-      "title": "Adding third-party product library",
-      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/adding-third-party-product-library"
+      "id": "ai-analysis-billing",
+      "title": "AI Analysis Billing",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/ai-analysis-billing"
+    },
+    {
+      "product": "byteplus-livesaas",
+      "id": "ai-analysis-overview",
+      "title": "AI Analysis Overview",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/ai-analysis-overview"
     },
     {
       "product": "byteplus-livesaas",
@@ -49186,6 +49246,12 @@
     },
     {
       "product": "byteplus-livesaas",
+      "id": "going-live-on-facebook-via-rtmp",
+      "title": "Going live on Facebook via RTMP",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/going-live-on-facebook-via-rtmp"
+    },
+    {
+      "product": "byteplus-livesaas",
       "id": "going-live-on-shopee-via-rtmp",
       "title": "Going live on Shopee via RTMP",
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/going-live-on-shopee-via-rtmp"
@@ -49597,6 +49663,12 @@
       "id": "viewer-sdk-for-ios-type-definitions",
       "title": "Viewer SDK for iOS: Type definitions",
       "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/viewer-sdk-for-ios-type-definitions"
+    },
+    {
+      "product": "byteplus-livesaas",
+      "id": "viewing-ai-analysis-resource-usage-and-purchase-records",
+      "title": "Viewing AI analysis usage and bills",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-livesaas/viewing-ai-analysis-resource-usage-and-purchase-records"
     },
     {
       "product": "byteplus-livesaas",
@@ -52762,6 +52834,24 @@
     },
     {
       "product": "byteplus-rtc",
+      "id": "configure-asr",
+      "title": "Configure ASR",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/configure-asr"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "configure-llm",
+      "title": "Configure LLM",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/configure-llm"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "configure-tts",
+      "title": "Configure TTS",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/configure-tts"
+    },
+    {
+      "product": "byteplus-rtc",
       "id": "docs-100448",
       "title": "Switching between Default and Custom Schemes of Video Capturing and Encoding",
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-100448"
@@ -53495,7 +53585,7 @@
     {
       "product": "byteplus-rtc",
       "id": "docs-1392587",
-      "title": "Billing of Push Media Stream to WTN",
+      "title": "Billing of Push Media Stream to RTC/WTN",
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1392587"
     },
     {
@@ -53795,7 +53885,7 @@
     {
       "product": "byteplus-rtc",
       "id": "docs-1557772",
-      "title": "Agent Failed to Join the Room or Not Working Properly?",
+      "title": "Agent failed to join the room or not working properly?",
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/docs-1557772"
     },
     {
@@ -54724,6 +54814,30 @@
     },
     {
       "product": "byteplus-rtc",
+      "id": "how-to-play-a-comfort-message-when-the-ai-takes-too-long",
+      "title": "How to play a comfort message if the AI takes a long time to respond?",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/how-to-play-a-comfort-message-when-the-ai-takes-too-long"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "how-to-retrieve-conversation-recordings-accec01b406d81a5",
+      "title": "How to Retrieve Conversation Recordings",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/how-to-retrieve-conversation-recordings-accec01b406d81a5"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "improve-speech-recognition-accuracy",
+      "title": "Improve Speech Recognition Accuracy",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/improve-speech-recognition-accuracy"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "pass-custom-directives-d56c7cd7a81c95c7",
+      "title": "Pass Custom Directives",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/pass-custom-directives-d56c7cd7a81c95c7"
+    },
+    {
+      "product": "byteplus-rtc",
       "id": "pricing-wtn",
       "title": "Pricing",
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/pricing-wtn"
@@ -54733,6 +54847,12 @@
       "id": "real-time-call-subtitles-and-translation-server-side",
       "title": "Real-time Call Subtitles and Translation",
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/real-time-call-subtitles-and-translation-server-side"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "reduce-conversation-latency",
+      "title": "Reduce Conversation Latency",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/reduce-conversation-latency"
     },
     {
       "product": "byteplus-rtc",
@@ -54757,6 +54877,12 @@
       "id": "web-client-audio-preprocessing-aec-agc",
       "title": "Audio Preprocessing with AEC and AGC on Web",
       "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/web-client-audio-preprocessing-aec-agc"
+    },
+    {
+      "product": "byteplus-rtc",
+      "id": "why-is-there-no-response-audio-after-asr-results-f633a18460f5cdf0",
+      "title": "Why is there no response audio after ASR results?",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-rtc/why-is-there-no-response-audio-after-asr-results-f633a18460f5cdf0"
     },
     {
       "product": "byteplus-rtc",
@@ -56074,6 +56200,12 @@
     },
     {
       "product": "byteplus-vision",
+      "id": "notice-on-facial-information-processing",
+      "title": "Notice on Facial Information Processing on Face Comparison and Liveness Detection",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-vision/notice-on-facial-information-processing"
+    },
+    {
+      "product": "byteplus-vision",
       "id": "omnihuman-2-0-video-generation",
       "title": "OmniHuman 2.0 API Document",
       "url": "https://docs.byteplus.com/en/docs/byteplus-vision/omnihuman-2-0-video-generation"
@@ -56101,6 +56233,12 @@
       "id": "omnihuman1_5overview",
       "title": "OmniHuman 1.5 Product Overview",
       "url": "https://docs.byteplus.com/en/docs/byteplus-vision/omnihuman1_5overview"
+    },
+    {
+      "product": "byteplus-vision",
+      "id": "processing-terms-for-identity-verification-authorization",
+      "title": "Processing Terms for Identity Verification Authorization",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-vision/processing-terms-for-identity-verification-authorization"
     },
     {
       "product": "byteplus-vision",
@@ -57379,6 +57517,12 @@
       "id": "docs-rn-player-sample-code",
       "title": "React Native Player SDK: Sample code",
       "url": "https://docs.byteplus.com/en/docs/byteplus-vod/docs-rn-player-sample-code"
+    },
+    {
+      "product": "byteplus-vod",
+      "id": "docs-saving-ai-generated-videos-to-vod",
+      "title": "Saving AI-generated videos to VOD",
+      "url": "https://docs.byteplus.com/en/docs/byteplus-vod/docs-saving-ai-generated-videos-to-vod"
     },
     {
       "product": "byteplus-vod",
@@ -59026,21 +59170,27 @@
     },
     {
       "product": "byteplusvoice",
+      "id": "live-interpretation-2-0-integration-guide",
+      "title": "Live Interpretation 2.0 - Integration Guide",
+      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/live-interpretation-2-0-integration-guide"
+    },
+    {
+      "product": "byteplusvoice",
+      "id": "seed-tts-3",
+      "title": "TTS 3.0",
+      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/seed-tts-3"
+    },
+    {
+      "product": "byteplusvoice",
       "id": "speechtotextv2",
       "title": "ASR 2.0",
       "url": "https://docs.byteplus.com/en/docs/byteplusvoice/speechtotextv2"
     },
     {
       "product": "byteplusvoice",
-      "id": "texttospeechv2",
-      "title": "TTS 2.0",
-      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/texttospeechv2"
-    },
-    {
-      "product": "byteplusvoice",
-      "id": "tts-voice-list",
+      "id": "voicelist-3-0",
       "title": "Voice List",
-      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/tts-voice-list"
+      "url": "https://docs.byteplus.com/en/docs/byteplusvoice/voicelist-3-0"
     },
     {
       "product": "byteplusvoice",
@@ -65032,6 +65182,12 @@
     },
     {
       "product": "cloudsearch",
+      "id": "configure-logstash-public-access-snat",
+      "title": "Use SNAT to configure Logstash access to the public network",
+      "url": "https://docs.byteplus.com/en/docs/cloudsearch/configure-logstash-public-access-snat"
+    },
+    {
+      "product": "cloudsearch",
       "id": "configure-synonym-terms",
       "title": "Configuring synonym terms via GUI",
       "url": "https://docs.byteplus.com/en/docs/cloudsearch/configure-synonym-terms"
@@ -65099,7 +65255,7 @@
     {
       "product": "cloudsearch",
       "id": "custom-plugin-issues",
-      "title": "Troubleshooting custom plugin installation issues",
+      "title": "Installation exception handling usage",
       "url": "https://docs.byteplus.com/en/docs/cloudsearch/custom-plugin-issues"
     },
     {
@@ -65578,9 +65734,9 @@
     },
     {
       "product": "contextsearch",
-      "id": "Add_a_data_source_new",
+      "id": "Add_a_data_source",
       "title": "Add a data source",
-      "url": "https://docs.byteplus.com/en/docs/contextsearch/Add_a_data_source_new"
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/Add_a_data_source"
     },
     {
       "product": "contextsearch",
@@ -65662,6 +65818,12 @@
     },
     {
       "product": "contextsearch",
+      "id": "Data_source_management",
+      "title": "Manage data sources",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/Data_source_management"
+    },
+    {
+      "product": "contextsearch",
       "id": "Database_product_and_service_terms",
       "title": "Database product and service terms",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Database_product_and_service_terms"
@@ -65713,12 +65875,6 @@
       "id": "Initialize_an_Agentic_Search_scenario",
       "title": "Initialize an Agentic Search scenario",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/Initialize_an_Agentic_Search_scenario"
-    },
-    {
-      "product": "contextsearch",
-      "id": "Manage_data_sources_new",
-      "title": "Manage data sources",
-      "url": "https://docs.byteplus.com/en/docs/contextsearch/Manage_data_sources_new"
     },
     {
       "product": "contextsearch",
@@ -65875,6 +66031,12 @@
       "id": "What_is_ContextSearch",
       "title": "What is ContextSearch",
       "url": "https://docs.byteplus.com/en/docs/contextsearch/What_is_ContextSearch"
+    },
+    {
+      "product": "contextsearch",
+      "id": "model_development",
+      "title": "Model development",
+      "url": "https://docs.byteplus.com/en/docs/contextsearch/model_development"
     },
     {
       "product": "cp",
@@ -76589,7 +76751,7 @@
     {
       "product": "ecs",
       "id": "Image-FAQs",
-      "title": "Image FAQ",
+      "title": "Image and operating system FAQ",
       "url": "https://docs.byteplus.com/en/docs/ecs/Image-FAQs"
     },
     {
@@ -78712,6 +78874,12 @@
     },
     {
       "product": "ecs",
+      "id": "clean-shared-custom-images-before-account-deletion",
+      "title": "Cleaning up shared custom images before unregistering your account",
+      "url": "https://docs.byteplus.com/en/docs/ecs/clean-shared-custom-images-before-account-deletion"
+    },
+    {
+      "product": "ecs",
       "id": "data-insights-overview",
       "title": "Overview",
       "url": "https://docs.byteplus.com/en/docs/ecs/data-insights-overview"
@@ -79837,6 +80005,12 @@
       "id": "Whats-New",
       "title": "New feature release notes",
       "url": "https://docs.byteplus.com/en/docs/eip/Whats-New"
+    },
+    {
+      "product": "eip",
+      "id": "subscription-eip-billing-policy-change-october-9-2026",
+      "title": "Subscription EIP billing policy change (October 9, 2026)",
+      "url": "https://docs.byteplus.com/en/docs/eip/subscription-eip-billing-policy-change-october-9-2026"
     },
     {
       "product": "faas",
@@ -88294,12 +88468,6 @@
     },
     {
       "product": "privatelink",
-      "id": "CreatePrivateEgressEndpoint",
-      "title": "CreatePrivateEgressEndpoint - Creating a private egress endpoint",
-      "url": "https://docs.byteplus.com/en/docs/privatelink/CreatePrivateEgressEndpoint"
-    },
-    {
-      "product": "privatelink",
       "id": "CreateUniqueResourceTypeVpcEndpointService",
       "title": "CreateUniqueResourceTypeVpcEndpointService - Creating the RDS endpoint service",
       "url": "https://docs.byteplus.com/en/docs/privatelink/CreateUniqueResourceTypeVpcEndpointService"
@@ -88336,12 +88504,6 @@
     },
     {
       "product": "privatelink",
-      "id": "DeletePrivateEgressEndpoint",
-      "title": "DeletePrivateEgressEndpoint - Deleting a private egress endpoint",
-      "url": "https://docs.byteplus.com/en/docs/privatelink/DeletePrivateEgressEndpoint"
-    },
-    {
-      "product": "privatelink",
       "id": "DeleteVpcEndpoint",
       "title": "DeleteVpcEndpoint - Deleting an endpoint",
       "url": "https://docs.byteplus.com/en/docs/privatelink/DeleteVpcEndpoint"
@@ -88369,18 +88531,6 @@
       "id": "Deleting-endpoints",
       "title": "Deleting an endpoint",
       "url": "https://docs.byteplus.com/en/docs/privatelink/Deleting-endpoints"
-    },
-    {
-      "product": "privatelink",
-      "id": "DescribePrivateEgress",
-      "title": "DescribePrivateEgress - Viewing the private egress details",
-      "url": "https://docs.byteplus.com/en/docs/privatelink/DescribePrivateEgress"
-    },
-    {
-      "product": "privatelink",
-      "id": "DescribePrivateEgressEndpoints",
-      "title": "DescribePrivateEgressEndpoints - Listing private egress endpoints",
-      "url": "https://docs.byteplus.com/en/docs/privatelink/DescribePrivateEgressEndpoints"
     },
     {
       "product": "privatelink",
@@ -88480,21 +88630,9 @@
     },
     {
       "product": "privatelink",
-      "id": "DisablePrivateEgressDns",
-      "title": "DisablePrivateEgressDns - Disabling private egress DNS resolution",
-      "url": "https://docs.byteplus.com/en/docs/privatelink/DisablePrivateEgressDns"
-    },
-    {
-      "product": "privatelink",
       "id": "DisableVpcEndpointConnection",
       "title": "DisableVpcEndpointConnection - Denying an endpoint connection",
       "url": "https://docs.byteplus.com/en/docs/privatelink/DisableVpcEndpointConnection"
-    },
-    {
-      "product": "privatelink",
-      "id": "EnablePrivateEgressDns",
-      "title": "EnablePrivateEgressDns - Enabling private egress DNS resolution",
-      "url": "https://docs.byteplus.com/en/docs/privatelink/EnablePrivateEgressDns"
     },
     {
       "product": "privatelink",
@@ -88597,12 +88735,6 @@
       "id": "ModifyEndpointPayerAccount",
       "title": "ModifyEndpointPayerAccount - Changing the billing payer for an endpoint service",
       "url": "https://docs.byteplus.com/en/docs/privatelink/ModifyEndpointPayerAccount"
-    },
-    {
-      "product": "privatelink",
-      "id": "ModifyPrivateEgressEndpoint",
-      "title": "ModifyPrivateEgressEndpoint - Modifying a private egress endpoint",
-      "url": "https://docs.byteplus.com/en/docs/privatelink/ModifyPrivateEgressEndpoint"
     },
     {
       "product": "privatelink",
@@ -90802,6 +90934,12 @@
     },
     {
       "product": "redis",
+      "id": "describedbinstancessl",
+      "title": "DescribeDBInstanceSSL",
+      "url": "https://docs.byteplus.com/en/docs/redis/describedbinstancessl"
+    },
+    {
+      "product": "redis",
       "id": "describehotkeys",
       "title": "DescribeHotKeys",
       "url": "https://docs.byteplus.com/en/docs/redis/describehotkeys"
@@ -90868,6 +91006,12 @@
     },
     {
       "product": "redis",
+      "id": "disabledbinstancessl",
+      "title": "DisableDBInstanceSSL",
+      "url": "https://docs.byteplus.com/en/docs/redis/disabledbinstancessl"
+    },
+    {
+      "product": "redis",
       "id": "disassociate-allowlist",
       "title": "Disassociating instances from allowlists",
       "url": "https://docs.byteplus.com/en/docs/redis/disassociate-allowlist"
@@ -90904,6 +91048,12 @@
     },
     {
       "product": "redis",
+      "id": "downloaddbinstancesslcertificate",
+      "title": "DownloadDBInstanceSSLCertificate",
+      "url": "https://docs.byteplus.com/en/docs/redis/downloaddbinstancesslcertificate"
+    },
+    {
+      "product": "redis",
       "id": "downloading_and_installing_an_SDK",
       "title": "Downloading and installing SDK",
       "url": "https://docs.byteplus.com/en/docs/redis/downloading_and_installing_an_SDK"
@@ -90931,6 +91081,12 @@
       "id": "enabledbinstanceha",
       "title": "EnableDBInstanceHA",
       "url": "https://docs.byteplus.com/en/docs/redis/enabledbinstanceha"
+    },
+    {
+      "product": "redis",
+      "id": "enabledbinstancessl",
+      "title": "EnableDBInstanceSSL",
+      "url": "https://docs.byteplus.com/en/docs/redis/enabledbinstancessl"
     },
     {
       "product": "redis",
@@ -91324,6 +91480,12 @@
     },
     {
       "product": "redis",
+      "id": "modifydbinstancetlsminversion",
+      "title": "ModifyDBInstanceTLSMinVersion",
+      "url": "https://docs.byteplus.com/en/docs/redis/modifydbinstancetlsminversion"
+    },
+    {
+      "product": "redis",
       "id": "modifydbinstancevisitaddress",
       "title": "ModifyDBInstanceVisitAddress",
       "url": "https://docs.byteplus.com/en/docs/redis/modifydbinstancevisitaddress"
@@ -91552,6 +91714,12 @@
     },
     {
       "product": "redis",
+      "id": "renewdbinstancesslcertificate",
+      "title": "RenewDBInstanceSSLCertificate",
+      "url": "https://docs.byteplus.com/en/docs/redis/renewdbinstancesslcertificate"
+    },
+    {
+      "product": "redis",
       "id": "request-structure",
       "title": "Request structure",
       "url": "https://docs.byteplus.com/en/docs/redis/request-structure"
@@ -91595,7 +91763,7 @@
     {
       "product": "redis",
       "id": "restore-deleted-instance",
-      "title": "Restoring deleted instance",
+      "title": "Restoring a deleted instance",
       "url": "https://docs.byteplus.com/en/docs/redis/restore-deleted-instance"
     },
     {
@@ -92069,7 +92237,7 @@
     {
       "product": "sealsuite",
       "id": "ai-tool-control-capabilities-list",
-      "title": "AI Tool Control Capabilities List",
+      "title": "AI tool control capabilities list",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/ai-tool-control-capabilities-list"
     },
     {
@@ -92083,6 +92251,12 @@
       "id": "best-practices-for-global-network-management-through-sd-wan",
       "title": "Best practices for global network management through SD-WAN",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/best-practices-for-global-network-management-through-sd-wan"
+    },
+    {
+      "product": "sealsuite",
+      "id": "browser-extension-asset-inventory",
+      "title": "Browser extension Asset Inventory",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/browser-extension-asset-inventory"
     },
     {
       "product": "sealsuite",
@@ -92231,25 +92405,25 @@
     {
       "product": "sealsuite",
       "id": "configuring-and-managing-mdm-disk-encryption",
-      "title": "Configuring and managing MDM disk encryption",
+      "title": "Configure disk encryption",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-disk-encryption"
     },
     {
       "product": "sealsuite",
       "id": "configuring-and-managing-mdm-policies",
-      "title": "Configuring and managing MDM policies",
+      "title": "MDM policies",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-policies"
     },
     {
       "product": "sealsuite",
       "id": "configuring-and-managing-mdm-privilege-policies",
-      "title": "Configuring and managing MDM privilege policies",
+      "title": "Endpoint privileges and elevation",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-privilege-policies"
     },
     {
       "product": "sealsuite",
       "id": "configuring-and-managing-mdm-script-execution",
-      "title": "Configuring and managing MDM script execution",
+      "title": "Configure execution scripts",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/configuring-and-managing-mdm-script-execution"
     },
     {
@@ -92389,6 +92563,12 @@
       "id": "deployment_guide",
       "title": "SealSuite Deployment Guide",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/deployment_guide"
+    },
+    {
+      "product": "sealsuite",
+      "id": "distribute-and-extract-terminal-files",
+      "title": "Distributing and extracting Endpoint files",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/distribute-and-extract-terminal-files"
     },
     {
       "product": "sealsuite",
@@ -92597,7 +92777,7 @@
     {
       "product": "sealsuite",
       "id": "docs-configuring-account-security-policies",
-      "title": "Configuring account security policies",
+      "title": "Manage SealSuite account security",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-configuring-account-security-policies"
     },
     {
@@ -92819,7 +92999,7 @@
     {
       "product": "sealsuite",
       "id": "docs-distributing-software-to-user-devices",
-      "title": "Distributing software to user devices",
+      "title": "Distribute software to employee devices",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-distributing-software-to-user-devices"
     },
     {
@@ -93071,7 +93251,7 @@
     {
       "product": "sealsuite",
       "id": "docs-managing-windows-patches-and-repairs",
-      "title": "Managing Windows patches and repairs",
+      "title": "Configure patch policies",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/docs-managing-windows-patches-and-repairs"
     },
     {
@@ -93370,6 +93550,12 @@
     },
     {
       "product": "sealsuite",
+      "id": "ide-extension-asset-inventory",
+      "title": "IDE extension Asset Inventory",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/ide-extension-asset-inventory"
+    },
+    {
+      "product": "sealsuite",
       "id": "internal-address-configuration",
       "title": "Internal address configuration",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/internal-address-configuration"
@@ -93436,6 +93622,12 @@
     },
     {
       "product": "sealsuite",
+      "id": "manage-proxy-access-devices",
+      "title": "Managing proxy access devices",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/manage-proxy-access-devices"
+    },
+    {
+      "product": "sealsuite",
       "id": "management-agent-mode-application-resources",
       "title": "Manage proxy applications",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/management-agent-mode-application-resources"
@@ -93479,7 +93671,7 @@
     {
       "product": "sealsuite",
       "id": "managing-macos-firmware-locks",
-      "title": "Managing macOS firmware locks",
+      "title": "Configure the macOS firmware lock",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/managing-macos-firmware-locks"
     },
     {
@@ -93628,9 +93820,27 @@
     },
     {
       "product": "sealsuite",
+      "id": "other-features",
+      "title": "Other features",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/other-features"
+    },
+    {
+      "product": "sealsuite",
       "id": "overview-of-proxy-pattern",
       "title": "Proxy mode configuration guide",
       "url": "https://docs.byteplus.com/en/docs/sealsuite/overview-of-proxy-pattern"
+    },
+    {
+      "product": "sealsuite",
+      "id": "patch-compliance-detection",
+      "title": "Check patch compliance",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/patch-compliance-detection"
+    },
+    {
+      "product": "sealsuite",
+      "id": "patch-library",
+      "title": "View the patch library",
+      "url": "https://docs.byteplus.com/en/docs/sealsuite/patch-library"
     },
     {
       "product": "sealsuite",
@@ -93805,6 +94015,12 @@
       "id": "Specific_Terms_for_the_Searchinfinity_Service",
       "title": "Specific Terms for the Searchinfinity Service",
       "url": "https://docs.byteplus.com/en/docs/searchinfinity/Specific_Terms_for_the_Searchinfinity_Service"
+    },
+    {
+      "product": "searchinfinity",
+      "id": "searchinfinity-lean-search-api-reference",
+      "title": "Searchinfinity Lean Search API Reference",
+      "url": "https://docs.byteplus.com/en/docs/searchinfinity/searchinfinity-lean-search-api-reference"
     },
     {
       "product": "seedream",
@@ -96605,7 +96821,7 @@
     {
       "product": "tls",
       "id": "components-of-an-API-request",
-      "title": "Components of an API request",
+      "title": "Request structure",
       "url": "https://docs.byteplus.com/en/docs/tls/components-of-an-API-request"
     },
     {
@@ -107074,6 +107290,12 @@
     },
     {
       "product": "tos",
+      "id": "configure-and-mount",
+      "title": "Configuration and mounting",
+      "url": "https://docs.byteplus.com/en/docs/tos/configure-and-mount"
+    },
+    {
+      "product": "tos",
       "id": "create_topic",
       "title": "0017-00000410",
       "url": "https://docs.byteplus.com/en/docs/tos/create_topic"
@@ -107698,6 +107920,12 @@
     },
     {
       "product": "tos",
+      "id": "install-tos-fsp",
+      "title": "Using tos-fsp",
+      "url": "https://docs.byteplus.com/en/docs/tos/install-tos-fsp"
+    },
+    {
+      "product": "tos",
       "id": "ios-sdk-introduction",
       "title": "Overview of the iOS SDK",
       "url": "https://docs.byteplus.com/en/docs/tos/ios-sdk-introduction"
@@ -107713,6 +107941,12 @@
       "id": "managing-object-access-node-js-sdk",
       "title": "Managing Object Access Permissions (Node.js SDK)",
       "url": "https://docs.byteplus.com/en/docs/tos/managing-object-access-node-js-sdk"
+    },
+    {
+      "product": "tos",
+      "id": "mount-parameters-configuration",
+      "title": "Mount parameters and configuration",
+      "url": "https://docs.byteplus.com/en/docs/tos/mount-parameters-configuration"
     },
     {
       "product": "tos",
@@ -108064,6 +108298,12 @@
     },
     {
       "product": "tos",
+      "id": "tos-fsp-overview",
+      "title": "Overview",
+      "url": "https://docs.byteplus.com/en/docs/tos/tos-fsp-overview"
+    },
+    {
+      "product": "tos",
       "id": "tosfsspec_API_overview",
       "title": "tosfsspec API overview",
       "url": "https://docs.byteplus.com/en/docs/tos/tosfsspec_API_overview"
@@ -108121,6 +108361,18 @@
       "id": "transfer-acceleration-fee",
       "title": "Transfer acceleration",
       "url": "https://docs.byteplus.com/en/docs/tos/transfer-acceleration-fee"
+    },
+    {
+      "product": "tos",
+      "id": "troubleshooting-and-logs",
+      "title": "Troubleshooting with logs",
+      "url": "https://docs.byteplus.com/en/docs/tos/troubleshooting-and-logs"
+    },
+    {
+      "product": "tos",
+      "id": "usage-limits",
+      "title": "Constraints and limitations",
+      "url": "https://docs.byteplus.com/en/docs/tos/usage-limits"
     },
     {
       "product": "tos",
@@ -118000,6 +118252,12 @@
     },
     {
       "product": "vke",
+      "id": "large-scale-cluster-inspection",
+      "title": "Large-scale cluster inspection",
+      "url": "https://docs.byteplus.com/en/docs/vke/large-scale-cluster-inspection"
+    },
+    {
+      "product": "vke",
       "id": "listremedyconfigs",
       "title": "ListRemedyConfigs",
       "url": "https://docs.byteplus.com/en/docs/vke/listremedyconfigs"
@@ -119740,6 +119998,12 @@
     },
     {
       "product": "vmp",
+      "id": "health-check",
+      "title": "Health checks",
+      "url": "https://docs.byteplus.com/en/docs/vmp/health-check"
+    },
+    {
+      "product": "vmp",
       "id": "image-accelerator_metrics",
       "title": "image-accelerator metrics",
       "url": "https://docs.byteplus.com/en/docs/vmp/image-accelerator_metrics"
@@ -119773,6 +120037,12 @@
       "id": "lark-alerting-notifacation-template",
       "title": "Creating a notification template",
       "url": "https://docs.byteplus.com/en/docs/vmp/lark-alerting-notifacation-template"
+    },
+    {
+      "product": "vmp",
+      "id": "metric-features",
+      "title": "Metric features",
+      "url": "https://docs.byteplus.com/en/docs/vmp/metric-features"
     },
     {
       "product": "vmp",
@@ -119863,6 +120133,12 @@
       "id": "workspaces-types",
       "title": "Workspace type",
       "url": "https://docs.byteplus.com/en/docs/vmp/workspaces-types"
+    },
+    {
+      "product": "vmp",
+      "id": "write-ban-rule",
+      "title": "Managing write blocking policies",
+      "url": "https://docs.byteplus.com/en/docs/vmp/write-ban-rule"
     },
     {
       "product": "vmp",
